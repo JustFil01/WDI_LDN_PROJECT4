@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GamesIndex from './components/games/Index';
 
 class App extends React.Component {
   render() {
     return (
-      <h1>WDI32 Project 4</h1>
+      <main>
+        <div className="header">
+          <h1>Unamed</h1>
+        </div>
+        <GamesIndex />
+      </main>
     );
   }
 }
