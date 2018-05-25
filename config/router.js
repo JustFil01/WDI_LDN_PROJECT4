@@ -10,4 +10,11 @@ router.route('/games/:id')
   .get(games.show)
   .put(games.update);
 
+router.route('/games/:id/reviews')
+  .get(games.indexReview)
+  .post(games.createReview);
+
+router.route('/games/:id/reviews/:reviewId')
+  .get(games.showReview);
+
 module.exports = router;

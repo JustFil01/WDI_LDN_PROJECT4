@@ -39,10 +39,46 @@ function updateRoute(req,res,next){
     .then(game => res.json(game))
     .catch(next);
 }
+function reviewCreateRoute(req, res, next){
+  req.body.postedBy = req.currentUser;
+  Game
+    .findById(req.params.id) 
+    .then(game => {
+      game.reviews.push(req.body);
+      return game.save();
+    })
+    .then(game => res.json(game))
+    .catch(err => {
+      next(err);
+    });
+}
+
+function reviewIndexRoute(req, res, next) {
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      if(!game) return res.sendStatus(404);
+      res.json(game.reviews);
+    })
+    .catch(next);
+}
+function reviewShowRoute(req, res, next) {
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      if(!game) return res.sendStatus(404);
+      const review = game.reviews.id(req.params.reviewId);
+      res.json(review);
+    })
+    .catch(next);
+}
 module.exports = {
   index: indexRoute,
   show: showRoute,
   create: createRoute,
   update: updateRoute,
-  delete: deleteRoute
+  delete: deleteRoute,
+  createReview: reviewCreateRoute,
+  indexReview: reviewIndexRoute,
+  showReview: reviewShowRoute
 };
