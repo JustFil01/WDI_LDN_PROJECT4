@@ -8,6 +8,7 @@
     "test:client": "nyc mocha test/client/**/*_spec.js --require test/client/helper --recursive --exit",
     "test:server": "nyc mocha test/server/**/*_spec.js --require test/server/helper --recursive --exit",
     "build": "webpack -p",
+    "seed": "node db/seeds",
     "start": "yarn build && node index"
   },
   "author": "Students",
@@ -43,6 +44,7 @@
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
     "bulma": "^0.7.1",
+    "express": "^4.16.3",
     "lodash": "^4.17.10",
     "mongoose": "^5.1.2",
     "mongoose-unique-validator": "^2.0.1",
