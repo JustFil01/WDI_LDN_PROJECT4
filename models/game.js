@@ -7,7 +7,6 @@ const reviewSchema = new mongoose.Schema({
   'content': {type: String},
   'postedBy': {type: mongoose.Schema.ObjectId, ref: 'User'},
   'rating': {type: Number, min: 1, max: 10}
-  // linking it to game?
 });
 
 const gameSchema = new mongoose.Schema({
