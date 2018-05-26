@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
-
+//------------------------------------------------------------------------------
 class AuthRegister extends React.Component {
   state = {
     errors: {}
@@ -69,5 +69,5 @@ class AuthRegister extends React.Component {
     );
   }
 }
-
+//------------------------------------------------------------------------------
 export default AuthRegister;

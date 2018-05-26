@@ -2,7 +2,7 @@ import React from 'react';
 import ReviewForm from './ReviewForm';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
-
+//------------------------------------------------------------------------------
 class NewReview extends React.Component {
   state = {
     errors: {}
@@ -25,7 +25,7 @@ class NewReview extends React.Component {
       .then(()=> this.props.history.push(`/games/${id}`))
       .catch(err => this.setState({ errors: err.response.data.errors }));
   }
-
+  //----------------------------------------------------------------------------
   // attempt to set up the game create / submit
   // handleSubmit = e => {
   //   e.preventDefault();
@@ -44,5 +44,5 @@ class NewReview extends React.Component {
     />;
   }
 }
-
+//------------------------------------------------------------------------------
 export default NewReview;

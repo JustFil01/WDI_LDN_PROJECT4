@@ -1,26 +1,22 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import Auth from '../lib/Auth';
-
+//------------------------------------------------------------------------------
 class Navbar extends React.Component {
-
   state = {
     navIsOpen: false
   }
-
   handleToggle = () => {
     this.setState({ navIsOpen: !this.state.navIsOpen });
   }
-
   componentWillUpdate() {
     this.state.navIsOpen && this.setState({ navIsOpen: false });
   }
-
   handleLogout = () => {
     Auth.logout();
     this.props.history.push('/');
   }
-
+  //------------------------------------------------------------------------------
   render() {
     return (
       <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -48,5 +44,5 @@ class Navbar extends React.Component {
     );
   }
 }
-
+//------------------------------------------------------------------------------
 export default withRouter(Navbar);

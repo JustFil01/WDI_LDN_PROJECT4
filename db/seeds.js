@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 const { dbURI } = require('../config/environment');
 const Game = require('../models/game');
-
+//------------------------------------------------------------------------------
 mongoose.connect(dbURI, (err, db) => {
   db.dropDatabase();
-
+  //------------------------------------------------------------------------------
   Game.create(
     [{
 		"id": 36926,

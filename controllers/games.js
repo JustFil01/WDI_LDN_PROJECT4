@@ -1,23 +1,28 @@
 const Game = require('../models/game');
-
+//-----------INDEX--------------------------------------------------------- ---
 function indexRoute(req, res, next){
   Game
     .find()
     .then(games => res.json(games))
     .catch(next);
 }
+//-----------SHOW--------------------------------------------------------- ---
+
 function showRoute(req,res,next){
   Game
     .findById(req.params.id)
     .then(games => res.json(games))
     .catch(next);
 }
+//-----------CREATE--------------------------------------------------------- ---
 function createRoute(req,res,next){
   Game
     .create(req.body)
     .then(games => res.status(201).json(games))
     .catch(next);
 }
+//-----------DELETE--------------------------------------------------------- ---
+
 function deleteRoute(req,res,next){
   Game
     .findById(req.params.id)
@@ -28,6 +33,7 @@ function deleteRoute(req,res,next){
     .then(() => res.sendStatus(204))
     .catch(next);
 }
+//-----------UPDATE--------------------------------------------------------- ---
 function updateRoute(req,res,next){
   Game
     .findById(req.params.id)
@@ -39,6 +45,7 @@ function updateRoute(req,res,next){
     .then(game => res.json(game))
     .catch(next);
 }
+//-----------REViEW CREATE------------------------------------------------------
 function reviewCreateRoute(req, res, next){
   req.body.postedBy = req.currentUser;
   Game
@@ -52,6 +59,8 @@ function reviewCreateRoute(req, res, next){
       next(err);
     });
 }
+//-----------REViEW GAME CREATE------------------------------------------------------
+
 // function gamesNewReviewCreate(req, res, next){
 //   req.body.postedBy = req.currentUser;
 //   Game
@@ -65,7 +74,7 @@ function reviewCreateRoute(req, res, next){
 //       next(err);
 //     });
 // }
-
+//-----------REViEW INDEX------------------------------------------------------
 function reviewIndexRoute(req, res, next) {
   Game
     .findById(req.params.id)
@@ -75,6 +84,7 @@ function reviewIndexRoute(req, res, next) {
     })
     .catch(next);
 }
+//-----------REViEW SHOW------------------------------------------------------
 function reviewShowRoute(req, res, next) {
   Game
     .findById(req.params.id)
@@ -85,6 +95,7 @@ function reviewShowRoute(req, res, next) {
     })
     .catch(next);
 }
+//------------------------------------------------------------------------------
 module.exports = {
   index: indexRoute,
   show: showRoute,

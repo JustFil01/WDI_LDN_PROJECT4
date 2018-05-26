@@ -1,6 +1,6 @@
 import React from 'react';
 import Flash from '../../lib/Flash';
-
+//------------------------------------------------------------------------------
 class FlashMessage extends React.Component {
 
   state = {
@@ -28,5 +28,5 @@ class FlashMessage extends React.Component {
     );
   }
 }
-
+//------------------------------------------------------------------------------
 export default FlashMessage;

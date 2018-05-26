@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//------------------------------------------------------------------------------
 const reviewSchema = new mongoose.Schema({
   'picture': {type: String},
   'title': {type: String},
@@ -8,7 +8,7 @@ const reviewSchema = new mongoose.Schema({
   'postedBy': {type: mongoose.Schema.ObjectId, ref: 'User'},
   'rating': {type: Number, min: 1, max: 10}
 });
-
+//------------------------------------------------------------------------------
 const gameSchema = new mongoose.Schema({
   'id': {type: Number},
   'name': {type: String},
@@ -52,5 +52,5 @@ const gameSchema = new mongoose.Schema({
     }
   ]
 });
-
+//------------------------------------------------------------------------------
 module.exports = mongoose.model('Game', gameSchema);

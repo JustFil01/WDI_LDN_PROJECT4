@@ -1,12 +1,10 @@
 @import "~bulma/sass/utilities/initial-variables";
-
+//------------------------------------------------------------------------------
 $navbar-item-img-max-height: 40;
 $navbar-height: 200;
 
 @import "~bulma";
-
-
-
+//------------------------------------------------------------------------------
 .card-image {
   background-position: center;
   background-size:contain;

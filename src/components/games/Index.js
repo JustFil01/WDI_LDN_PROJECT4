@@ -1,8 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
-
+//------------------------------------------------------------------------------
 class GamesIndex extends React.Component {
   state = {
     games: []
@@ -11,7 +10,7 @@ class GamesIndex extends React.Component {
     axios.get('/api/games')
       .then(res => this.setState({ games: res.data }));
   }
-
+  //------------------------------------------------------------------------------
   render() {
     return (
       <div>
@@ -45,5 +44,5 @@ class GamesIndex extends React.Component {
     );
   }
 }
-
+//------------------------------------------------------------------------------
 export default GamesIndex;

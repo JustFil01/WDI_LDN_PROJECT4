@@ -1,11 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-
+//------------------------------------------------------------------------------
 class GamesShow extends React.Component{
  state = {
    review: {}
  }
-
  componentDidMount() {
    axios.get(`/api/games/${this.props.match.params.id}`)
      .then(res => this.setState({ game: res.data }));
@@ -28,7 +27,7 @@ class GamesShow extends React.Component{
    );
  }
 }
-
+//------------------------------------------------------------------------------
 export default GamesShow;
 
 

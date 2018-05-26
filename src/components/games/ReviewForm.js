@@ -1,5 +1,5 @@
 import React from 'react';
-
+//------------------------------------------------------------------------------
 const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
   const formInvalid = Object.keys(errors).some(key => errors[key]);
   return (
@@ -22,11 +22,10 @@ const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
           onChange={handleChange} value={review.content || ''} />
         {errors.image && <small>{errors.image}</small>}
       </div>
-{/*add rating and other fields  */}
-
+      {/*add rating and other fields  */}
       <button disabled={formInvalid} className="button is-primary">Submit</button>
     </form>
   );
 };
-
+//------------------------------------------------------------------------------
 export default ReviewForm;

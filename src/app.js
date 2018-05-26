@@ -11,7 +11,6 @@ import NewReview from './components/games/NewReview';
 import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
-
 //------------------------------------------------------------------------------
 import './scss/style.scss';
 //------------------------------------------------------------------------------
