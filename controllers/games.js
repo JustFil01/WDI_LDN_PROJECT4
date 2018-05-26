@@ -42,7 +42,7 @@ function updateRoute(req,res,next){
 function reviewCreateRoute(req, res, next){
   req.body.postedBy = req.currentUser;
   Game
-    .findById(req.params.id) 
+    .findById(req.params.id)
     .then(game => {
       game.reviews.push(req.body);
       return game.save();
@@ -52,6 +52,19 @@ function reviewCreateRoute(req, res, next){
       next(err);
     });
 }
+// function gamesNewReviewCreate(req, res, next){
+//   req.body.postedBy = req.currentUser;
+//   Game
+//     .create(req.body.game)
+//     .then(game => {
+//       game.reviews.push(req.body);
+//       return game.save();
+//     })
+//     .then(game => res.json(game))
+//     .catch(err => {
+//       next(err);
+//     });
+// }
 
 function reviewIndexRoute(req, res, next) {
   Game
@@ -81,4 +94,5 @@ module.exports = {
   createReview: reviewCreateRoute,
   indexReview: reviewIndexRoute,
   showReview: reviewShowRoute
+  // createGameReview: gamesNewReviewCreate
 };
