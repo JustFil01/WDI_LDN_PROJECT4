@@ -53,73 +53,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nbpwnalhykwi8gsobelc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nbpwnalhykwi8gsobelc.jpg",
 				"cloudinary_id": "nbpwnalhykwi8gsobelc",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tnqlf5fyzrl2u4oyyh4c.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tnqlf5fyzrl2u4oyyh4c.jpg",
 				"cloudinary_id": "tnqlf5fyzrl2u4oyyh4c",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/isj1odo1k1vvl1x8k8vk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/isj1odo1k1vvl1x8k8vk.jpg",
 				"cloudinary_id": "isj1odo1k1vvl1x8k8vk",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jvsvgobhd4dbjlh7kn2q.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jvsvgobhd4dbjlh7kn2q.jpg",
 				"cloudinary_id": "jvsvgobhd4dbjlh7kn2q",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/c109q1sm0rrx95ucmjse.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c109q1sm0rrx95ucmjse.jpg",
 				"cloudinary_id": "c109q1sm0rrx95ucmjse",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/poxzku6fghfj04nxynqe.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/poxzku6fghfj04nxynqe.jpg",
 				"cloudinary_id": "poxzku6fghfj04nxynqe",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/v6lalq0gwbycborb9ic4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/v6lalq0gwbycborb9ic4.jpg",
 				"cloudinary_id": "v6lalq0gwbycborb9ic4",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ghcjheumz1norh0rwaxk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ghcjheumz1norh0rwaxk.jpg",
 				"cloudinary_id": "ghcjheumz1norh0rwaxk",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ojdwmo8mhipudkalaxlo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ojdwmo8mhipudkalaxlo.jpg",
 				"cloudinary_id": "ojdwmo8mhipudkalaxlo",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oydgjnzydmdfwd3vtmp9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oydgjnzydmdfwd3vtmp9.jpg",
 				"cloudinary_id": "oydgjnzydmdfwd3vtmp9",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nqmwzj4azjunajjlniy8.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nqmwzj4azjunajjlniy8.jpg",
 				"cloudinary_id": "nqmwzj4azjunajjlniy8",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/c9rskkieuhapebstfxys.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c9rskkieuhapebstfxys.jpg",
 				"cloudinary_id": "c9rskkieuhapebstfxys",
 				"width": 3840,
 				"height": 2160
@@ -180,7 +180,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/fxgwm1nnyexhvauqv0ds.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fxgwm1nnyexhvauqv0ds.jpg",
 			"cloudinary_id": "fxgwm1nnyexhvauqv0ds",
 			"width": 394,
 			"height": 500
@@ -204,73 +204,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ojrkfd7qcb2rakrvrddo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ojrkfd7qcb2rakrvrddo.jpg",
 				"cloudinary_id": "ojrkfd7qcb2rakrvrddo",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jesopvenn0grenqh0tr7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jesopvenn0grenqh0tr7.jpg",
 				"cloudinary_id": "jesopvenn0grenqh0tr7",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jfhbbr87x3fac1qnukor.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jfhbbr87x3fac1qnukor.jpg",
 				"cloudinary_id": "jfhbbr87x3fac1qnukor",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/sgo07t9nja0uzcrldgn9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sgo07t9nja0uzcrldgn9.jpg",
 				"cloudinary_id": "sgo07t9nja0uzcrldgn9",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/t0jlovq2gc9ghvsyvpgt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/t0jlovq2gc9ghvsyvpgt.jpg",
 				"cloudinary_id": "t0jlovq2gc9ghvsyvpgt",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vh11ez90tgswhzx6ckys.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vh11ez90tgswhzx6ckys.jpg",
 				"cloudinary_id": "vh11ez90tgswhzx6ckys",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/rnljjizxuo9odqvvhlw1.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rnljjizxuo9odqvvhlw1.jpg",
 				"cloudinary_id": "rnljjizxuo9odqvvhlw1",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/sj98v0eoqxxzgalf9mn4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sj98v0eoqxxzgalf9mn4.jpg",
 				"cloudinary_id": "sj98v0eoqxxzgalf9mn4",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/syug9kgrtmuqynmu7uqg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/syug9kgrtmuqynmu7uqg.jpg",
 				"cloudinary_id": "syug9kgrtmuqynmu7uqg",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fgk6jtffidxsn8ovtbqu.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fgk6jtffidxsn8ovtbqu.jpg",
 				"cloudinary_id": "fgk6jtffidxsn8ovtbqu",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bctz4zjros0pizflz4ha.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bctz4zjros0pizflz4ha.jpg",
 				"cloudinary_id": "bctz4zjros0pizflz4ha",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dh1tkaotkbtyh978mtag.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dh1tkaotkbtyh978mtag.jpg",
 				"cloudinary_id": "dh1tkaotkbtyh978mtag",
 				"width": 1280,
 				"height": 720
@@ -291,7 +291,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/dmdfiiamojsjmhgjkxxr.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dmdfiiamojsjmhgjkxxr.jpg",
 			"cloudinary_id": "dmdfiiamojsjmhgjkxxr",
 			"width": 800,
 			"height": 1300
@@ -340,52 +340,52 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zb9ch1qw54a9rddvvbmo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zb9ch1qw54a9rddvvbmo.jpg",
 				"cloudinary_id": "zb9ch1qw54a9rddvvbmo",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dykdvcmiwelebe2lff0v.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dykdvcmiwelebe2lff0v.jpg",
 				"cloudinary_id": "dykdvcmiwelebe2lff0v",
 				"width": 1024,
 				"height": 576
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kito03qskgq8ht8dfpqa.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kito03qskgq8ht8dfpqa.jpg",
 				"cloudinary_id": "kito03qskgq8ht8dfpqa",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kwdt3wa4rqagmy5pvzgm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kwdt3wa4rqagmy5pvzgm.jpg",
 				"cloudinary_id": "kwdt3wa4rqagmy5pvzgm",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/y9s7qv25untipfcirlei.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/y9s7qv25untipfcirlei.jpg",
 				"cloudinary_id": "y9s7qv25untipfcirlei",
 				"width": 960,
 				"height": 540
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dlnozlv1jmjv5zrm3iqt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dlnozlv1jmjv5zrm3iqt.jpg",
 				"cloudinary_id": "dlnozlv1jmjv5zrm3iqt",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wwm17mai4r1jqaiggcvc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wwm17mai4r1jqaiggcvc.jpg",
 				"cloudinary_id": "wwm17mai4r1jqaiggcvc",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mnokrxmkflaianxhsrkd.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mnokrxmkflaianxhsrkd.jpg",
 				"cloudinary_id": "mnokrxmkflaianxhsrkd",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -411,10 +411,10 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/zsvyzrqpbuvtfnpdagfp.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zsvyzrqpbuvtfnpdagfp.jpg",
 			"cloudinary_id": "zsvyzrqpbuvtfnpdagfp",
 			"width": 720,
-			"height": 1080
+			"height": 720
 		}
 	},
 	{
@@ -438,34 +438,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/k16enea4cmxpiovwian7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/k16enea4cmxpiovwian7.jpg",
 				"cloudinary_id": "k16enea4cmxpiovwian7",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mkpuyfxyeqxvz7uo38hi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mkpuyfxyeqxvz7uo38hi.jpg",
 				"cloudinary_id": "mkpuyfxyeqxvz7uo38hi",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nweuohcyygrldlj1moph.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nweuohcyygrldlj1moph.jpg",
 				"cloudinary_id": "nweuohcyygrldlj1moph",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gotc2uayjfzf0axjpcxk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gotc2uayjfzf0axjpcxk.jpg",
 				"cloudinary_id": "gotc2uayjfzf0axjpcxk",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/cd2roo4u1ibulpvchvrm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cd2roo4u1ibulpvchvrm.jpg",
 				"cloudinary_id": "cd2roo4u1ibulpvchvrm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -479,7 +479,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/lumgkti6rht3evlbu8xw.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lumgkti6rht3evlbu8xw.jpg",
 			"cloudinary_id": "lumgkti6rht3evlbu8xw",
 			"width": 550,
 			"height": 640
@@ -539,31 +539,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ma9ukpuze8e0qpr9rait.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ma9ukpuze8e0qpr9rait.jpg",
 				"cloudinary_id": "ma9ukpuze8e0qpr9rait",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qt4cmansbclofu2xc51f.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qt4cmansbclofu2xc51f.jpg",
 				"cloudinary_id": "qt4cmansbclofu2xc51f",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fgdanj0jqbowyq732dd7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fgdanj0jqbowyq732dd7.jpg",
 				"cloudinary_id": "fgdanj0jqbowyq732dd7",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xldzronepklmzofdt5dv.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xldzronepklmzofdt5dv.jpg",
 				"cloudinary_id": "xldzronepklmzofdt5dv",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dpntdfb5lyvgdcv2nham.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dpntdfb5lyvgdcv2nham.jpg",
 				"cloudinary_id": "dpntdfb5lyvgdcv2nham",
 				"width": 1280,
 				"height": 720
@@ -576,7 +576,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/ebebxnv543d4y5e4wazd.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ebebxnv543d4y5e4wazd.jpg",
 			"cloudinary_id": "ebebxnv543d4y5e4wazd",
 			"width": 4000,
 			"height": 2250
@@ -607,7 +607,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/nkugb4uvps5dzccb1wpl.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nkugb4uvps5dzccb1wpl.jpg",
 			"cloudinary_id": "nkugb4uvps5dzccb1wpl",
 			"width": 259,
 			"height": 383
@@ -631,31 +631,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kzgu4ywwcyzorcpjnsxq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kzgu4ywwcyzorcpjnsxq.jpg",
 				"cloudinary_id": "kzgu4ywwcyzorcpjnsxq",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ytq9dw8cgnaecekhdcdg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ytq9dw8cgnaecekhdcdg.jpg",
 				"cloudinary_id": "ytq9dw8cgnaecekhdcdg",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xpgggartobfrwnkqhtwk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xpgggartobfrwnkqhtwk.jpg",
 				"cloudinary_id": "xpgggartobfrwnkqhtwk",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/pntmmnwn6vzp8uqjeoeo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pntmmnwn6vzp8uqjeoeo.jpg",
 				"cloudinary_id": "pntmmnwn6vzp8uqjeoeo",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/shotciissmwdisdwqdmg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/shotciissmwdisdwqdmg.jpg",
 				"cloudinary_id": "shotciissmwdisdwqdmg",
 				"width": 1280,
 				"height": 720
@@ -668,7 +668,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/eku1gg56ltnfucepgqny.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eku1gg56ltnfucepgqny.jpg",
 			"cloudinary_id": "eku1gg56ltnfucepgqny",
 			"width": 460,
 			"height": 215
@@ -710,76 +710,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/sfchhwjgcyxtm8ceyj17.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sfchhwjgcyxtm8ceyj17.jpg",
 				"cloudinary_id": "sfchhwjgcyxtm8ceyj17",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/rg4qqcigwxd9aa7zbsos.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rg4qqcigwxd9aa7zbsos.jpg",
 				"cloudinary_id": "rg4qqcigwxd9aa7zbsos",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/g1jcmromr4x3jwunyb0b.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/g1jcmromr4x3jwunyb0b.jpg",
 				"cloudinary_id": "g1jcmromr4x3jwunyb0b",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/r72spvqvrzfyqncgbspw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r72spvqvrzfyqncgbspw.jpg",
 				"cloudinary_id": "r72spvqvrzfyqncgbspw",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xqw9h7z7psiuktt9dgos.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xqw9h7z7psiuktt9dgos.jpg",
 				"cloudinary_id": "xqw9h7z7psiuktt9dgos",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/aa66xisnbagxsepnx2el.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aa66xisnbagxsepnx2el.jpg",
 				"cloudinary_id": "aa66xisnbagxsepnx2el",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ndceepit98cuj5fbgjrs.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ndceepit98cuj5fbgjrs.jpg",
 				"cloudinary_id": "ndceepit98cuj5fbgjrs",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xeqtlwx9f80ekqiyh25w.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xeqtlwx9f80ekqiyh25w.jpg",
 				"cloudinary_id": "xeqtlwx9f80ekqiyh25w",
 				"width": 783,
 				"height": 440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/b2k0cvfbzprnuizutgow.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b2k0cvfbzprnuizutgow.jpg",
 				"cloudinary_id": "b2k0cvfbzprnuizutgow",
 				"width": 783,
 				"height": 440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/u5ldoak74o1yhl2gt6y7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/u5ldoak74o1yhl2gt6y7.jpg",
 				"cloudinary_id": "u5ldoak74o1yhl2gt6y7",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xrbujdrkuyta8cneqipz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xrbujdrkuyta8cneqipz.jpg",
 				"cloudinary_id": "xrbujdrkuyta8cneqipz",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ikk26u9j3qpug39snuoj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ikk26u9j3qpug39snuoj.jpg",
 				"cloudinary_id": "ikk26u9j3qpug39snuoj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -833,7 +833,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/cuwotikeyasdnpthudjf.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cuwotikeyasdnpthudjf.jpg",
 			"cloudinary_id": "cuwotikeyasdnpthudjf",
 			"width": 4000,
 			"height": 5287
@@ -856,7 +856,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/sosfbe6zqn1lipgfhxct.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sosfbe6zqn1lipgfhxct.jpg",
 			"cloudinary_id": "sosfbe6zqn1lipgfhxct",
 			"width": 354,
 			"height": 500
@@ -869,31 +869,31 @@ mongoose.connect(dbURI, (err, db) => {
 		"popularity": 296.0,
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kpxaegdowcs6qf4daxdb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kpxaegdowcs6qf4daxdb.jpg",
 				"cloudinary_id": "kpxaegdowcs6qf4daxdb",
 				"width": 1892,
 				"height": 1066
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fgx5lzwlmytqfzhtunzz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fgx5lzwlmytqfzhtunzz.jpg",
 				"cloudinary_id": "fgx5lzwlmytqfzhtunzz",
 				"width": 1915,
 				"height": 1077
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/i6uxqudxjjvwupjwt2gl.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/i6uxqudxjjvwupjwt2gl.jpg",
 				"cloudinary_id": "i6uxqudxjjvwupjwt2gl",
 				"width": 1865,
 				"height": 1061
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ns1yco3iwezeav9h6jee.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ns1yco3iwezeav9h6jee.jpg",
 				"cloudinary_id": "ns1yco3iwezeav9h6jee",
 				"width": 1858,
 				"height": 1065
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zrmbxwlptiyrxw7z9p3x.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zrmbxwlptiyrxw7z9p3x.jpg",
 				"cloudinary_id": "zrmbxwlptiyrxw7z9p3x",
 				"width": 1919,
 				"height": 1079
@@ -906,7 +906,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/vex1s6b1qxq5bqz2puu8.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vex1s6b1qxq5bqz2puu8.jpg",
 			"cloudinary_id": "vex1s6b1qxq5bqz2puu8",
 			"width": 1280,
 			"height": 720
@@ -948,34 +948,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/sooytuocpokwtngmquvs.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sooytuocpokwtngmquvs.jpg",
 				"cloudinary_id": "sooytuocpokwtngmquvs",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uwwuwilnfjzlob0hppmz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uwwuwilnfjzlob0hppmz.jpg",
 				"cloudinary_id": "uwwuwilnfjzlob0hppmz",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dghetbqvsgrnwcqd7ooj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dghetbqvsgrnwcqd7ooj.jpg",
 				"cloudinary_id": "dghetbqvsgrnwcqd7ooj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jycoypp4aqf2vr70vedf.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jycoypp4aqf2vr70vedf.jpg",
 				"cloudinary_id": "jycoypp4aqf2vr70vedf",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bpdjgsf95escq6zzkku2.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bpdjgsf95escq6zzkku2.jpg",
 				"cloudinary_id": "bpdjgsf95escq6zzkku2",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -985,7 +985,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/mftzxbt2mmh1bufp3kal.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mftzxbt2mmh1bufp3kal.jpg",
 			"cloudinary_id": "mftzxbt2mmh1bufp3kal",
 			"width": 1000,
 			"height": 1286
@@ -1054,31 +1054,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ikpnehvtdaacp4gxng6m.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ikpnehvtdaacp4gxng6m.jpg",
 				"cloudinary_id": "ikpnehvtdaacp4gxng6m",
 				"width": 1920,
 				"height": 1068
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/llvkq3gtkln28xpx6qxn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/llvkq3gtkln28xpx6qxn.jpg",
 				"cloudinary_id": "llvkq3gtkln28xpx6qxn",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qjwj3w9bqemsidmcj83r.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qjwj3w9bqemsidmcj83r.jpg",
 				"cloudinary_id": "qjwj3w9bqemsidmcj83r",
 				"width": 1920,
 				"height": 1068
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/savelze8kxu7f2llffdp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/savelze8kxu7f2llffdp.jpg",
 				"cloudinary_id": "savelze8kxu7f2llffdp",
 				"width": 1920,
 				"height": 1068
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ry3ytygf8nqdh52r3ylc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ry3ytygf8nqdh52r3ylc.jpg",
 				"cloudinary_id": "ry3ytygf8nqdh52r3ylc",
 				"width": 1920,
 				"height": 1068
@@ -1127,7 +1127,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/k4nbupwvotwyumiicyzq.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/k4nbupwvotwyumiicyzq.jpg",
 			"cloudinary_id": "k4nbupwvotwyumiicyzq",
 			"width": 600,
 			"height": 857
@@ -1159,34 +1159,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zegajhpspraxnlooxsui.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zegajhpspraxnlooxsui.jpg",
 				"cloudinary_id": "zegajhpspraxnlooxsui",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ummebsgjmr9fmtxydpc4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ummebsgjmr9fmtxydpc4.jpg",
 				"cloudinary_id": "ummebsgjmr9fmtxydpc4",
 				"width": 1433,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oznusesuqeyajcvli2e3.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oznusesuqeyajcvli2e3.jpg",
 				"cloudinary_id": "oznusesuqeyajcvli2e3",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/epyidsnnbzlswjcl3wam.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/epyidsnnbzlswjcl3wam.jpg",
 				"cloudinary_id": "epyidsnnbzlswjcl3wam",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ssz7jf6at2q0p9eoe1z7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ssz7jf6at2q0p9eoe1z7.jpg",
 				"cloudinary_id": "ssz7jf6at2q0p9eoe1z7",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1196,7 +1196,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/aooqizxhppovwmuyfkql.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aooqizxhppovwmuyfkql.jpg",
 			"cloudinary_id": "aooqizxhppovwmuyfkql",
 			"width": 460,
 			"height": 215
@@ -1229,20 +1229,20 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qifbztmaielk7l9xayuz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qifbztmaielk7l9xayuz.jpg",
 				"cloudinary_id": "qifbztmaielk7l9xayuz",
 				"width": 892,
 				"height": 671
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ijj2lfcvitqmfvqphwbe.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ijj2lfcvitqmfvqphwbe.jpg",
 				"cloudinary_id": "ijj2lfcvitqmfvqphwbe",
 				"width": 1020,
 				"height": 762
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/oo0dqt8ollefvigrr6bj.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oo0dqt8ollefvigrr6bj.jpg",
 			"cloudinary_id": "oo0dqt8ollefvigrr6bj",
 			"width": 1425,
 			"height": 1425
@@ -1320,34 +1320,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wl38bjr8ipzbt5jnl3vj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wl38bjr8ipzbt5jnl3vj.jpg",
 				"cloudinary_id": "wl38bjr8ipzbt5jnl3vj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bzyspbtgxqghq4jjzip0.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bzyspbtgxqghq4jjzip0.jpg",
 				"cloudinary_id": "bzyspbtgxqghq4jjzip0",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xnv0bxmav7r0e0yhnxch.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xnv0bxmav7r0e0yhnxch.jpg",
 				"cloudinary_id": "xnv0bxmav7r0e0yhnxch",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/usgpx4ir0ooem1rzxyul.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/usgpx4ir0ooem1rzxyul.jpg",
 				"cloudinary_id": "usgpx4ir0ooem1rzxyul",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/km2klmcvgpz8fqwbnc8k.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/km2klmcvgpz8fqwbnc8k.jpg",
 				"cloudinary_id": "km2klmcvgpz8fqwbnc8k",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1365,7 +1365,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/zl02iwvbyyp28wquk8br.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zl02iwvbyyp28wquk8br.jpg",
 			"cloudinary_id": "zl02iwvbyyp28wquk8br",
 			"width": 579,
 			"height": 800
@@ -1389,19 +1389,19 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/eictejxujxz3xcmbylgn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eictejxujxz3xcmbylgn.jpg",
 				"cloudinary_id": "eictejxujxz3xcmbylgn",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/v21jirvyi1yez5p00zj6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/v21jirvyi1yez5p00zj6.jpg",
 				"cloudinary_id": "v21jirvyi1yez5p00zj6",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gotdjgksjbrmmwivxiwt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gotdjgksjbrmmwivxiwt.jpg",
 				"cloudinary_id": "gotdjgksjbrmmwivxiwt",
 				"width": 1280,
 				"height": 720
@@ -1414,7 +1414,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/zbvnvg66mwsqt52fnfyk.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zbvnvg66mwsqt52fnfyk.jpg",
 			"cloudinary_id": "zbvnvg66mwsqt52fnfyk",
 			"width": 960,
 			"height": 1420
@@ -1483,76 +1483,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m7j8nno7wpfdvxrvnam3.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m7j8nno7wpfdvxrvnam3.jpg",
 				"cloudinary_id": "m7j8nno7wpfdvxrvnam3",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/duzljmjdctiljgu4bzkt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/duzljmjdctiljgu4bzkt.jpg",
 				"cloudinary_id": "duzljmjdctiljgu4bzkt",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fvyd4c4ybhw5asidd0tk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fvyd4c4ybhw5asidd0tk.jpg",
 				"cloudinary_id": "fvyd4c4ybhw5asidd0tk",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ijoenntauq5gfurpayt1.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ijoenntauq5gfurpayt1.jpg",
 				"cloudinary_id": "ijoenntauq5gfurpayt1",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uaxzlzruz9be57tq5ayf.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uaxzlzruz9be57tq5ayf.jpg",
 				"cloudinary_id": "uaxzlzruz9be57tq5ayf",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/snkucsvixsexyfcvi1ks.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/snkucsvixsexyfcvi1ks.jpg",
 				"cloudinary_id": "snkucsvixsexyfcvi1ks",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ccxizgajbolu4kw5iild.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ccxizgajbolu4kw5iild.jpg",
 				"cloudinary_id": "ccxizgajbolu4kw5iild",
 				"width": 2772,
 				"height": 1559
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qslsn7dl1nmjvlidmlc6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qslsn7dl1nmjvlidmlc6.jpg",
 				"cloudinary_id": "qslsn7dl1nmjvlidmlc6",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/o9mbl0rabu0sazsbxiji.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/o9mbl0rabu0sazsbxiji.jpg",
 				"cloudinary_id": "o9mbl0rabu0sazsbxiji",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vdmxnihoegzdbyahjpat.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vdmxnihoegzdbyahjpat.jpg",
 				"cloudinary_id": "vdmxnihoegzdbyahjpat",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mno7spxuafapa8ajvixm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mno7spxuafapa8ajvixm.jpg",
 				"cloudinary_id": "mno7spxuafapa8ajvixm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zum4prw3m27jsqv2lobq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zum4prw3m27jsqv2lobq.jpg",
 				"cloudinary_id": "zum4prw3m27jsqv2lobq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1586,7 +1586,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/e7vzqpimo6pwovewqqli.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/e7vzqpimo6pwovewqqli.jpg",
 			"cloudinary_id": "e7vzqpimo6pwovewqqli",
 			"width": 2736,
 			"height": 3457
@@ -1609,31 +1609,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mq7vg4qwhzbdomdt73oi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mq7vg4qwhzbdomdt73oi.jpg",
 				"cloudinary_id": "mq7vg4qwhzbdomdt73oi",
 				"width": 1920,
 				"height": 1078
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kbgxojqbxer6ujp0zjhj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kbgxojqbxer6ujp0zjhj.jpg",
 				"cloudinary_id": "kbgxojqbxer6ujp0zjhj",
 				"width": 1920,
 				"height": 1034
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/l4d50y9lp7ybgmzxeq1b.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/l4d50y9lp7ybgmzxeq1b.jpg",
 				"cloudinary_id": "l4d50y9lp7ybgmzxeq1b",
 				"width": 1920,
 				"height": 1016
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qmbilfki4opsgvxzcggw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qmbilfki4opsgvxzcggw.jpg",
 				"cloudinary_id": "qmbilfki4opsgvxzcggw",
 				"width": 1920,
 				"height": 1038
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xwx3lug7qnipmrmkpzrw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xwx3lug7qnipmrmkpzrw.jpg",
 				"cloudinary_id": "xwx3lug7qnipmrmkpzrw",
 				"width": 1920,
 				"height": 1042
@@ -1646,7 +1646,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/lgk8trfqnpisud9qupkm.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lgk8trfqnpisud9qupkm.jpg",
 			"cloudinary_id": "lgk8trfqnpisud9qupkm",
 			"width": 1520,
 			"height": 980
@@ -1682,34 +1682,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oko3btwuoe0mklfrqhs8.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oko3btwuoe0mklfrqhs8.jpg",
 				"cloudinary_id": "oko3btwuoe0mklfrqhs8",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mttfyqcmkvjmqr8hu2ea.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mttfyqcmkvjmqr8hu2ea.jpg",
 				"cloudinary_id": "mttfyqcmkvjmqr8hu2ea",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/whs72ikfxufqyt8mxzo6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/whs72ikfxufqyt8mxzo6.jpg",
 				"cloudinary_id": "whs72ikfxufqyt8mxzo6",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ewp9bf6aqxc9hsoegyqc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ewp9bf6aqxc9hsoegyqc.jpg",
 				"cloudinary_id": "ewp9bf6aqxc9hsoegyqc",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/h37szhzxeafqu3bsmgp2.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/h37szhzxeafqu3bsmgp2.jpg",
 				"cloudinary_id": "h37szhzxeafqu3bsmgp2",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1719,7 +1719,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/eujx4gdidznmdkdpj5e6.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eujx4gdidznmdkdpj5e6.jpg",
 			"cloudinary_id": "eujx4gdidznmdkdpj5e6",
 			"width": 260,
 			"height": 360
@@ -1761,76 +1761,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oh4gnocxwpdzrddezdvj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oh4gnocxwpdzrddezdvj.jpg",
 				"cloudinary_id": "oh4gnocxwpdzrddezdvj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gqstoabsymned4x4k6ac.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gqstoabsymned4x4k6ac.jpg",
 				"cloudinary_id": "gqstoabsymned4x4k6ac",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/o2ssxmxvx8k5a1bgs8ju.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/o2ssxmxvx8k5a1bgs8ju.jpg",
 				"cloudinary_id": "o2ssxmxvx8k5a1bgs8ju",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wynvjiwppfgrimgekzuh.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wynvjiwppfgrimgekzuh.jpg",
 				"cloudinary_id": "wynvjiwppfgrimgekzuh",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/yhsbvwadywpktfuglxvk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yhsbvwadywpktfuglxvk.jpg",
 				"cloudinary_id": "yhsbvwadywpktfuglxvk",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/akcvbqfj1lpqq92ckwey.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/akcvbqfj1lpqq92ckwey.jpg",
 				"cloudinary_id": "akcvbqfj1lpqq92ckwey",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ocmwxmxua3loinc6u5nm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ocmwxmxua3loinc6u5nm.jpg",
 				"cloudinary_id": "ocmwxmxua3loinc6u5nm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/j2rra0iukmzqwtmrogll.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/j2rra0iukmzqwtmrogll.jpg",
 				"cloudinary_id": "j2rra0iukmzqwtmrogll",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/frjbydflbhgqhj1jmtmj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/frjbydflbhgqhj1jmtmj.jpg",
 				"cloudinary_id": "frjbydflbhgqhj1jmtmj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xvpijqyfw7ctvjwdngqq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xvpijqyfw7ctvjwdngqq.jpg",
 				"cloudinary_id": "xvpijqyfw7ctvjwdngqq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/rnd1qfuaikyoppnb0wyu.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rnd1qfuaikyoppnb0wyu.jpg",
 				"cloudinary_id": "rnd1qfuaikyoppnb0wyu",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hmn98zjzxcikhymnyo3i.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hmn98zjzxcikhymnyo3i.jpg",
 				"cloudinary_id": "hmn98zjzxcikhymnyo3i",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1852,7 +1852,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/duf8ynjzw9umyejj2kvw.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/duf8ynjzw9umyejj2kvw.jpg",
 			"cloudinary_id": "duf8ynjzw9umyejj2kvw",
 			"width": 1001,
 			"height": 1411
@@ -1918,34 +1918,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oc0u1zyxga0xhv6kwfkf.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oc0u1zyxga0xhv6kwfkf.jpg",
 				"cloudinary_id": "oc0u1zyxga0xhv6kwfkf",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/s3dgea4sy4zrmweppxos.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/s3dgea4sy4zrmweppxos.jpg",
 				"cloudinary_id": "s3dgea4sy4zrmweppxos",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m9cfsoioyycinnfs2xkx.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m9cfsoioyycinnfs2xkx.jpg",
 				"cloudinary_id": "m9cfsoioyycinnfs2xkx",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/iaxocroi6hmylgwm7qpt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/iaxocroi6hmylgwm7qpt.jpg",
 				"cloudinary_id": "iaxocroi6hmylgwm7qpt",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tpced0yq27mifm5wab5b.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tpced0yq27mifm5wab5b.jpg",
 				"cloudinary_id": "tpced0yq27mifm5wab5b",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -1967,10 +1967,10 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/fxh5b0rjydf4ldfng8ze.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fxh5b0rjydf4ldfng8ze.jpg",
 			"cloudinary_id": "fxh5b0rjydf4ldfng8ze",
 			"width": 810,
-			"height": 1080
+			"height": 720
 		}
 	},
 	{
@@ -1990,7 +1990,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/zrac3iilq0inlirpxrdv.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zrac3iilq0inlirpxrdv.jpg",
 			"cloudinary_id": "zrac3iilq0inlirpxrdv",
 			"width": 220,
 			"height": 316
@@ -2029,31 +2029,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/p2lv79jdmlx0s1avbgfp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/p2lv79jdmlx0s1avbgfp.jpg",
 				"cloudinary_id": "p2lv79jdmlx0s1avbgfp",
 				"width": 1680,
 				"height": 881
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/yauhhv59rftn2bn9vraf.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yauhhv59rftn2bn9vraf.jpg",
 				"cloudinary_id": "yauhhv59rftn2bn9vraf",
 				"width": 1680,
 				"height": 917
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/guzvtrj2axygzzya6il7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/guzvtrj2axygzzya6il7.jpg",
 				"cloudinary_id": "guzvtrj2axygzzya6il7",
 				"width": 1680,
 				"height": 916
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/w4d1kpeyreyeiz1r5qrb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/w4d1kpeyreyeiz1r5qrb.jpg",
 				"cloudinary_id": "w4d1kpeyreyeiz1r5qrb",
 				"width": 1680,
 				"height": 916
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/o1yijizssajkueng6nkn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/o1yijizssajkueng6nkn.jpg",
 				"cloudinary_id": "o1yijizssajkueng6nkn",
 				"width": 1680,
 				"height": 916
@@ -2066,7 +2066,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/b6tmzgkmomlxjsanoqdm.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b6tmzgkmomlxjsanoqdm.jpg",
 			"cloudinary_id": "b6tmzgkmomlxjsanoqdm",
 			"width": 600,
 			"height": 835
@@ -2108,31 +2108,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mobc8z5fnxljhadccvy6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mobc8z5fnxljhadccvy6.jpg",
 				"cloudinary_id": "mobc8z5fnxljhadccvy6",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vlhzdqayyne2j3cjvpag.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vlhzdqayyne2j3cjvpag.jpg",
 				"cloudinary_id": "vlhzdqayyne2j3cjvpag",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kazgjykzu18dhqjpspko.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kazgjykzu18dhqjpspko.jpg",
 				"cloudinary_id": "kazgjykzu18dhqjpspko",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/rqr5dxxw97zikyhdn2tq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rqr5dxxw97zikyhdn2tq.jpg",
 				"cloudinary_id": "rqr5dxxw97zikyhdn2tq",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oh8a5shtmdbqx73cv765.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oh8a5shtmdbqx73cv765.jpg",
 				"cloudinary_id": "oh8a5shtmdbqx73cv765",
 				"width": 3840,
 				"height": 2160
@@ -2157,7 +2157,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/murzziwvvmzacglj5ch5.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/murzziwvvmzacglj5ch5.jpg",
 			"cloudinary_id": "murzziwvvmzacglj5ch5",
 			"width": 528,
 			"height": 754
@@ -2226,76 +2226,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mptosgjarjlyqxy7lqsm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mptosgjarjlyqxy7lqsm.jpg",
 				"cloudinary_id": "mptosgjarjlyqxy7lqsm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dorsz0jbcecmkxvzi3t8.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dorsz0jbcecmkxvzi3t8.jpg",
 				"cloudinary_id": "dorsz0jbcecmkxvzi3t8",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/banftd8fgfytbsfx6mjz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/banftd8fgfytbsfx6mjz.jpg",
 				"cloudinary_id": "banftd8fgfytbsfx6mjz",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uyaminfh8sugglvt247u.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uyaminfh8sugglvt247u.jpg",
 				"cloudinary_id": "uyaminfh8sugglvt247u",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kcfpf8wa8esalk0qkpo5.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kcfpf8wa8esalk0qkpo5.jpg",
 				"cloudinary_id": "kcfpf8wa8esalk0qkpo5",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tdxv4zzkqyjnm9pmwxw0.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tdxv4zzkqyjnm9pmwxw0.jpg",
 				"cloudinary_id": "tdxv4zzkqyjnm9pmwxw0",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/h8f9uojkzvaau8pxsyxi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/h8f9uojkzvaau8pxsyxi.jpg",
 				"cloudinary_id": "h8f9uojkzvaau8pxsyxi",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dhw6ucx9laj5esv6rngn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dhw6ucx9laj5esv6rngn.jpg",
 				"cloudinary_id": "dhw6ucx9laj5esv6rngn",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/x8xczj2a0y6g9rnhboko.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/x8xczj2a0y6g9rnhboko.jpg",
 				"cloudinary_id": "x8xczj2a0y6g9rnhboko",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qg7gx276z3hsqlr9xpt6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qg7gx276z3hsqlr9xpt6.jpg",
 				"cloudinary_id": "qg7gx276z3hsqlr9xpt6",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/c9xalka7stjkx4mes7kp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c9xalka7stjkx4mes7kp.jpg",
 				"cloudinary_id": "c9xalka7stjkx4mes7kp",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xegpfnsvlyeld0zkjnrc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xegpfnsvlyeld0zkjnrc.jpg",
 				"cloudinary_id": "xegpfnsvlyeld0zkjnrc",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -2313,7 +2313,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/yfk9f2lbo0r7slytuhra.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yfk9f2lbo0r7slytuhra.jpg",
 			"cloudinary_id": "yfk9f2lbo0r7slytuhra",
 			"width": 1106,
 			"height": 1580
@@ -2337,34 +2337,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/lvei87lsotvlprgjin7z.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lvei87lsotvlprgjin7z.jpg",
 				"cloudinary_id": "lvei87lsotvlprgjin7z",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vf8riwp5ospyns17gj4k.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vf8riwp5ospyns17gj4k.jpg",
 				"cloudinary_id": "vf8riwp5ospyns17gj4k",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/h2xpmkh1njtpl9euevqd.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/h2xpmkh1njtpl9euevqd.jpg",
 				"cloudinary_id": "h2xpmkh1njtpl9euevqd",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gfgpb7jzptakabfnmuvl.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gfgpb7jzptakabfnmuvl.jpg",
 				"cloudinary_id": "gfgpb7jzptakabfnmuvl",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/y4xijvytkody2x9f4odr.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/y4xijvytkody2x9f4odr.jpg",
 				"cloudinary_id": "y4xijvytkody2x9f4odr",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -2374,7 +2374,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/smxo3k7389lokvsdvhqg.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/smxo3k7389lokvsdvhqg.jpg",
 			"cloudinary_id": "smxo3k7389lokvsdvhqg",
 			"width": 528,
 			"height": 754
@@ -2416,38 +2416,38 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wzxstzreelgwjxzw3bug.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wzxstzreelgwjxzw3bug.jpg",
 				"cloudinary_id": "wzxstzreelgwjxzw3bug",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/afnvdaospkn9ffpcbjj7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/afnvdaospkn9ffpcbjj7.jpg",
 				"cloudinary_id": "afnvdaospkn9ffpcbjj7",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/h8scaf27hgdzkzhrstha.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/h8scaf27hgdzkzhrstha.jpg",
 				"cloudinary_id": "h8scaf27hgdzkzhrstha",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xx0frswuipbdfby497zp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xx0frswuipbdfby497zp.jpg",
 				"cloudinary_id": "xx0frswuipbdfby497zp",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mj8q0djgtzorncpadobi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mj8q0djgtzorncpadobi.jpg",
 				"cloudinary_id": "mj8q0djgtzorncpadobi",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/ohi340su1nsn4yoa7d9y.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ohi340su1nsn4yoa7d9y.jpg",
 			"cloudinary_id": "ohi340su1nsn4yoa7d9y",
 			"width": 460,
 			"height": 215
@@ -2470,38 +2470,38 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/omwijptsnuzexr7v3fe1.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/omwijptsnuzexr7v3fe1.jpg",
 				"cloudinary_id": "omwijptsnuzexr7v3fe1",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/pcdgcov2nvs7vhllzgnm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pcdgcov2nvs7vhllzgnm.jpg",
 				"cloudinary_id": "pcdgcov2nvs7vhllzgnm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uajwgnkz0lkxkewnv0pg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uajwgnkz0lkxkewnv0pg.jpg",
 				"cloudinary_id": "uajwgnkz0lkxkewnv0pg",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nqssj92bs2xtjjakpeee.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nqssj92bs2xtjjakpeee.jpg",
 				"cloudinary_id": "nqssj92bs2xtjjakpeee",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tq40bxrpytlfw0naaqjc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tq40bxrpytlfw0naaqjc.jpg",
 				"cloudinary_id": "tq40bxrpytlfw0naaqjc",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/zrm2ypdvwyllyjmrk59f.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zrm2ypdvwyllyjmrk59f.jpg",
 			"cloudinary_id": "zrm2ypdvwyllyjmrk59f",
 			"width": 460,
 			"height": 215
@@ -2561,34 +2561,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/brzujmobwirig2hffd10.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/brzujmobwirig2hffd10.jpg",
 				"cloudinary_id": "brzujmobwirig2hffd10",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vznwconbaedplvcd4auk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vznwconbaedplvcd4auk.jpg",
 				"cloudinary_id": "vznwconbaedplvcd4auk",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ixyamrma7rqodf5w5nyq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ixyamrma7rqodf5w5nyq.jpg",
 				"cloudinary_id": "ixyamrma7rqodf5w5nyq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/iuvpi11etj5zdoasyazy.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/iuvpi11etj5zdoasyazy.jpg",
 				"cloudinary_id": "iuvpi11etj5zdoasyazy",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mxkahnnlpnkt5vzmwuwb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mxkahnnlpnkt5vzmwuwb.jpg",
 				"cloudinary_id": "mxkahnnlpnkt5vzmwuwb",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -2598,7 +2598,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/eg5t3vhswymoecvbxc8g.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eg5t3vhswymoecvbxc8g.jpg",
 			"cloudinary_id": "eg5t3vhswymoecvbxc8g",
 			"width": 600,
 			"height": 800
@@ -2640,34 +2640,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vay962n74abdhky6ehio.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vay962n74abdhky6ehio.jpg",
 				"cloudinary_id": "vay962n74abdhky6ehio",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/krunafqf8pxsn2wnvrti.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/krunafqf8pxsn2wnvrti.jpg",
 				"cloudinary_id": "krunafqf8pxsn2wnvrti",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fbocgv2ismvvwmzhvaa9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fbocgv2ismvvwmzhvaa9.jpg",
 				"cloudinary_id": "fbocgv2ismvvwmzhvaa9",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nql8zp9icj4ma92n0twb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nql8zp9icj4ma92n0twb.jpg",
 				"cloudinary_id": "nql8zp9icj4ma92n0twb",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/sm5fmduudsztcldbskai.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sm5fmduudsztcldbskai.jpg",
 				"cloudinary_id": "sm5fmduudsztcldbskai",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -2677,7 +2677,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/njd8bhglaxrqkrzhb24b.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/njd8bhglaxrqkrzhb24b.jpg",
 			"cloudinary_id": "njd8bhglaxrqkrzhb24b",
 			"width": 600,
 			"height": 835
@@ -2719,31 +2719,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m1cpopxkczkmxgmpertc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m1cpopxkczkmxgmpertc.jpg",
 				"cloudinary_id": "m1cpopxkczkmxgmpertc",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kypu1grw5icgybrsuezy.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kypu1grw5icgybrsuezy.jpg",
 				"cloudinary_id": "kypu1grw5icgybrsuezy",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/thrw9e1la1xg217nepzn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/thrw9e1la1xg217nepzn.jpg",
 				"cloudinary_id": "thrw9e1la1xg217nepzn",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bwporxfftunjtfsoemkq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bwporxfftunjtfsoemkq.jpg",
 				"cloudinary_id": "bwporxfftunjtfsoemkq",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/x9vyb2e8cxgszzohaz8d.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/x9vyb2e8cxgszzohaz8d.jpg",
 				"cloudinary_id": "x9vyb2e8cxgszzohaz8d",
 				"width": 600,
 				"height": 337
@@ -2756,7 +2756,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/cdfsdijmouaxz7jnx8bl.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cdfsdijmouaxz7jnx8bl.jpg",
 			"cloudinary_id": "cdfsdijmouaxz7jnx8bl",
 			"width": 264,
 			"height": 340
@@ -2798,76 +2798,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oxc88854rvzznpftp9fi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oxc88854rvzznpftp9fi.jpg",
 				"cloudinary_id": "oxc88854rvzznpftp9fi",
 				"width": 576,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ujscxmxnehjp7huwhqet.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ujscxmxnehjp7huwhqet.jpg",
 				"cloudinary_id": "ujscxmxnehjp7huwhqet",
 				"width": 576,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/n1oonqpqu8w654x0yxak.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/n1oonqpqu8w654x0yxak.jpg",
 				"cloudinary_id": "n1oonqpqu8w654x0yxak",
 				"width": 392,
 				"height": 696
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ds3sshkqyevyddfkzzkl.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ds3sshkqyevyddfkzzkl.jpg",
 				"cloudinary_id": "ds3sshkqyevyddfkzzkl",
 				"width": 392,
 				"height": 696
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/goqutpvzsce4woyotten.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/goqutpvzsce4woyotten.jpg",
 				"cloudinary_id": "goqutpvzsce4woyotten",
 				"width": 392,
 				"height": 696
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uaskv3djfpakdn9vrfck.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uaskv3djfpakdn9vrfck.jpg",
 				"cloudinary_id": "uaskv3djfpakdn9vrfck",
 				"width": 392,
 				"height": 696
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/srk5nd25rlgxit42ptzn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/srk5nd25rlgxit42ptzn.jpg",
 				"cloudinary_id": "srk5nd25rlgxit42ptzn",
 				"width": 392,
 				"height": 696
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gssmdcuuvxoui3ophjat.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gssmdcuuvxoui3ophjat.jpg",
 				"cloudinary_id": "gssmdcuuvxoui3ophjat",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hhjtodsb2h7rwoea8n3o.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hhjtodsb2h7rwoea8n3o.jpg",
 				"cloudinary_id": "hhjtodsb2h7rwoea8n3o",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m8twz9y5xs8kyouuq3zm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m8twz9y5xs8kyouuq3zm.jpg",
 				"cloudinary_id": "m8twz9y5xs8kyouuq3zm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ul16hpwqthbkwe1vbxmt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ul16hpwqthbkwe1vbxmt.jpg",
 				"cloudinary_id": "ul16hpwqthbkwe1vbxmt",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/isdhrkujwoo6ki3fk4qx.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/isdhrkujwoo6ki3fk4qx.jpg",
 				"cloudinary_id": "isdhrkujwoo6ki3fk4qx",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -2881,7 +2881,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/vmdcvsidtezltaeaq7kv.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vmdcvsidtezltaeaq7kv.jpg",
 			"cloudinary_id": "vmdcvsidtezltaeaq7kv",
 			"width": 1200,
 			"height": 1699
@@ -2905,19 +2905,19 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wtorzpnycbtz8j0skvw4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wtorzpnycbtz8j0skvw4.jpg",
 				"cloudinary_id": "wtorzpnycbtz8j0skvw4",
 				"width": 400,
 				"height": 240
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wswdqfqeqme0iyvx5y9p.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wswdqfqeqme0iyvx5y9p.jpg",
 				"cloudinary_id": "wswdqfqeqme0iyvx5y9p",
 				"width": 400,
 				"height": 240
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/auyrudiwbdtmv1gpjq5x.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/auyrudiwbdtmv1gpjq5x.jpg",
 				"cloudinary_id": "auyrudiwbdtmv1gpjq5x",
 				"width": 400,
 				"height": 240
@@ -2934,7 +2934,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/ro0ohelrzdlqhp3iou03.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ro0ohelrzdlqhp3iou03.jpg",
 			"cloudinary_id": "ro0ohelrzdlqhp3iou03",
 			"width": 600,
 			"height": 532
@@ -3056,31 +3056,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/cjnuxitxntxnkjpcrbkd.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cjnuxitxntxnkjpcrbkd.jpg",
 				"cloudinary_id": "cjnuxitxntxnkjpcrbkd",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/v3rrkhc4ygzp6yenwfbp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/v3rrkhc4ygzp6yenwfbp.jpg",
 				"cloudinary_id": "v3rrkhc4ygzp6yenwfbp",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jcixqgqivf9um5ritwcz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jcixqgqivf9um5ritwcz.jpg",
 				"cloudinary_id": "jcixqgqivf9um5ritwcz",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hjkqircwo6vkljgevmwe.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hjkqircwo6vkljgevmwe.jpg",
 				"cloudinary_id": "hjkqircwo6vkljgevmwe",
 				"width": 1364,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zqwoeb0jcpzcdmsa1vao.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zqwoeb0jcpzcdmsa1vao.jpg",
 				"cloudinary_id": "zqwoeb0jcpzcdmsa1vao",
 				"width": 2560,
 				"height": 1440
@@ -3105,10 +3105,10 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/hjkdxsjepud2nvteqnpr.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hjkdxsjepud2nvteqnpr.jpg",
 			"cloudinary_id": "hjkdxsjepud2nvteqnpr",
 			"width": 720,
-			"height": 1080
+			"height": 720
 		}
 	},
 	{
@@ -3164,38 +3164,38 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m7d8fc0nsbbgj1htpssq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m7d8fc0nsbbgj1htpssq.jpg",
 				"cloudinary_id": "m7d8fc0nsbbgj1htpssq",
 				"width": 1024,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kuyotrdro1b1i0tevjvp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kuyotrdro1b1i0tevjvp.jpg",
 				"cloudinary_id": "kuyotrdro1b1i0tevjvp",
 				"width": 1024,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tnt9t6gxk6sgomzyvejo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tnt9t6gxk6sgomzyvejo.jpg",
 				"cloudinary_id": "tnt9t6gxk6sgomzyvejo",
 				"width": 1024,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/rmzkqdh4yeooup3nyzf9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rmzkqdh4yeooup3nyzf9.jpg",
 				"cloudinary_id": "rmzkqdh4yeooup3nyzf9",
 				"width": 1024,
 				"height": 768
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ldldhzocpgclslaukylr.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ldldhzocpgclslaukylr.jpg",
 				"cloudinary_id": "ldldhzocpgclslaukylr",
 				"width": 1024,
 				"height": 768
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/hq3eh6p2iwdoqft9xp56.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hq3eh6p2iwdoqft9xp56.jpg",
 			"cloudinary_id": "hq3eh6p2iwdoqft9xp56",
 			"width": 320,
 			"height": 477
@@ -3237,73 +3237,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dazhtrzvnw6lwderwjvx.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dazhtrzvnw6lwderwjvx.jpg",
 				"cloudinary_id": "dazhtrzvnw6lwderwjvx",
 				"width": 552,
 				"height": 414
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/w0lwnm1yr2p1fbrr4ugy.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/w0lwnm1yr2p1fbrr4ugy.jpg",
 				"cloudinary_id": "w0lwnm1yr2p1fbrr4ugy",
 				"width": 552,
 				"height": 414
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/yttpqapccrbdm5nodlst.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yttpqapccrbdm5nodlst.jpg",
 				"cloudinary_id": "yttpqapccrbdm5nodlst",
 				"width": 406,
 				"height": 228
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tazenbfnbpniarasxedi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tazenbfnbpniarasxedi.jpg",
 				"cloudinary_id": "tazenbfnbpniarasxedi",
 				"width": 406,
 				"height": 228
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/auhkul0hvq8kifrwwsce.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/auhkul0hvq8kifrwwsce.jpg",
 				"cloudinary_id": "auhkul0hvq8kifrwwsce",
 				"width": 406,
 				"height": 228
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jds9eeye16eip2non06t.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jds9eeye16eip2non06t.jpg",
 				"cloudinary_id": "jds9eeye16eip2non06t",
 				"width": 406,
 				"height": 228
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fx75kbforudie66zxjft.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fx75kbforudie66zxjft.jpg",
 				"cloudinary_id": "fx75kbforudie66zxjft",
 				"width": 406,
 				"height": 228
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jxaegsf5n2oluuy3jjau.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jxaegsf5n2oluuy3jjau.jpg",
 				"cloudinary_id": "jxaegsf5n2oluuy3jjau",
 				"width": 1136,
 				"height": 640
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nxyhugyszhtv1ggrqq4z.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nxyhugyszhtv1ggrqq4z.jpg",
 				"cloudinary_id": "nxyhugyszhtv1ggrqq4z",
 				"width": 1136,
 				"height": 640
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/feelb8zxjhik4dzmnnwu.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/feelb8zxjhik4dzmnnwu.jpg",
 				"cloudinary_id": "feelb8zxjhik4dzmnnwu",
 				"width": 1136,
 				"height": 640
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xvlehpwxgblpforiagvi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xvlehpwxgblpforiagvi.jpg",
 				"cloudinary_id": "xvlehpwxgblpforiagvi",
 				"width": 1136,
 				"height": 640
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xbxag2j1p2chqge1qbmx.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xbxag2j1p2chqge1qbmx.jpg",
 				"cloudinary_id": "xbxag2j1p2chqge1qbmx",
 				"width": 1136,
 				"height": 640
@@ -3320,7 +3320,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/lxita4cxlmx4jwcnxvuq.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lxita4cxlmx4jwcnxvuq.jpg",
 			"cloudinary_id": "lxita4cxlmx4jwcnxvuq",
 			"width": 1024,
 			"height": 500
@@ -3362,76 +3362,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oh9o0c3d5eo7qnwkm9q2.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oh9o0c3d5eo7qnwkm9q2.jpg",
 				"cloudinary_id": "oh9o0c3d5eo7qnwkm9q2",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/p5fjuotpkdecuturqw1c.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/p5fjuotpkdecuturqw1c.jpg",
 				"cloudinary_id": "p5fjuotpkdecuturqw1c",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wq0tjsduutk6jeaqakrh.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wq0tjsduutk6jeaqakrh.jpg",
 				"cloudinary_id": "wq0tjsduutk6jeaqakrh",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dxbpxe7xewmvkz8dnrgp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dxbpxe7xewmvkz8dnrgp.jpg",
 				"cloudinary_id": "dxbpxe7xewmvkz8dnrgp",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/efqqm3t15ey0jlkv0xqv.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/efqqm3t15ey0jlkv0xqv.jpg",
 				"cloudinary_id": "efqqm3t15ey0jlkv0xqv",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wzltqoi9xgmmgimnxsrq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wzltqoi9xgmmgimnxsrq.jpg",
 				"cloudinary_id": "wzltqoi9xgmmgimnxsrq",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nfwxynqhormtovylykxr.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nfwxynqhormtovylykxr.jpg",
 				"cloudinary_id": "nfwxynqhormtovylykxr",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gxadfrdicxjlraalvltb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gxadfrdicxjlraalvltb.jpg",
 				"cloudinary_id": "gxadfrdicxjlraalvltb",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uaxy3tjubonooualy5x8.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uaxy3tjubonooualy5x8.jpg",
 				"cloudinary_id": "uaxy3tjubonooualy5x8",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/l1nbqll4r42lqrz1wesv.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/l1nbqll4r42lqrz1wesv.jpg",
 				"cloudinary_id": "l1nbqll4r42lqrz1wesv",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bdcceejc2e9vaimn0ngn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bdcceejc2e9vaimn0ngn.jpg",
 				"cloudinary_id": "bdcceejc2e9vaimn0ngn",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/giqtb8y4awm9ibt942cn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/giqtb8y4awm9ibt942cn.jpg",
 				"cloudinary_id": "giqtb8y4awm9ibt942cn",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -3481,7 +3481,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/l2dza03yjs6j5u6uuak2.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/l2dza03yjs6j5u6uuak2.jpg",
 			"cloudinary_id": "l2dza03yjs6j5u6uuak2",
 			"width": 864,
 			"height": 1079
@@ -3505,31 +3505,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tqs3n75gsobukdgpfwhg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tqs3n75gsobukdgpfwhg.jpg",
 				"cloudinary_id": "tqs3n75gsobukdgpfwhg",
 				"width": 1920,
 				"height": 1057
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/pmxxwfn6fc9tkmn2g7nn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pmxxwfn6fc9tkmn2g7nn.jpg",
 				"cloudinary_id": "pmxxwfn6fc9tkmn2g7nn",
 				"width": 1920,
 				"height": 1057
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/gqkfxlxvdhhp5kxlti2g.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gqkfxlxvdhhp5kxlti2g.jpg",
 				"cloudinary_id": "gqkfxlxvdhhp5kxlti2g",
 				"width": 1920,
 				"height": 1057
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/enswvcj4rjbrjrytzo8v.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/enswvcj4rjbrjrytzo8v.jpg",
 				"cloudinary_id": "enswvcj4rjbrjrytzo8v",
 				"width": 1920,
 				"height": 1057
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xxvslxiqx4fhhhkm6tqh.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xxvslxiqx4fhhhkm6tqh.jpg",
 				"cloudinary_id": "xxvslxiqx4fhhhkm6tqh",
 				"width": 1920,
 				"height": 1057
@@ -3546,7 +3546,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/wvqjil3tq2kuutrw0xsb.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wvqjil3tq2kuutrw0xsb.jpg",
 			"cloudinary_id": "wvqjil3tq2kuutrw0xsb",
 			"width": 512,
 			"height": 512
@@ -3569,7 +3569,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/x4hz5yacdqanmggyting.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/x4hz5yacdqanmggyting.jpg",
 			"cloudinary_id": "x4hz5yacdqanmggyting",
 			"width": 401,
 			"height": 600
@@ -3638,76 +3638,76 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ulmcojxhz6wowpi2aepw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ulmcojxhz6wowpi2aepw.jpg",
 				"cloudinary_id": "ulmcojxhz6wowpi2aepw",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vgm8raladus7nbwgfxvr.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vgm8raladus7nbwgfxvr.jpg",
 				"cloudinary_id": "vgm8raladus7nbwgfxvr",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kulwkgjilisjhwnbc5yq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kulwkgjilisjhwnbc5yq.jpg",
 				"cloudinary_id": "kulwkgjilisjhwnbc5yq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fzm4fgu3jwt4ea1hsmsi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fzm4fgu3jwt4ea1hsmsi.jpg",
 				"cloudinary_id": "fzm4fgu3jwt4ea1hsmsi",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/usko0uy41lmewlolvz7z.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/usko0uy41lmewlolvz7z.jpg",
 				"cloudinary_id": "usko0uy41lmewlolvz7z",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tntt02saxzoz5v2yla2y.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tntt02saxzoz5v2yla2y.jpg",
 				"cloudinary_id": "tntt02saxzoz5v2yla2y",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ioggt4uksigl5sgvkqp2.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ioggt4uksigl5sgvkqp2.jpg",
 				"cloudinary_id": "ioggt4uksigl5sgvkqp2",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mcyygkfh8axs1gdt5un0.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mcyygkfh8axs1gdt5un0.jpg",
 				"cloudinary_id": "mcyygkfh8axs1gdt5un0",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hlnycopxbsfatxqtxmec.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hlnycopxbsfatxqtxmec.jpg",
 				"cloudinary_id": "hlnycopxbsfatxqtxmec",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/tep78zhnecmalbk7uiv6.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tep78zhnecmalbk7uiv6.jpg",
 				"cloudinary_id": "tep78zhnecmalbk7uiv6",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/kcc43jzagznmzcjiltfg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kcc43jzagznmzcjiltfg.jpg",
 				"cloudinary_id": "kcc43jzagznmzcjiltfg",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/qihbcfxq36li3o51dns3.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qihbcfxq36li3o51dns3.jpg",
 				"cloudinary_id": "qihbcfxq36li3o51dns3",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -3717,7 +3717,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/i5ktfl8meacdyuupfklj.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/i5ktfl8meacdyuupfklj.jpg",
 			"cloudinary_id": "i5ktfl8meacdyuupfklj",
 			"width": 1595,
 			"height": 897
@@ -3750,38 +3750,38 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xw3g08virdxjothitnyt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xw3g08virdxjothitnyt.jpg",
 				"cloudinary_id": "xw3g08virdxjothitnyt",
 				"width": 640,
 				"height": 480
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/glr1cs3rl76cq8v97w1t.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/glr1cs3rl76cq8v97w1t.jpg",
 				"cloudinary_id": "glr1cs3rl76cq8v97w1t",
 				"width": 640,
 				"height": 480
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/zb3rs5qmymseswlbdoal.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zb3rs5qmymseswlbdoal.jpg",
 				"cloudinary_id": "zb3rs5qmymseswlbdoal",
 				"width": 640,
 				"height": 480
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ixofjeik0mvfp9sieali.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ixofjeik0mvfp9sieali.jpg",
 				"cloudinary_id": "ixofjeik0mvfp9sieali",
 				"width": 963,
 				"height": 722
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/eq8oljj1ft75i0zua2mv.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eq8oljj1ft75i0zua2mv.jpg",
 				"cloudinary_id": "eq8oljj1ft75i0zua2mv",
 				"width": 963,
 				"height": 722
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/lgsd34aqrvbzx3g1bcot.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lgsd34aqrvbzx3g1bcot.jpg",
 			"cloudinary_id": "lgsd34aqrvbzx3g1bcot",
 			"width": 460,
 			"height": 215
@@ -3805,31 +3805,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/pehtgzvljwjyig0cij4m.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pehtgzvljwjyig0cij4m.jpg",
 				"cloudinary_id": "pehtgzvljwjyig0cij4m",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ligjttefrdukizbdrbox.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ligjttefrdukizbdrbox.jpg",
 				"cloudinary_id": "ligjttefrdukizbdrbox",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vtoxbyjf1zmwwt9kgqj0.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vtoxbyjf1zmwwt9kgqj0.jpg",
 				"cloudinary_id": "vtoxbyjf1zmwwt9kgqj0",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oyjkr5019qkwzvy49c3h.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oyjkr5019qkwzvy49c3h.jpg",
 				"cloudinary_id": "oyjkr5019qkwzvy49c3h",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/cs3qhqguabintk6sxcs1.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cs3qhqguabintk6sxcs1.jpg",
 				"cloudinary_id": "cs3qhqguabintk6sxcs1",
 				"width": 1280,
 				"height": 720
@@ -3842,7 +3842,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/ruhw3cmmk0jkechnezw8.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ruhw3cmmk0jkechnezw8.jpg",
 			"cloudinary_id": "ruhw3cmmk0jkechnezw8",
 			"width": 620,
 			"height": 355
@@ -3924,38 +3924,38 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hw9qqyfpwhndi7waanaq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hw9qqyfpwhndi7waanaq.jpg",
 				"cloudinary_id": "hw9qqyfpwhndi7waanaq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ouq0ogrypuvd5h7khxix.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ouq0ogrypuvd5h7khxix.jpg",
 				"cloudinary_id": "ouq0ogrypuvd5h7khxix",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/wdqkq77z1a6f1koyqzsi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wdqkq77z1a6f1koyqzsi.jpg",
 				"cloudinary_id": "wdqkq77z1a6f1koyqzsi",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/pftfeecbbknqv5sgmfhq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pftfeecbbknqv5sgmfhq.jpg",
 				"cloudinary_id": "pftfeecbbknqv5sgmfhq",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/yzct0jtjavaalwsoksrt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yzct0jtjavaalwsoksrt.jpg",
 				"cloudinary_id": "yzct0jtjavaalwsoksrt",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/pxh2it5sw7l3mpw7whoc.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pxh2it5sw7l3mpw7whoc.jpg",
 			"cloudinary_id": "pxh2it5sw7l3mpw7whoc",
 			"width": 450,
 			"height": 600
@@ -3979,73 +3979,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fkuj5b3okn70lurbcq4w.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fkuj5b3okn70lurbcq4w.jpg",
 				"cloudinary_id": "fkuj5b3okn70lurbcq4w",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dlfhv0fbu6ga9a4obcu4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dlfhv0fbu6ga9a4obcu4.jpg",
 				"cloudinary_id": "dlfhv0fbu6ga9a4obcu4",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/dmcwucnmexmetfyl07ut.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dmcwucnmexmetfyl07ut.jpg",
 				"cloudinary_id": "dmcwucnmexmetfyl07ut",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fxfxvz4htlb5gjao5f9e.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fxfxvz4htlb5gjao5f9e.jpg",
 				"cloudinary_id": "fxfxvz4htlb5gjao5f9e",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/w8ev7ynhhn6z21x4i6mi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/w8ev7ynhhn6z21x4i6mi.jpg",
 				"cloudinary_id": "w8ev7ynhhn6z21x4i6mi",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/xw6gspao7h6mcywr42tp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xw6gspao7h6mcywr42tp.jpg",
 				"cloudinary_id": "xw6gspao7h6mcywr42tp",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bus9ijch2ng9cuhxf5lp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bus9ijch2ng9cuhxf5lp.jpg",
 				"cloudinary_id": "bus9ijch2ng9cuhxf5lp",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/in7answkgpvbq50tz3xj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/in7answkgpvbq50tz3xj.jpg",
 				"cloudinary_id": "in7answkgpvbq50tz3xj",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/vu8innacggzyaickj5nc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vu8innacggzyaickj5nc.jpg",
 				"cloudinary_id": "vu8innacggzyaickj5nc",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/c5zorocgxswmdkkzravo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c5zorocgxswmdkkzravo.jpg",
 				"cloudinary_id": "c5zorocgxswmdkkzravo",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/hplpn9hsynnoolmde0it.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hplpn9hsynnoolmde0it.jpg",
 				"cloudinary_id": "hplpn9hsynnoolmde0it",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jkoxjv7qf2wx0hnnl4ad.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jkoxjv7qf2wx0hnnl4ad.jpg",
 				"cloudinary_id": "jkoxjv7qf2wx0hnnl4ad",
 				"width": 3840,
 				"height": 2160
@@ -4070,7 +4070,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/wuvajqjh7nv9uc3sefz3.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wuvajqjh7nv9uc3sefz3.jpg",
 			"cloudinary_id": "wuvajqjh7nv9uc3sefz3",
 			"width": 421,
 			"height": 600
@@ -4139,34 +4139,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/aljcjzcbkv1cfsizyetb.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aljcjzcbkv1cfsizyetb.jpg",
 				"cloudinary_id": "aljcjzcbkv1cfsizyetb",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/fwgykf6zduu6xtoyh4ap.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fwgykf6zduu6xtoyh4ap.jpg",
 				"cloudinary_id": "fwgykf6zduu6xtoyh4ap",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/oktni7jnthp8bakgla69.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oktni7jnthp8bakgla69.jpg",
 				"cloudinary_id": "oktni7jnthp8bakgla69",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nibagf81e4kpppjcfkuu.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nibagf81e4kpppjcfkuu.jpg",
 				"cloudinary_id": "nibagf81e4kpppjcfkuu",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/jjwueagkfkcmw2m0blmk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jjwueagkfkcmw2m0blmk.jpg",
 				"cloudinary_id": "jjwueagkfkcmw2m0blmk",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -4192,7 +4192,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/l0u3uqmnnj8ws9ysm67k.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/l0u3uqmnnj8ws9ysm67k.jpg",
 			"cloudinary_id": "l0u3uqmnnj8ws9ysm67k",
 			"width": 910,
 			"height": 1300
@@ -4234,34 +4234,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/uols5jinxtna1w9dgxdw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uols5jinxtna1w9dgxdw.jpg",
 				"cloudinary_id": "uols5jinxtna1w9dgxdw",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ta5m1c6vp6226kdblwge.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ta5m1c6vp6226kdblwge.jpg",
 				"cloudinary_id": "ta5m1c6vp6226kdblwge",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/opsyuak5nsg11p9wvqcj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/opsyuak5nsg11p9wvqcj.jpg",
 				"cloudinary_id": "opsyuak5nsg11p9wvqcj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nknebu6mov0enphbwxib.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nknebu6mov0enphbwxib.jpg",
 				"cloudinary_id": "nknebu6mov0enphbwxib",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/bwjri6c8g1n94haoztgm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bwjri6c8g1n94haoztgm.jpg",
 				"cloudinary_id": "bwjri6c8g1n94haoztgm",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -4275,7 +4275,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/f3ikxckp72fwfqottjiu.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/f3ikxckp72fwfqottjiu.jpg",
 			"cloudinary_id": "f3ikxckp72fwfqottjiu",
 			"width": 262,
 			"height": 374
@@ -4317,34 +4317,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/z5t0yuhyiiui1ickwhgj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/z5t0yuhyiiui1ickwhgj.jpg",
 				"cloudinary_id": "z5t0yuhyiiui1ickwhgj",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/farvemmmxav0bgt6wx7t.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/farvemmmxav0bgt6wx7t.jpg",
 				"cloudinary_id": "farvemmmxav0bgt6wx7t",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/em1y2ugcwy2myuhvb9db.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/em1y2ugcwy2myuhvb9db.jpg",
 				"cloudinary_id": "em1y2ugcwy2myuhvb9db",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/usxccsncekxg0wd1v6ee.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/usxccsncekxg0wd1v6ee.jpg",
 				"cloudinary_id": "usxccsncekxg0wd1v6ee",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/mnljdjtrh44x4snmierh.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mnljdjtrh44x4snmierh.jpg",
 				"cloudinary_id": "mnljdjtrh44x4snmierh",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -4398,7 +4398,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/tri1c6vbydeosoqajwt1.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tri1c6vbydeosoqajwt1.jpg",
 			"cloudinary_id": "tri1c6vbydeosoqajwt1",
 			"width": 292,
 			"height": 414
@@ -4466,34 +4466,34 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/nmuz3tmvxva1nqhjaxvn.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nmuz3tmvxva1nqhjaxvn.jpg",
 				"cloudinary_id": "nmuz3tmvxva1nqhjaxvn",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/r3qos1ovmkboaskqmhtp.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r3qos1ovmkboaskqmhtp.jpg",
 				"cloudinary_id": "r3qos1ovmkboaskqmhtp",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/ymxy2otllrluvcqwnyhk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ymxy2otllrluvcqwnyhk.jpg",
 				"cloudinary_id": "ymxy2otllrluvcqwnyhk",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/d0s5upisfnao3h3jdsib.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/d0s5upisfnao3h3jdsib.jpg",
 				"cloudinary_id": "d0s5upisfnao3h3jdsib",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_1080p/m9mdkmpv1efkc2nmxqlt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m9mdkmpv1efkc2nmxqlt.jpg",
 				"cloudinary_id": "m9mdkmpv1efkc2nmxqlt",
 				"width": 1920,
-				"height": 1080
+				"height": 720
 			}
 		],
 		"videos": [
@@ -4543,7 +4543,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_1080p/orklbkpdl7ujiojb9ibf.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/orklbkpdl7ujiojb9ibf.jpg",
 			"cloudinary_id": "orklbkpdl7ujiojb9ibf",
 			"width": 1440,
 			"height": 2160
