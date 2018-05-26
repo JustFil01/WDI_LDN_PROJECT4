@@ -27,7 +27,6 @@ class GamesIndex extends React.Component {
                   <div className="media-content">
                     <p className="title is-4">{game.name}</p>
                     <p className="subtitle is-6">{game.summary}</p>
-                    { console.log(game.screenshots)}
                     {game.screenshots && game.screenshots.map(screenshot =>
                       <div className="card" key={screenshot._id}>
                         {screenshot.url && <div
