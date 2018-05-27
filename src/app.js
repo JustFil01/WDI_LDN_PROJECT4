@@ -11,6 +11,8 @@ import NewReview from './components/games/NewReview';
 import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
+import UsersIndex from './components/users/Index';
+import UsersShow from './components/users/Show';
 //------------------------------------------------------------------------------
 import './scss/style.scss';
 //------------------------------------------------------------------------------
@@ -24,6 +26,8 @@ class App extends React.Component {
           <section className="section">
             <div className="container">
               <Switch>
+                <Route path="/users/:id" component={UsersShow} />
+                <Route path="/users" component={UsersIndex} />
                 <Route path="/games/new/reviews/" component={NewReview} />
                 <Route path="/games/:id" component={GamesShow} />
                 <Route path="/games" component={GamesIndex} />
