@@ -23,7 +23,7 @@ class NewReview extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const { id } = this.props.match.params;
-    axios.put(`/api/games/${id}/reviews`, this.state.review, {
+    axios.post(`/api/games/${id}/reviews`, this.state, {
       headers: { Authorization: `Bearer ${Auth.getToken()}`}
     })
       .then(()=> this.props.history.push(`/games/${id}`))

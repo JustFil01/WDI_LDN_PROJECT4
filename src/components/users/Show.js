@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
+// import Auth from '../../lib/Auth';
 //------------------------------------------------------------------------------
 class UsersShow extends React.Component{
- state = {
-   user: {}
- }
+ state = {}
+
  componentDidMount() {
    axios.get(`/api/users/${this.props.match.params.id}`)
      .then(res => this.setState({ user: res.data }));
@@ -18,6 +18,8 @@ class UsersShow extends React.Component{
        <div className="column">
        </div>
        <h1 className="title is-1">{user.username}</h1>
+       {/* {Auth.isCurrentUser() && <p>
+       USER STUFF HERE</p>} */}
      </div>
    );
  }

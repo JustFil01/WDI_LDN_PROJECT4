@@ -23,6 +23,20 @@ class GamesShow extends React.Component{
        <div className="column">
          <h1 className="title is-1">{game.name}</h1>
          <p>{game.summary}</p>
+         <ul>
+           {game.reviews.map(review =>
+             <li key={review._id}>
+               <p className="title is-4">{review.title}</p>
+               <p className="title is-4">{review.subtitle}</p>
+               <p className="title is-4">{review.content}</p>
+               {/* <p className="subtitle is-4">{review.createdBy.username}</p> */}
+               <hr />
+             </li>
+           )}
+         </ul>
+
+
+
          {game.screenshots && game.screenshots.map(screenshot =>
            <div className="card" key={screenshot._id}>
              {screenshot.url && <div
