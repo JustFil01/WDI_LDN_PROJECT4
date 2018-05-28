@@ -64,6 +64,16 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.passwordConfirmation && <small>{this.state.errors.passwordConfirmation}</small>}
         </div>
+        <div className="field">
+          <input
+            type="bio"
+            className="textarea"
+            name="bio"
+            placeholder="Description : Tell us a little about yourself"
+            onChange={this.handleChange}
+          />
+          {this.state.errors.bio && <small>{this.state.errors.bio}</small>}
+        </div>
         <button className="button is-primary">Submit</button>
       </form>
     );

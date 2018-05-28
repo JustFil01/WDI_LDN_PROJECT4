@@ -15,10 +15,15 @@ class UsersShow extends React.Component{
    return (
      <div className="columns">
        <div className="column">
+         <h1 className="title is-1">{user.username}</h1>
        </div>
-       <h1 className="title is-1">{user.username}</h1>
+       <div className="column">
+         <p className="title is-5">{user.bio}</p>
+       </div>
+
        { Auth.isAuthenticated() && (Auth.getPayload().sub === user._id) && <p>
-       USER STUFF HERE</p>}
+       UNIQUE TO USER STUFF HERE
+       </p>}
      </div>
    );
  }
