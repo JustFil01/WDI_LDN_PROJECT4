@@ -28,7 +28,7 @@ class App extends React.Component {
               <Switch>
                 <Route path="/users/:id" component={UsersShow} />
                 <Route path="/users" component={UsersIndex} />
-                <Route path="/games/new/reviews/" component={NewReview} />
+                <Route path="/games/:id/reviews/" component={NewReview} />
                 <Route path="/games/:id" component={GamesShow} />
                 <Route path="/games" component={GamesIndex} />
                 <Route path="/login" component={AuthLogin} />

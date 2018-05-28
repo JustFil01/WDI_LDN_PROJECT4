@@ -8,7 +8,8 @@ const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
         <label htmlFor="title">Title</label>
         <input id="title" name="title" className="input" placeholder="Title"
           onChange={handleChange} value={review.title || ''} />
-        {errors.name && <small>{errors.name}</small>}
+        {/* above is the reason submit doesnt work */}
+        {/* {errors.name && <small>{errors.name}</small>} */}
       </div>
       <div className="field">
         <label htmlFor="subtitle">Subtitle</label>
@@ -20,7 +21,7 @@ const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
         <label htmlFor="content">Content</label>
         <input id="content" name="content" className="input" placeholder="Content"
           onChange={handleChange} value={review.content || ''} />
-        {errors.image && <small>{errors.image}</small>}
+        {errors.content && <small>{errors.content}</small>}
       </div>
       {/*add rating and other fields  */}
       <button disabled={formInvalid} className="button is-primary">Submit</button>

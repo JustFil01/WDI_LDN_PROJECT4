@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 //------------------------------------------------------------------------------
 class GamesShow extends React.Component{
  state = {
@@ -22,6 +23,17 @@ class GamesShow extends React.Component{
        <div className="column">
          <h1 className="title is-1">{game.name}</h1>
          <p>{game.summary}</p>
+         {game.screenshots && game.screenshots.map(screenshot =>
+           <div className="card" key={screenshot._id}>
+             {screenshot.url && <div
+               className="card-image1"
+               style={{ backgroundImage: `url(${screenshot.url})` }}
+             ></div>}
+           </div>
+         )}
+         <Link to={`/games/${game._id}/reviews`}
+           className="button"
+         >✚</Link>
        </div>
      </div>
    );

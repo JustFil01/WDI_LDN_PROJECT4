@@ -11,10 +11,14 @@ class NewReview extends React.Component {
     axios.get(`/api/games/${this.props.match.params.id}`)
       .then( res=> this.setState((res.data) ));
   }
+  // handleChange =({target: { name,value }}) => {
+  //   const review = {...this.state.review, [name]: value};
+  //   this.setState({ review },() => {
+  //   });
+  // }
   handleChange =({target: { name,value }}) => {
-    const review = {...this.state.review, [name]: value};
-    this.setState({ review },() => {
-    });
+    const errors = {...this.state.errors, [name]: 'value'};
+    this.setState({ errors, [name]: value });
   }
   handleSubmit = e => {
     e.preventDefault();

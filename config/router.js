@@ -2,23 +2,23 @@ const router = require('express').Router();
 const users = require('../controllers/users');
 const games = require('../controllers/games');
 const auth = require('../controllers/auth');
-// const secureRoute = require('../lib/secureRoute');
+const secureRoute = require('../lib/secureRoute');
 //------------------------------------------------------------------------------
 router.route('/games')
   .get(games.index)
-  .post(games.create);
+  .post(games.create); // user with pre selection or admin
 
 router.route('/games/:id')
-  .delete(games.delete)
+  .delete(secureRoute, games.delete) // admin
   .get(games.show)
-  .put(games.update);
+  .put(games.update); // for review posting
 //------------------------------------------------------------------------------
 router.route('/users')
   .get(users.index);
 
 router.route('/users/:id')
   .get(users.show)
-  .delete(users.delete)
+  .delete(secureRoute, users.delete)
   .put(users.update);
 //------------------------------------------------------------------------------
 router.route('/register')
