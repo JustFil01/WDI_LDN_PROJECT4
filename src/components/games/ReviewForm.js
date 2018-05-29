@@ -1,30 +1,29 @@
 import React from 'react';
 //------------------------------------------------------------------------------
 const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
-  // const formInvalid = Object.keys(errors).some(key => errors[key]);
+  const formInvalid = Object.keys(errors).some(key => errors[key]);
   return (
     <form onSubmit={handleSubmit}>
       <div className="field">
         <label htmlFor="title">Title</label>
         <input id="title" name="title" className="input" placeholder="Title"
           onChange={handleChange} value={review.title || ''} />
-        {/* above is the reason submit doesnt work */}
-        {/* {errors.name && <small>{errors.name}</small>} */}
+        {errors.title && <small>{errors.title}</small>}
       </div>
       <div className="field">
         <label htmlFor="subtitle">Subtitle</label>
         <input id="subtitle" name="subtitle" className="input" placeholder="Subtitle"
           onChange={handleChange} value={review.subtitle || ''} />
-        {/* {errors.image && <small>{errors.image}</small>} */}
+        {errors.subtitle && <small>{errors.subtitle}</small>}
       </div>
       <div className="field">
         <label htmlFor="content">Content</label>
-        <input id="content" name="content" className="input" placeholder="Content"
+        <input id="content" name="content" className="textarea" placeholder="Content"
           onChange={handleChange} value={review.content || ''} />
-        {/* {errors.content && <small>{errors.content}</small>} */}
+        {errors.content && <small>{errors.content}</small>}
       </div>
       {/*add rating and other fields  */}
-      <button className="button is-primary">Submit</button>
+      <button disabled={formInvalid} className="button is-primary">Submit</button>
     </form>
   );
 };

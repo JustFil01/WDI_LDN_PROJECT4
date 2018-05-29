@@ -1,7 +1,7 @@
 import React from 'react';
-import ReviewForm from './ReviewForm';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
+import ReviewForm from './ReviewForm';
 //------------------------------------------------------------------------------
 class NewReview extends React.Component {
   state = {
@@ -17,7 +17,7 @@ class NewReview extends React.Component {
   //   });
   // }
   handleChange =({target: { name,value }}) => {
-    const errors = {...this.state.errors, [name]: 'value'};
+    const errors = {...this.state.errors, [name]: ''};
     this.setState({ errors, [name]: value });
   }
   handleSubmit = e => {
@@ -41,9 +41,9 @@ class NewReview extends React.Component {
   render(){
     return <ReviewForm
       review={this.state}
-      errors={this.state.errors}
       handleChange={this.handleChange}
       handleSubmit={this.handleSubmit}
+      errors={this.state.errors}
 
     />;
   }
