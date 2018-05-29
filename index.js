@@ -3,6 +3,7 @@ const app = express();
 const router = require('./config/router');
 const {port, dbURI} = require('./config/environment');
 const bodyParser = require('body-parser');
+const errorHandler = require('./lib/errorHandler');
 
 const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
@@ -14,6 +15,7 @@ app.use(bodyParser.json());
 
 app.use('/api', router);
 // app.use(express.static(`${__dirname}/public`));
+app.use(errorHandler);
 
 app.listen(port, () => console.log(`Up and rolling on ${port}`));
 

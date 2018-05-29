@@ -1,7 +1,8 @@
 import React from 'react';
 //------------------------------------------------------------------------------
 const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
-  const formInvalid = Object.keys(errors).some(key => errors[key]);
+  // const formInvalid = Object.keys(errors).some(key => errors[key]);
+  console.log(errors);
   return (
     <form onSubmit={handleSubmit}>
       <div className="field">
@@ -23,7 +24,7 @@ const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
         {errors.content && <small>{errors.content}</small>}
       </div>
       {/*add rating and other fields  */}
-      <button disabled={formInvalid} className="button is-primary">Submit</button>
+      <button className="button is-primary">Submit</button>
     </form>
   );
 };

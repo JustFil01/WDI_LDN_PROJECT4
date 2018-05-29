@@ -7,15 +7,12 @@ class NewReview extends React.Component {
   state = {
     errors: {}
   }
-  componentDidMount(){
-    axios.get(`/api/games/${this.props.match.params.id}`)
-      .then( res=> this.setState((res.data) ));
-  }
-  // handleChange =({target: { name,value }}) => {
-  //   const review = {...this.state.review, [name]: value};
-  //   this.setState({ review },() => {
-  //   });
+  //  this isnt needed? would only be needed for the OTHER Review page i guess?
+  // componentDidMount(){
+  //   axios.get(`/api/games/${this.props.match.params.id}`)
+  //     .then( res=> this.setState((res.data) ));
   // }
+
   handleChange =({target: { name,value }}) => {
     const errors = {...this.state.errors, [name]: ''};
     this.setState({ errors, [name]: value });
@@ -27,7 +24,10 @@ class NewReview extends React.Component {
       headers: { Authorization: `Bearer ${Auth.getToken()}`}
     })
       .then(()=> this.props.history.push(`/games/${id}`))
-      .catch(err => this.setState({ errors: err.response.data.errors }));
+      .catch(err => {
+        this.setState({ errors: err.response.data.errors });
+        console.log(err.response);
+      });
   }
   //----------------------------------------------------------------------------
   // attempt to set up the game create / submit
@@ -38,6 +38,7 @@ class NewReview extends React.Component {
   //   })
   //     .then(res => this.props.history.push(res.data.id));
   // }
+
   render(){
     return <ReviewForm
       review={this.state}

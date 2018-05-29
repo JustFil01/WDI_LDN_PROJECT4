@@ -10,6 +10,12 @@ class GamesShow extends React.Component{
    axios.get(`/api/games/${this.props.match.params.id}`)
      .then(res => this.setState({ game: res.data }));
  }
+ // review edit but only on form , probably wanted to get to anothe form.
+ // handleChange =({target: { name,value }}) => {
+ //   const review = {...this.state.review, [name]: value};
+ //   this.setState({ review },() => {
+ //   });
+ // }
  //-----------------------------------------------------------------------------
  render() {
    const {game} = this.state;
@@ -25,6 +31,7 @@ class GamesShow extends React.Component{
          <p>{game.summary}</p>
          <ul>
            {game.reviews.map(review =>
+             // key is the same for all reviews?
              <li key={review._id}>
                <p className="title is-4">{review.title}</p>
                <p className="title is-4">{review.subtitle}</p>
