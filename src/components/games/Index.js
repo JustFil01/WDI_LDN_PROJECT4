@@ -3,6 +3,7 @@ import axios from 'axios';
 import _ from 'lodash';
 import { Link } from 'react-router-dom';
 import SortFilterBar from './SortFilterBar';
+import SearchBar from './SearchBar';
 //------------------------------------------------------------------------------
 class GamesIndex extends React.Component {
   state = {
@@ -10,13 +11,36 @@ class GamesIndex extends React.Component {
     search: '',
     sort: 'name|asc'
   }
-  componentDidMount() {
-    axios.get('/api/games')
-      .then(res => this.setState({ games: res.data }));
-  }
+  // componentDidMount() {
+  //   axios.get('/api/games')
+  //     .then(res => this.setState({ games: res.data }));
+  // }
+  // componentDidMount() {
+  //   axios.get('/api/getgame')
+  //     .then(res => this.setState({ games: res.data }));
+  // }
+  // debouncedGames=
+  // _.debounce(this.getGame.bind(this),2000);
+  //
+  // componentDidUpdate(){
+  //   this.debouncedGames()();
+  // }
+
+  // i am getting the games simply from basic search
+  // need to refine that search for it to display what i put in the filterbar?
+  // add to db ?.
+  //----------------------------------------------------------------------------
   handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
   }
+  handleGameSearch = (search) => {
+    axios.get('/api/getgame', {
+      params: { search }
+    })
+      .then(res => this.setState({ games: res.data }));
+  }
+
+  debounced = _.debounce(this.handleGameSearch, 500);
 
   sortedFilteredGames = () => {
     const [field, dir] = this.state.sort.split('|');
@@ -26,6 +50,15 @@ class GamesIndex extends React.Component {
     });
     return _.orderBy(filtered, field, dir);
   }
+  selectGame = (game) => {
+    game.igdbId = game.id;
+    delete game.id;
+    axios.post('/api/games', game)
+      .then(res => this.props.history.push(`/games/${res.data._id}`));
+  }
+  onClick = (e) => {
+    console.log(e.target);
+  }
   //------------------------------------------------------------------------------
   render() {
     return (
@@ -33,26 +66,24 @@ class GamesIndex extends React.Component {
         <SortFilterBar
           handleChange={this.handleChange}
           data={this.state}
-          showMapView={this.showMapView}
-          hideMapView={this.hideMapView}
-
+        />
+        <SearchBar
+          handleGameSearch={this.debounced}
         />
         {this.sortedFilteredGames().map(game =>
-          <div className="card" key={game._id}>
-            <Link to={`/games/${game._id}`}>
-              {game.cover && <div
-                className="card-image"
-                style={{ backgroundImage: `url(${game.cover.url})` }}
-              ></div>}
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-content">
-                    <p className="title is-4">{game.name}</p>
-                    <p className="subtitle is-6">{game.summary}</p>
-                  </div>
+          <div className="card" key={game.id} onClick={() => this.selectGame(game)}>
+            {game.cover && <div
+              className="card-image"
+              style={{ backgroundImage: `url(${game.cover.url})` }}
+            ></div>}
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">{game.name}</p>
+                  <p className="subtitle is-6">{game.summary}</p>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         )}
       </div>

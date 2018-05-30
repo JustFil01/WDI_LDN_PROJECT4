@@ -7,16 +7,12 @@ class NewReview extends React.Component {
   state = {
     errors: {}
   }
-  //  this isnt needed? would only be needed for the OTHER Review page i guess?
-  // componentDidMount(){
-  //   axios.get(`/api/games/${this.props.match.params.id}`)
-  //     .then( res=> this.setState((res.data) ));
-  // }
-
+  //----------------------------------------------------------------------------
   handleChange =({target: { name,value }}) => {
     const errors = {...this.state.errors, [name]: ''};
     this.setState({ errors, [name]: value });
   }
+  //----------------------------------------------------------------------------
   handleSubmit = e => {
     e.preventDefault();
     const { id } = this.props.match.params;
@@ -30,15 +26,6 @@ class NewReview extends React.Component {
       });
   }
   //----------------------------------------------------------------------------
-  // attempt to set up the game create / submit
-  // handleSubmit = e => {
-  //   e.preventDefault();
-  //   axios.post('/api/games/new/reviews', this.state, {
-  //     headers: { Authorization: `Bearer ${Auth.getToken()}`}
-  //   })
-  //     .then(res => this.props.history.push(res.data.id));
-  // }
-
   render(){
     return <ReviewForm
       review={this.state}
@@ -51,3 +38,18 @@ class NewReview extends React.Component {
 }
 //------------------------------------------------------------------------------
 export default NewReview;
+
+//  this isnt needed? would only be needed for the OTHER Review page i guess?
+// componentDidMount(){
+//   axios.get(`/api/games/${this.props.match.params.id}`)
+//     .then( res=> this.setState((res.data) ));
+// }
+//------------------------------------------------------------------------------
+// attempt to set up the game create / submit
+// handleSubmit = e => {
+//   e.preventDefault();
+//   axios.post('/api/games/new/reviews', this.state, {
+//     headers: { Authorization: `Bearer ${Auth.getToken()}`}
+//   })
+//     .then(res => this.props.history.push(res.data.id));
+// }

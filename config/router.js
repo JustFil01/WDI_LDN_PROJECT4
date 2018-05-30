@@ -3,15 +3,16 @@ const users = require('../controllers/users');
 const games = require('../controllers/games');
 const auth = require('../controllers/auth');
 const secureRoute = require('../lib/secureRoute');
+const getgame = require('../controllers/getgame');
 //------------------------------------------------------------------------------
 router.route('/games')
   .get(games.index)
-  .post(games.create); // user with pre selection or admin
+  .post(games.create);
 
 router.route('/games/:id')
-  .delete(secureRoute, games.delete) // admin
+  .delete(secureRoute, games.delete)
   .get(games.show)
-  .put(games.update); // for review posting
+  .put(games.update);
 //------------------------------------------------------------------------------
 router.route('/users')
   .get(users.index);
@@ -32,5 +33,8 @@ router.route('/games/:id/reviews/:reviewId')
 router.route('/games/:id/reviews')
   .get(games.indexReview)
   .post(games.createReview);
+
+router.route('/getgame')
+  .get(getgame.getGame);
 //------------------------------------------------------------------------------
 module.exports = router;

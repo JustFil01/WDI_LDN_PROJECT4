@@ -9,14 +9,16 @@ class Navbar extends React.Component {
   handleToggle = () => {
     this.setState({ navIsOpen: !this.state.navIsOpen });
   }
+  //----------------------------------------------------------------------------
   componentWillUpdate() {
     this.state.navIsOpen && this.setState({ navIsOpen: false });
   }
+  //----------------------------------------------------------------------------
   handleLogout = () => {
     Auth.logout();
     this.props.history.push('/');
   }
-  //------------------------------------------------------------------------------
+  //----------------------------------------------------------------------------
   render() {
     return (
       <nav className="navbar" role="navigation" aria-label="main navigation">

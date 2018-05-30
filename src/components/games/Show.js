@@ -10,12 +10,6 @@ class GamesShow extends React.Component{
    axios.get(`/api/games/${this.props.match.params.id}`)
      .then(res => this.setState({ game: res.data }));
  }
- // review edit but only on form , probably wanted to get to anothe form.
- // handleChange =({target: { name,value }}) => {
- //   const review = {...this.state.review, [name]: value};
- //   this.setState({ review },() => {
- //   });
- // }
  //-----------------------------------------------------------------------------
  render() {
    const {game} = this.state;
@@ -29,19 +23,23 @@ class GamesShow extends React.Component{
        <div className="column">
          <h1 className="title is-1">{game.name}</h1>
          <p>{game.summary}</p>
+
+
+         {console.log(this.state)}
+
          <ul>
            {game.reviews.map(review =>
-             // key is the same for all reviews?
              <li key={review._id}>
-               <p className="title is-4">{review.title}</p>
-               <p className="title is-4">{review.subtitle}</p>
-               <p className="title is-4">{review.content}</p>
-               {/* <p className="subtitle is-4">{review.createdBy.username}</p> */}
-               <hr />
+               <Link to={`/games/${game._id}/reviews/${review._id}`}>
+                 <p className="title is-4">{review.title}</p>
+                 <p className="title is-4">{review.subtitle}</p>
+                 <p className="title is-4">{review.content}</p>
+                 {/* <p className="subtitle is-4">{review.createdBy.username}</p> */}
+                 <hr />
+               </Link>
              </li>
            )}
          </ul>
-
 
 
          {game.screenshots && game.screenshots.map(screenshot =>
@@ -62,6 +60,12 @@ class GamesShow extends React.Component{
 }
 //------------------------------------------------------------------------------
 export default GamesShow;
+// review edit but only on form , probably wanted to get to anothe form.
+// handleChange =({target: { name,value }}) => {
+//   const review = {...this.state.review, [name]: value};
+//   this.setState({ review },() => {
+//   });
+// }
 
 
 // class GameShow extends React.Component() {

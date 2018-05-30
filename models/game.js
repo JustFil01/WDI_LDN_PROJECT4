@@ -10,7 +10,7 @@ const reviewSchema = new mongoose.Schema({
 });
 //------------------------------------------------------------------------------
 const gameSchema = new mongoose.Schema({
-  'id': {type: Number},
+  'igdbId': {type: Number},
   'name': {type: String},
   'created_at': {type: Number},
   'updated_at': {type: Number},

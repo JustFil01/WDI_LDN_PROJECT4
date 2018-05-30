@@ -6,23 +6,22 @@ class AuthRegister extends React.Component {
   state = {
     errors: {}
   };
-
+  //----------------------------------------------------------------------------
   handleChange = ({ target: {name , value} }) => {
     this.setState({ [name]: value });
   }
+  //----------------------------------------------------------------------------
   handleSubmit = (e) => {
     e.preventDefault();
-
     axios.post('/api/register', this.state)
       .then( res => Auth.setToken(res.data.token))
       .then(() => this.props.history.push('/games'))
       .catch(err => {
-        console.log(err.response.data);
         this.setState({ errors: err.response.data.errors });
         this.props.history.replace('/register');
       });
-
   }
+  //----------------------------------------------------------------------------
   render() {
     return (
       <form onSubmit={this.handleSubmit}>

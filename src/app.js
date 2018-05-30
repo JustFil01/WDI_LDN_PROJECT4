@@ -13,6 +13,7 @@ import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
 import UsersIndex from './components/users/Index';
 import UsersShow from './components/users/Show';
+import ShowReview from './components/games/ShowReview';
 //------------------------------------------------------------------------------
 import './scss/style.scss';
 //------------------------------------------------------------------------------
@@ -28,6 +29,7 @@ class App extends React.Component {
               <Switch>
                 <Route path="/users/:id" component={UsersShow} />
                 <Route path="/users" component={UsersIndex} />
+                <Route path="/games/:id/reviews/:reviewId" component={ShowReview} />
                 <Route path="/games/:id/reviews/" component={NewReview} />
                 <Route path="/games/:id" component={GamesShow} />
                 <Route path="/games" component={GamesIndex} />

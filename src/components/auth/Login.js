@@ -9,6 +9,7 @@ class AuthLogin extends React.Component {
   handleChange = ({ target: {name, value} }) => {
     this.setState({ [name]: value });
   }
+  //----------------------------------------------------------------------------
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -23,6 +24,7 @@ class AuthLogin extends React.Component {
         this.props.history.replace('/login');
       });
   }
+  //----------------------------------------------------------------------------
   render() {
     return (
       <form onSubmit={this.handleSubmit}>

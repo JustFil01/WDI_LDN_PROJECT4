@@ -16,9 +16,15 @@ function showRoute(req,res,next){
 }
 //-----------CREATE--------------------------------------------------------- ---
 function createRoute(req,res,next){
-  Game
-    .create(req.body)
-    .then(games => res.status(201).json(games))
+
+
+
+  Game.findOne({ igdbId: req.body.igdbId })
+    .then(game => {
+      if(!game) return Game.create(req.body);
+      else return game;
+    })
+    .then(game => res.status(201).json(game))
     .catch(next);
 }
 //-----------DELETE--------------------------------------------------------- ---
