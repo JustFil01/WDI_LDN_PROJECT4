@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import _ from 'lodash';
-import { Link } from 'react-router-dom';
 import SortFilterBar from './SortFilterBar';
 import SearchBar from './SearchBar';
 //------------------------------------------------------------------------------

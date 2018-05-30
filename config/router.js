@@ -28,11 +28,13 @@ router.route('/login')
   .post(auth.login);
 //------------------------------------------------------------------------------
 router.route('/games/:id/reviews/:reviewId')
-  .get(games.showReview);
+  .get(games.showReview)
+  .delete(secureRoute, games.commentDelete);
+
 
 router.route('/games/:id/reviews')
-  .get(games.indexReview)
-  .post(games.createReview);
+  // .get(games.indexReview)
+  .post(secureRoute, games.createReview);
 
 router.route('/getgame')
   .get(getgame.getGame);

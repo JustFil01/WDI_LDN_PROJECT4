@@ -11,14 +11,12 @@ function indexRoute(req, res, next){
 function showRoute(req,res,next){
   Game
     .findById(req.params.id)
+    .populate('reviews.postedBy')
     .then(games => res.json(games))
     .catch(next);
 }
 //-----------CREATE--------------------------------------------------------- ---
 function createRoute(req,res,next){
-
-
-
   Game.findOne({ igdbId: req.body.igdbId })
     .then(game => {
       if(!game) return Game.create(req.body);
@@ -54,8 +52,10 @@ function updateRoute(req,res,next){
 //-----------REViEW CREATE------------------------------------------------------
 function reviewCreateRoute(req, res, next){
   req.body.postedBy = req.currentUser;
+  console.log(req.body);
   Game
     .findById(req.params.id)
+    .populate('reviews.postedBy')
     .then(game => {
       game.reviews.push(req.body);
       return game.save();
@@ -65,21 +65,6 @@ function reviewCreateRoute(req, res, next){
       next(err);
     });
 }
-//-----------REViEW GAME CREATE------------------------------------------------------
-
-// function gamesNewReviewCreate(req, res, next){
-//   req.body.postedBy = req.currentUser;
-//   Game
-//     .create(req.body.game)
-//     .then(game => {
-//       game.reviews.push(req.body);
-//       return game.save();
-//     })
-//     .then(game => res.json(game))
-//     .catch(err => {
-//       next(err);
-//     });
-// }
 //-----------REViEW INDEX------------------------------------------------------
 function reviewIndexRoute(req, res, next) {
   Game
