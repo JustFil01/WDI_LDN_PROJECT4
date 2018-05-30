@@ -11,24 +11,10 @@ class GamesIndex extends React.Component {
     search: '',
     sort: 'name|asc'
   }
-  // componentDidMount() {
-  //   axios.get('/api/games')
-  //     .then(res => this.setState({ games: res.data }));
-  // }
-  // componentDidMount() {
-  //   axios.get('/api/getgame')
-  //     .then(res => this.setState({ games: res.data }));
-  // }
-  // debouncedGames=
-  // _.debounce(this.getGame.bind(this),2000);
-  //
-  // componentDidUpdate(){
-  //   this.debouncedGames()();
-  // }
-
-  // i am getting the games simply from basic search
-  // need to refine that search for it to display what i put in the filterbar?
-  // add to db ?.
+  componentDidMount() {
+    axios.get('/api/games')
+      .then(res => this.setState({ games: res.data }));
+  }
   //----------------------------------------------------------------------------
   handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
@@ -37,7 +23,20 @@ class GamesIndex extends React.Component {
     axios.get('/api/getgame', {
       params: { search }
     })
-      .then(res => this.setState({ games: res.data }));
+      .then(res => {
+        const games = res.data.map(game => {
+          if(game.cover) game.cover.url = game.cover.url.replace('thumb', 'screenshot_med');
+
+          if(game.screenshots) game.screenshots && game.screenshots.map(screenshot => {
+            screenshot.url = screenshot.url.replace('thumb', 'screenshot_med');
+            return screenshot;
+          });
+
+          return game;
+        });
+        this.setState({ games });
+      });
+    // need to change the res to have the modified url , replacing it .
   }
 
   debounced = _.debounce(this.handleGameSearch, 500);
@@ -51,15 +50,12 @@ class GamesIndex extends React.Component {
     return _.orderBy(filtered, field, dir);
   }
   selectGame = (game) => {
-    game.igdbId = game.id;
+    game.igdbId = game.igdbId || game.id;
     delete game.id;
     axios.post('/api/games', game)
       .then(res => this.props.history.push(`/games/${res.data._id}`));
   }
-  onClick = (e) => {
-    console.log(e.target);
-  }
-  //------------------------------------------------------------------------------
+  //----------------------------------------------------------------------------
   render() {
     return (
       <div>
@@ -71,7 +67,7 @@ class GamesIndex extends React.Component {
           handleGameSearch={this.debounced}
         />
         {this.sortedFilteredGames().map(game =>
-          <div className="card" key={game.id} onClick={() => this.selectGame(game)}>
+          <div className="card" key={game._id} onClick={() => this.selectGame(game)}>
             {game.cover && <div
               className="card-image"
               style={{ backgroundImage: `url(${game.cover.url})` }}

@@ -17,40 +17,35 @@ const gameSchema = new mongoose.Schema({
   'summary': {type: String},
   'popularity': {type: Number},
   'reviews': [ reviewSchema],
-  'screenshots': [
-    {
-      'url': {type: String},
-      'cloudinary_id': {type: String},
-      'width': {type: Number},
-      'height': {type: Number}
-    }],
-  'videos': [
-    {
-      'name': {typ: String},
-      'video_id': {type: String}
-    }],
-  'release_dates': [
-    {
-      'category': {type: Number},
-      'platform': {type: Number},
-      'date': {type: Number},
-      'region': {type: Number},
-      'human': {type: String},
-      'y': {type: Number},
-      'm': {type: Number}
-    }],
+  'screenshots': [{
+    'url': {type: String},
+    'cloudinary_id': {type: String},
+    'width': {type: Number},
+    'height': {type: Number}
+  }],
+  'videos': [{
+    'name': {typ: String},
+    'video_id': {type: String}
+  }],
+  'release_dates': [{
+    'category': {type: Number},
+    'platform': {type: Number},
+    'date': {type: Number},
+    'region': {type: Number},
+    'human': {type: String},
+    'y': {type: Number},
+    'm': {type: Number}
+  }],
   'cover': {
     'url': {type: String},
     'cloudinary_id': {type: String},
     'width': {type: Number},
     'height': {type: Number}
   },
-  'websites': [
-    {
-      'category': {type: Number},
-      'url': {type: String}
-    }
-  ]
+  'websites': [{
+    'category': {type: Number},
+    'url': {type: String}
+  }]
 });
 //------------------------------------------------------------------------------
 module.exports = mongoose.model('Game', gameSchema);

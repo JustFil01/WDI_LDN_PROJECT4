@@ -16,16 +16,13 @@ class GamesShow extends React.Component{
    if(!game) return null;
    return (
      <div className="columns">
-       <div className="column">
+       {game.cover && <div className="column">
          <div className="card-image2" style={{ backgroundImage:
             `url(${game.cover.url})`}}/>
-       </div>
+       </div>}
        <div className="column">
          <h1 className="title is-1">{game.name}</h1>
          <p>{game.summary}</p>
-
-
-         {console.log(this.state)}
 
          <ul>
            {game.reviews.map(review =>
