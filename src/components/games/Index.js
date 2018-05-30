@@ -25,10 +25,10 @@ class GamesIndex extends React.Component {
     })
       .then(res => {
         const games = res.data.map(game => {
-          if(game.cover) game.cover.url = game.cover.url.replace('thumb', 'screenshot_med');
+          if(game.cover) game.cover.url = game.cover.url.replace('thumb', 'cover_big');
 
           if(game.screenshots) game.screenshots && game.screenshots.map(screenshot => {
-            screenshot.url = screenshot.url.replace('thumb', 'screenshot_med');
+            screenshot.url = screenshot.url.replace('thumb', 'cover_big');
             return screenshot;
           });
 
