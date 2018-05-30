@@ -54,73 +54,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nbpwnalhykwi8gsobelc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nbpwnalhykwi8gsobelc.jpg",
 				"cloudinary_id": "nbpwnalhykwi8gsobelc",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tnqlf5fyzrl2u4oyyh4c.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tnqlf5fyzrl2u4oyyh4c.jpg",
 				"cloudinary_id": "tnqlf5fyzrl2u4oyyh4c",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/isj1odo1k1vvl1x8k8vk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/isj1odo1k1vvl1x8k8vk.jpg",
 				"cloudinary_id": "isj1odo1k1vvl1x8k8vk",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jvsvgobhd4dbjlh7kn2q.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jvsvgobhd4dbjlh7kn2q.jpg",
 				"cloudinary_id": "jvsvgobhd4dbjlh7kn2q",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c109q1sm0rrx95ucmjse.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/c109q1sm0rrx95ucmjse.jpg",
 				"cloudinary_id": "c109q1sm0rrx95ucmjse",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/poxzku6fghfj04nxynqe.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/poxzku6fghfj04nxynqe.jpg",
 				"cloudinary_id": "poxzku6fghfj04nxynqe",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/v6lalq0gwbycborb9ic4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/v6lalq0gwbycborb9ic4.jpg",
 				"cloudinary_id": "v6lalq0gwbycborb9ic4",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ghcjheumz1norh0rwaxk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ghcjheumz1norh0rwaxk.jpg",
 				"cloudinary_id": "ghcjheumz1norh0rwaxk",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ojdwmo8mhipudkalaxlo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ojdwmo8mhipudkalaxlo.jpg",
 				"cloudinary_id": "ojdwmo8mhipudkalaxlo",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oydgjnzydmdfwd3vtmp9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/oydgjnzydmdfwd3vtmp9.jpg",
 				"cloudinary_id": "oydgjnzydmdfwd3vtmp9",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nqmwzj4azjunajjlniy8.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nqmwzj4azjunajjlniy8.jpg",
 				"cloudinary_id": "nqmwzj4azjunajjlniy8",
 				"width": 3840,
 				"height": 2160
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c9rskkieuhapebstfxys.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/c9rskkieuhapebstfxys.jpg",
 				"cloudinary_id": "c9rskkieuhapebstfxys",
 				"width": 3840,
 				"height": 2160
@@ -181,7 +181,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fxgwm1nnyexhvauqv0ds.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fxgwm1nnyexhvauqv0ds.jpg",
 			"cloudinary_id": "fxgwm1nnyexhvauqv0ds",
 			"width": 394,
 			"height": 500
@@ -206,73 +206,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ojrkfd7qcb2rakrvrddo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ojrkfd7qcb2rakrvrddo.jpg",
 				"cloudinary_id": "ojrkfd7qcb2rakrvrddo",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jesopvenn0grenqh0tr7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jesopvenn0grenqh0tr7.jpg",
 				"cloudinary_id": "jesopvenn0grenqh0tr7",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jfhbbr87x3fac1qnukor.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jfhbbr87x3fac1qnukor.jpg",
 				"cloudinary_id": "jfhbbr87x3fac1qnukor",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sgo07t9nja0uzcrldgn9.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/sgo07t9nja0uzcrldgn9.jpg",
 				"cloudinary_id": "sgo07t9nja0uzcrldgn9",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/t0jlovq2gc9ghvsyvpgt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/t0jlovq2gc9ghvsyvpgt.jpg",
 				"cloudinary_id": "t0jlovq2gc9ghvsyvpgt",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vh11ez90tgswhzx6ckys.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vh11ez90tgswhzx6ckys.jpg",
 				"cloudinary_id": "vh11ez90tgswhzx6ckys",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rnljjizxuo9odqvvhlw1.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rnljjizxuo9odqvvhlw1.jpg",
 				"cloudinary_id": "rnljjizxuo9odqvvhlw1",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sj98v0eoqxxzgalf9mn4.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/sj98v0eoqxxzgalf9mn4.jpg",
 				"cloudinary_id": "sj98v0eoqxxzgalf9mn4",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/syug9kgrtmuqynmu7uqg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/syug9kgrtmuqynmu7uqg.jpg",
 				"cloudinary_id": "syug9kgrtmuqynmu7uqg",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fgk6jtffidxsn8ovtbqu.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fgk6jtffidxsn8ovtbqu.jpg",
 				"cloudinary_id": "fgk6jtffidxsn8ovtbqu",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bctz4zjros0pizflz4ha.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bctz4zjros0pizflz4ha.jpg",
 				"cloudinary_id": "bctz4zjros0pizflz4ha",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dh1tkaotkbtyh978mtag.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dh1tkaotkbtyh978mtag.jpg",
 				"cloudinary_id": "dh1tkaotkbtyh978mtag",
 				"width": 1280,
 				"height": 720
@@ -293,7 +293,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dmdfiiamojsjmhgjkxxr.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dmdfiiamojsjmhgjkxxr.jpg",
 			"cloudinary_id": "dmdfiiamojsjmhgjkxxr",
 			"width": 800,
 			"height": 1300
@@ -343,49 +343,49 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zb9ch1qw54a9rddvvbmo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zb9ch1qw54a9rddvvbmo.jpg",
 				"cloudinary_id": "zb9ch1qw54a9rddvvbmo",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dykdvcmiwelebe2lff0v.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dykdvcmiwelebe2lff0v.jpg",
 				"cloudinary_id": "dykdvcmiwelebe2lff0v",
 				"width": 1024,
 				"height": 576
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kito03qskgq8ht8dfpqa.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kito03qskgq8ht8dfpqa.jpg",
 				"cloudinary_id": "kito03qskgq8ht8dfpqa",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kwdt3wa4rqagmy5pvzgm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kwdt3wa4rqagmy5pvzgm.jpg",
 				"cloudinary_id": "kwdt3wa4rqagmy5pvzgm",
 				"width": 2560,
 				"height": 1440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/y9s7qv25untipfcirlei.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/y9s7qv25untipfcirlei.jpg",
 				"cloudinary_id": "y9s7qv25untipfcirlei",
 				"width": 960,
 				"height": 540
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dlnozlv1jmjv5zrm3iqt.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dlnozlv1jmjv5zrm3iqt.jpg",
 				"cloudinary_id": "dlnozlv1jmjv5zrm3iqt",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wwm17mai4r1jqaiggcvc.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wwm17mai4r1jqaiggcvc.jpg",
 				"cloudinary_id": "wwm17mai4r1jqaiggcvc",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mnokrxmkflaianxhsrkd.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mnokrxmkflaianxhsrkd.jpg",
 				"cloudinary_id": "mnokrxmkflaianxhsrkd",
 				"width": 1920,
 				"height": 1080
@@ -414,7 +414,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zsvyzrqpbuvtfnpdagfp.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zsvyzrqpbuvtfnpdagfp.jpg",
 			"cloudinary_id": "zsvyzrqpbuvtfnpdagfp",
 			"width": 720,
 			"height": 1080
@@ -441,31 +441,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/k16enea4cmxpiovwian7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/k16enea4cmxpiovwian7.jpg",
 				"cloudinary_id": "k16enea4cmxpiovwian7",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mkpuyfxyeqxvz7uo38hi.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mkpuyfxyeqxvz7uo38hi.jpg",
 				"cloudinary_id": "mkpuyfxyeqxvz7uo38hi",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nweuohcyygrldlj1moph.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nweuohcyygrldlj1moph.jpg",
 				"cloudinary_id": "nweuohcyygrldlj1moph",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gotc2uayjfzf0axjpcxk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gotc2uayjfzf0axjpcxk.jpg",
 				"cloudinary_id": "gotc2uayjfzf0axjpcxk",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cd2roo4u1ibulpvchvrm.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/cd2roo4u1ibulpvchvrm.jpg",
 				"cloudinary_id": "cd2roo4u1ibulpvchvrm",
 				"width": 1920,
 				"height": 1080
@@ -482,7 +482,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lumgkti6rht3evlbu8xw.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/lumgkti6rht3evlbu8xw.jpg",
 			"cloudinary_id": "lumgkti6rht3evlbu8xw",
 			"width": 550,
 			"height": 640
@@ -543,31 +543,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ma9ukpuze8e0qpr9rait.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ma9ukpuze8e0qpr9rait.jpg",
 				"cloudinary_id": "ma9ukpuze8e0qpr9rait",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qt4cmansbclofu2xc51f.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qt4cmansbclofu2xc51f.jpg",
 				"cloudinary_id": "qt4cmansbclofu2xc51f",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fgdanj0jqbowyq732dd7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fgdanj0jqbowyq732dd7.jpg",
 				"cloudinary_id": "fgdanj0jqbowyq732dd7",
 				"width": 1600,
 				"height": 900
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xldzronepklmzofdt5dv.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xldzronepklmzofdt5dv.jpg",
 				"cloudinary_id": "xldzronepklmzofdt5dv",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dpntdfb5lyvgdcv2nham.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dpntdfb5lyvgdcv2nham.jpg",
 				"cloudinary_id": "dpntdfb5lyvgdcv2nham",
 				"width": 1280,
 				"height": 720
@@ -580,7 +580,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ebebxnv543d4y5e4wazd.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ebebxnv543d4y5e4wazd.jpg",
 			"cloudinary_id": "ebebxnv543d4y5e4wazd",
 			"width": 4000,
 			"height": 2250
@@ -611,7 +611,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nkugb4uvps5dzccb1wpl.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nkugb4uvps5dzccb1wpl.jpg",
 			"cloudinary_id": "nkugb4uvps5dzccb1wpl",
 			"width": 259,
 			"height": 383
@@ -636,31 +636,31 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kzgu4ywwcyzorcpjnsxq.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kzgu4ywwcyzorcpjnsxq.jpg",
 				"cloudinary_id": "kzgu4ywwcyzorcpjnsxq",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ytq9dw8cgnaecekhdcdg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ytq9dw8cgnaecekhdcdg.jpg",
 				"cloudinary_id": "ytq9dw8cgnaecekhdcdg",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xpgggartobfrwnkqhtwk.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xpgggartobfrwnkqhtwk.jpg",
 				"cloudinary_id": "xpgggartobfrwnkqhtwk",
 				"width": 1280,
 				"height": 720
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pntmmnwn6vzp8uqjeoeo.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pntmmnwn6vzp8uqjeoeo.jpg",
 				"cloudinary_id": "pntmmnwn6vzp8uqjeoeo",
 				"width": 600,
 				"height": 337
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/shotciissmwdisdwqdmg.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/shotciissmwdisdwqdmg.jpg",
 				"cloudinary_id": "shotciissmwdisdwqdmg",
 				"width": 1280,
 				"height": 720
@@ -673,7 +673,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/eku1gg56ltnfucepgqny.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/eku1gg56ltnfucepgqny.jpg",
 			"cloudinary_id": "eku1gg56ltnfucepgqny",
 			"width": 460,
 			"height": 215
@@ -716,73 +716,73 @@ mongoose.connect(dbURI, (err, db) => {
 		],
 		"screenshots": [
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/sfchhwjgcyxtm8ceyj17.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/sfchhwjgcyxtm8ceyj17.jpg",
 				"cloudinary_id": "sfchhwjgcyxtm8ceyj17",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rg4qqcigwxd9aa7zbsos.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rg4qqcigwxd9aa7zbsos.jpg",
 				"cloudinary_id": "rg4qqcigwxd9aa7zbsos",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/g1jcmromr4x3jwunyb0b.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/g1jcmromr4x3jwunyb0b.jpg",
 				"cloudinary_id": "g1jcmromr4x3jwunyb0b",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r72spvqvrzfyqncgbspw.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/r72spvqvrzfyqncgbspw.jpg",
 				"cloudinary_id": "r72spvqvrzfyqncgbspw",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xqw9h7z7psiuktt9dgos.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xqw9h7z7psiuktt9dgos.jpg",
 				"cloudinary_id": "xqw9h7z7psiuktt9dgos",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aa66xisnbagxsepnx2el.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/aa66xisnbagxsepnx2el.jpg",
 				"cloudinary_id": "aa66xisnbagxsepnx2el",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ndceepit98cuj5fbgjrs.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ndceepit98cuj5fbgjrs.jpg",
 				"cloudinary_id": "ndceepit98cuj5fbgjrs",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xeqtlwx9f80ekqiyh25w.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xeqtlwx9f80ekqiyh25w.jpg",
 				"cloudinary_id": "xeqtlwx9f80ekqiyh25w",
 				"width": 783,
 				"height": 440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b2k0cvfbzprnuizutgow.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/b2k0cvfbzprnuizutgow.jpg",
 				"cloudinary_id": "b2k0cvfbzprnuizutgow",
 				"width": 783,
 				"height": 440
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/u5ldoak74o1yhl2gt6y7.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/u5ldoak74o1yhl2gt6y7.jpg",
 				"cloudinary_id": "u5ldoak74o1yhl2gt6y7",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xrbujdrkuyta8cneqipz.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xrbujdrkuyta8cneqipz.jpg",
 				"cloudinary_id": "xrbujdrkuyta8cneqipz",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ikk26u9j3qpug39snuoj.jpg",
+				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ikk26u9j3qpug39snuoj.jpg",
 				"cloudinary_id": "ikk26u9j3qpug39snuoj",
 				"width": 1920,
 				"height": 1080
@@ -839,7 +839,7 @@ mongoose.connect(dbURI, (err, db) => {
 			}
 		],
 		"cover": {
-			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cuwotikeyasdnpthudjf.jpg",
+			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/cuwotikeyasdnpthudjf.jpg",
 			"cloudinary_id": "cuwotikeyasdnpthudjf",
 			"width": 4000,
 			"height": 5287
@@ -878,7 +878,7 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gc9gpulabkhry6rrarfs.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gc9gpulabkhry6rrarfs.jpg",
   				"cloudinary_id": "gc9gpulabkhry6rrarfs",
   				"width": 1280,
   				"height": 720
@@ -895,7 +895,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xpzl8l1jg6ecmmv7pd54.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xpzl8l1jg6ecmmv7pd54.jpg",
   			"cloudinary_id": "xpzl8l1jg6ecmmv7pd54",
   			"width": 3218,
   			"height": 4000
@@ -923,7 +923,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xlaq0cl94k4lqxr0skoe.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xlaq0cl94k4lqxr0skoe.jpg",
   			"cloudinary_id": "xlaq0cl94k4lqxr0skoe",
   			"width": 360,
   			"height": 210
@@ -936,31 +936,31 @@ mongoose.connect(dbURI, (err, db) => {
   		"popularity": 1.333333333333333,
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tmiauflt4mrvq0rarlg1.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tmiauflt4mrvq0rarlg1.jpg",
   				"cloudinary_id": "tmiauflt4mrvq0rarlg1",
   				"width": 3840,
   				"height": 2160
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/abkkqg99qcjzgu4avwnz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/abkkqg99qcjzgu4avwnz.jpg",
   				"cloudinary_id": "abkkqg99qcjzgu4avwnz",
   				"width": 3840,
   				"height": 2160
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xxlhmva01zi1jadchyia.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xxlhmva01zi1jadchyia.jpg",
   				"cloudinary_id": "xxlhmva01zi1jadchyia",
   				"width": 3840,
   				"height": 2160
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mk3knulxpe3vy5m3j6e8.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mk3knulxpe3vy5m3j6e8.jpg",
   				"cloudinary_id": "mk3knulxpe3vy5m3j6e8",
   				"width": 3840,
   				"height": 2160
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xes2fn2wiyauortebqgn.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xes2fn2wiyauortebqgn.jpg",
   				"cloudinary_id": "xes2fn2wiyauortebqgn",
   				"width": 3840,
   				"height": 2160
@@ -973,7 +973,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ppti5f6fv4iy8iuotbyj.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ppti5f6fv4iy8iuotbyj.jpg",
   			"cloudinary_id": "ppti5f6fv4iy8iuotbyj",
   			"width": 1700,
   			"height": 2600
@@ -997,38 +997,38 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dhcsi9jzlwpku91fvyxr.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dhcsi9jzlwpku91fvyxr.jpg",
   				"cloudinary_id": "dhcsi9jzlwpku91fvyxr",
   				"width": 1024,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q88icmzcmkivv08cyqvl.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q88icmzcmkivv08cyqvl.jpg",
   				"cloudinary_id": "q88icmzcmkivv08cyqvl",
   				"width": 1280,
   				"height": 1024
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zwgkgoz5sfgcyfnr645j.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zwgkgoz5sfgcyfnr645j.jpg",
   				"cloudinary_id": "zwgkgoz5sfgcyfnr645j",
   				"width": 1280,
   				"height": 1024
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vnjcu1ikuknttqsmeod8.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vnjcu1ikuknttqsmeod8.jpg",
   				"cloudinary_id": "vnjcu1ikuknttqsmeod8",
   				"width": 1280,
   				"height": 1024
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lanmxdparedcfo09pnik.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/lanmxdparedcfo09pnik.jpg",
   				"cloudinary_id": "lanmxdparedcfo09pnik",
   				"width": 1280,
   				"height": 1024
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q93asqbvcfgdokctcrdk.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q93asqbvcfgdokctcrdk.jpg",
   			"cloudinary_id": "q93asqbvcfgdokctcrdk",
   			"width": 708,
   			"height": 1001
@@ -1053,73 +1053,73 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/g4ffn4zqpdnivgzvu40g.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/g4ffn4zqpdnivgzvu40g.jpg",
   				"cloudinary_id": "g4ffn4zqpdnivgzvu40g",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vygio3cdztxovzun1u6b.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vygio3cdztxovzun1u6b.jpg",
   				"cloudinary_id": "vygio3cdztxovzun1u6b",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q79npqrhlaqx7xtjjtaj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q79npqrhlaqx7xtjjtaj.jpg",
   				"cloudinary_id": "q79npqrhlaqx7xtjjtaj",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yasmekijzhcgkxgdxewq.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/yasmekijzhcgkxgdxewq.jpg",
   				"cloudinary_id": "yasmekijzhcgkxgdxewq",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rm9s4x4c5ghr5fizd9nl.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rm9s4x4c5ghr5fizd9nl.jpg",
   				"cloudinary_id": "rm9s4x4c5ghr5fizd9nl",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ms4ovinzgasjmo7k8em2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ms4ovinzgasjmo7k8em2.jpg",
   				"cloudinary_id": "ms4ovinzgasjmo7k8em2",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fmkrnt0re4bt8j45cg5p.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fmkrnt0re4bt8j45cg5p.jpg",
   				"cloudinary_id": "fmkrnt0re4bt8j45cg5p",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r4qabngptgdrhovtzob2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/r4qabngptgdrhovtzob2.jpg",
   				"cloudinary_id": "r4qabngptgdrhovtzob2",
   				"width": 578,
   				"height": 327
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bj3chvcyt12uecu70nkm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bj3chvcyt12uecu70nkm.jpg",
   				"cloudinary_id": "bj3chvcyt12uecu70nkm",
   				"width": 578,
   				"height": 327
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zaqwjsxzkxjyhdy6jruu.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zaqwjsxzkxjyhdy6jruu.jpg",
   				"cloudinary_id": "zaqwjsxzkxjyhdy6jruu",
   				"width": 578,
   				"height": 327
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hbihvua683f84nzfarps.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hbihvua683f84nzfarps.jpg",
   				"cloudinary_id": "hbihvua683f84nzfarps",
   				"width": 578,
   				"height": 327
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ow4nwli4c72psfopjqiz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ow4nwli4c72psfopjqiz.jpg",
   				"cloudinary_id": "ow4nwli4c72psfopjqiz",
   				"width": 578,
   				"height": 327
@@ -1132,7 +1132,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/efib2m2zdhcy3gvem4b5.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/efib2m2zdhcy3gvem4b5.jpg",
   			"cloudinary_id": "efib2m2zdhcy3gvem4b5",
   			"width": 384,
   			"height": 614
@@ -1182,31 +1182,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fvtnomffphhsumupicct.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fvtnomffphhsumupicct.jpg",
   				"cloudinary_id": "fvtnomffphhsumupicct",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/li52vzuwosnazsvn4upy.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/li52vzuwosnazsvn4upy.jpg",
   				"cloudinary_id": "li52vzuwosnazsvn4upy",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zuuopjtm9lrfebwlscrt.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zuuopjtm9lrfebwlscrt.jpg",
   				"cloudinary_id": "zuuopjtm9lrfebwlscrt",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mswuei7f9bji5lzchm2i.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mswuei7f9bji5lzchm2i.jpg",
   				"cloudinary_id": "mswuei7f9bji5lzchm2i",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qe5xsha4n8cufzzyksx4.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qe5xsha4n8cufzzyksx4.jpg",
   				"cloudinary_id": "qe5xsha4n8cufzzyksx4",
   				"width": 1280,
   				"height": 720
@@ -1219,7 +1219,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ktjzqpbcmyv05ddefhoc.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ktjzqpbcmyv05ddefhoc.jpg",
   			"cloudinary_id": "ktjzqpbcmyv05ddefhoc",
   			"width": 560,
   			"height": 698
@@ -1262,31 +1262,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/e9lfesbvxdagar4xna0n.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/e9lfesbvxdagar4xna0n.jpg",
   				"cloudinary_id": "e9lfesbvxdagar4xna0n",
   				"width": 1920,
   				"height": 1064
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ntu3zvzao5yeq4eux8re.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ntu3zvzao5yeq4eux8re.jpg",
   				"cloudinary_id": "ntu3zvzao5yeq4eux8re",
   				"width": 1920,
   				"height": 1078
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jsmplxmqtlxdtufptyuv.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jsmplxmqtlxdtufptyuv.jpg",
   				"cloudinary_id": "jsmplxmqtlxdtufptyuv",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nlcmzacma2udpbwwcsrj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nlcmzacma2udpbwwcsrj.jpg",
   				"cloudinary_id": "nlcmzacma2udpbwwcsrj",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nfnkibznqpabv3aftbpn.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nfnkibznqpabv3aftbpn.jpg",
   				"cloudinary_id": "nfnkibznqpabv3aftbpn",
   				"width": 1920,
   				"height": 1080
@@ -1303,7 +1303,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vrwxcwgvlzelu5p3vj3s.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vrwxcwgvlzelu5p3vj3s.jpg",
   			"cloudinary_id": "vrwxcwgvlzelu5p3vj3s",
   			"width": 616,
   			"height": 353
@@ -1323,19 +1323,19 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cbf3jucdtcz1zfpuqclh.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/cbf3jucdtcz1zfpuqclh.jpg",
   				"cloudinary_id": "cbf3jucdtcz1zfpuqclh",
   				"width": 880,
   				"height": 495
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ujvnedeplbp9tr8y0jow.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ujvnedeplbp9tr8y0jow.jpg",
   				"cloudinary_id": "ujvnedeplbp9tr8y0jow",
   				"width": 880,
   				"height": 495
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/a2gfe2ssb12bfz7sqd2e.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/a2gfe2ssb12bfz7sqd2e.jpg",
   				"cloudinary_id": "a2gfe2ssb12bfz7sqd2e",
   				"width": 880,
   				"height": 495
@@ -1374,7 +1374,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wqnil13iief8mcnzh4xc.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wqnil13iief8mcnzh4xc.jpg",
   			"cloudinary_id": "wqnil13iief8mcnzh4xc",
   			"width": 320,
   			"height": 320
@@ -1399,38 +1399,38 @@ mongoose.connect(dbURI, (err, db) => {
   		"popularity": 1.333333333333333,
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tongyx6hkbvalxa1uapo.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tongyx6hkbvalxa1uapo.jpg",
   				"cloudinary_id": "tongyx6hkbvalxa1uapo",
   				"width": 1680,
   				"height": 1020
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fubkudut5azcqfwmeg9g.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fubkudut5azcqfwmeg9g.jpg",
   				"cloudinary_id": "fubkudut5azcqfwmeg9g",
   				"width": 1680,
   				"height": 1020
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b8xaipacaqulsufbuvos.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/b8xaipacaqulsufbuvos.jpg",
   				"cloudinary_id": "b8xaipacaqulsufbuvos",
   				"width": 1680,
   				"height": 1020
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jrjpsyyfzhsctyktxyzy.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jrjpsyyfzhsctyktxyzy.jpg",
   				"cloudinary_id": "jrjpsyyfzhsctyktxyzy",
   				"width": 1680,
   				"height": 1020
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hpgdxo0ua78j16f06ou7.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hpgdxo0ua78j16f06ou7.jpg",
   				"cloudinary_id": "hpgdxo0ua78j16f06ou7",
   				"width": 1680,
   				"height": 1020
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/amloglevhlefkwrhumim.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/amloglevhlefkwrhumim.jpg",
   			"cloudinary_id": "amloglevhlefkwrhumim",
   			"width": 1200,
   			"height": 1000
@@ -1455,38 +1455,38 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/izpsveio3akyf4ejxziz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/izpsveio3akyf4ejxziz.jpg",
   				"cloudinary_id": "izpsveio3akyf4ejxziz",
   				"width": 1024,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q6hkcszlutadfwbieodl.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q6hkcszlutadfwbieodl.jpg",
   				"cloudinary_id": "q6hkcszlutadfwbieodl",
   				"width": 1024,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b91tofj2penx9fakwhyr.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/b91tofj2penx9fakwhyr.jpg",
   				"cloudinary_id": "b91tofj2penx9fakwhyr",
   				"width": 1024,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hym8hbk2zektofcpvsol.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hym8hbk2zektofcpvsol.jpg",
   				"cloudinary_id": "hym8hbk2zektofcpvsol",
   				"width": 1024,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/imhtwufn3yb891u16bpw.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/imhtwufn3yb891u16bpw.jpg",
   				"cloudinary_id": "imhtwufn3yb891u16bpw",
   				"width": 1024,
   				"height": 768
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rrq0tzzimlm3znqlo3pb.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rrq0tzzimlm3znqlo3pb.jpg",
   			"cloudinary_id": "rrq0tzzimlm3znqlo3pb",
   			"width": 640,
   			"height": 889
@@ -1510,7 +1510,7 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ha9xom4rnixnyy4l0zhm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ha9xom4rnixnyy4l0zhm.jpg",
   				"cloudinary_id": "ha9xom4rnixnyy4l0zhm",
   				"width": 520,
   				"height": 397
@@ -1523,7 +1523,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/alhjbyctkghknr19gpqv.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/alhjbyctkghknr19gpqv.jpg",
   			"cloudinary_id": "alhjbyctkghknr19gpqv",
   			"width": 2766,
   			"height": 1983
@@ -1547,31 +1547,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vezrupukvmoxdont8qxz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vezrupukvmoxdont8qxz.jpg",
   				"cloudinary_id": "vezrupukvmoxdont8qxz",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fdwvug7p55stib4spkbn.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fdwvug7p55stib4spkbn.jpg",
   				"cloudinary_id": "fdwvug7p55stib4spkbn",
   				"width": 1919,
   				"height": 1079
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lwqlrd32ygkqpuxhnri9.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/lwqlrd32ygkqpuxhnri9.jpg",
   				"cloudinary_id": "lwqlrd32ygkqpuxhnri9",
   				"width": 1919,
   				"height": 1079
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nhsgboudvuin7stmto6o.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nhsgboudvuin7stmto6o.jpg",
   				"cloudinary_id": "nhsgboudvuin7stmto6o",
   				"width": 1915,
   				"height": 1079
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/g500go0irecdidl6om8d.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/g500go0irecdidl6om8d.jpg",
   				"cloudinary_id": "g500go0irecdidl6om8d",
   				"width": 1919,
   				"height": 1079
@@ -1584,7 +1584,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bcyjtzut6fvpachr52kf.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bcyjtzut6fvpachr52kf.jpg",
   			"cloudinary_id": "bcyjtzut6fvpachr52kf",
   			"width": 1920,
   			"height": 1080
@@ -1608,31 +1608,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nsvvblf7eccrnal6fhrm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nsvvblf7eccrnal6fhrm.jpg",
   				"cloudinary_id": "nsvvblf7eccrnal6fhrm",
   				"width": 1280,
   				"height": 960
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/cibkm3rvudx4n2ekvjp8.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/cibkm3rvudx4n2ekvjp8.jpg",
   				"cloudinary_id": "cibkm3rvudx4n2ekvjp8",
   				"width": 1280,
   				"height": 960
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c1dq1sas1iz02lwq1vws.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/c1dq1sas1iz02lwq1vws.jpg",
   				"cloudinary_id": "c1dq1sas1iz02lwq1vws",
   				"width": 1280,
   				"height": 960
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gtmvivprt5zsm3i2wywt.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gtmvivprt5zsm3i2wywt.jpg",
   				"cloudinary_id": "gtmvivprt5zsm3i2wywt",
   				"width": 1280,
   				"height": 960
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uafczldbpbcmldbkcs4e.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/uafczldbpbcmldbkcs4e.jpg",
   				"cloudinary_id": "uafczldbpbcmldbkcs4e",
   				"width": 1280,
   				"height": 960
@@ -1702,37 +1702,37 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/lrswstyvvvaqhydj80ws.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/lrswstyvvvaqhydj80ws.jpg",
   				"cloudinary_id": "lrswstyvvvaqhydj80ws",
   				"width": 1445,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/blsahu1md8tl0aqivdrq.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/blsahu1md8tl0aqivdrq.jpg",
   				"cloudinary_id": "blsahu1md8tl0aqivdrq",
   				"width": 1438,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hrjwkzmmvduup8kryzav.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hrjwkzmmvduup8kryzav.jpg",
   				"cloudinary_id": "hrjwkzmmvduup8kryzav",
   				"width": 1438,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wybx972icikrqj7bmjl2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wybx972icikrqj7bmjl2.jpg",
   				"cloudinary_id": "wybx972icikrqj7bmjl2",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wrgz6cuxuup221b01es2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wrgz6cuxuup221b01es2.jpg",
   				"cloudinary_id": "wrgz6cuxuup221b01es2",
   				"width": 1440,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ypmnvvx803gj1gyri0xz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ypmnvvx803gj1gyri0xz.jpg",
   				"cloudinary_id": "ypmnvvx803gj1gyri0xz",
   				"width": 1920,
   				"height": 1080
@@ -1745,7 +1745,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nxaptelx9e5ttkntu8ro.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nxaptelx9e5ttkntu8ro.jpg",
   			"cloudinary_id": "nxaptelx9e5ttkntu8ro",
   			"width": 707,
   			"height": 1000
@@ -1778,31 +1778,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xkr8y0fsa8gu6j34ieeu.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xkr8y0fsa8gu6j34ieeu.jpg",
   				"cloudinary_id": "xkr8y0fsa8gu6j34ieeu",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/f3yrpvgwkwll6ihsoy6e.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/f3yrpvgwkwll6ihsoy6e.jpg",
   				"cloudinary_id": "f3yrpvgwkwll6ihsoy6e",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wznpf3c3wfhib2jmyfwn.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wznpf3c3wfhib2jmyfwn.jpg",
   				"cloudinary_id": "wznpf3c3wfhib2jmyfwn",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qktl8itvh9hsmhkshna4.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qktl8itvh9hsmhkshna4.jpg",
   				"cloudinary_id": "qktl8itvh9hsmhkshna4",
   				"width": 1340,
   				"height": 753
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aavricfvfr5resjacg3g.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/aavricfvfr5resjacg3g.jpg",
   				"cloudinary_id": "aavricfvfr5resjacg3g",
   				"width": 1340,
   				"height": 753
@@ -1815,7 +1815,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pstghexpkbmf4lwolnwd.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pstghexpkbmf4lwolnwd.jpg",
   			"cloudinary_id": "pstghexpkbmf4lwolnwd",
   			"width": 1000,
   			"height": 563
@@ -1833,7 +1833,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gl6kaluxhvm38wfny3vk.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gl6kaluxhvm38wfny3vk.jpg",
   			"cloudinary_id": "gl6kaluxhvm38wfny3vk",
   			"width": 200,
   			"height": 300
@@ -1885,73 +1885,73 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/z2kgy2k3chfygkxmvhki.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/z2kgy2k3chfygkxmvhki.jpg",
   				"cloudinary_id": "z2kgy2k3chfygkxmvhki",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c6avefnuurhh155p5pg6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/c6avefnuurhh155p5pg6.jpg",
   				"cloudinary_id": "c6avefnuurhh155p5pg6",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wmhpnehxzmva2xe3pemf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wmhpnehxzmva2xe3pemf.jpg",
   				"cloudinary_id": "wmhpnehxzmva2xe3pemf",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jokvgdtq9fszpzcgbstb.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jokvgdtq9fszpzcgbstb.jpg",
   				"cloudinary_id": "jokvgdtq9fszpzcgbstb",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gluhd0npj87ujp7ju9cc.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gluhd0npj87ujp7ju9cc.jpg",
   				"cloudinary_id": "gluhd0npj87ujp7ju9cc",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ijybeutyicckerhwaar3.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ijybeutyicckerhwaar3.jpg",
   				"cloudinary_id": "ijybeutyicckerhwaar3",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bnx8nyoaklcscl4rmj7l.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bnx8nyoaklcscl4rmj7l.jpg",
   				"cloudinary_id": "bnx8nyoaklcscl4rmj7l",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tytvi7ghc0mxer0bzxyi.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tytvi7ghc0mxer0bzxyi.jpg",
   				"cloudinary_id": "tytvi7ghc0mxer0bzxyi",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rsgqmzl3lngewgmqvxce.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rsgqmzl3lngewgmqvxce.jpg",
   				"cloudinary_id": "rsgqmzl3lngewgmqvxce",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yrngz93kirumccl40dzd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/yrngz93kirumccl40dzd.jpg",
   				"cloudinary_id": "yrngz93kirumccl40dzd",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/poemwf2osqmgw2fa7cr6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/poemwf2osqmgw2fa7cr6.jpg",
   				"cloudinary_id": "poemwf2osqmgw2fa7cr6",
   				"width": 400,
   				"height": 240
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nxwweupqrbqhi9biiea6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nxwweupqrbqhi9biiea6.jpg",
   				"cloudinary_id": "nxwweupqrbqhi9biiea6",
   				"width": 1000,
   				"height": 1000
@@ -1968,7 +1968,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zepouzxku5quf3r2s6zy.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zepouzxku5quf3r2s6zy.jpg",
   			"cloudinary_id": "zepouzxku5quf3r2s6zy",
   			"width": 1209,
   			"height": 1080
@@ -2001,31 +2001,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aoahlglzk26d6ztpoor0.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/aoahlglzk26d6ztpoor0.jpg",
   				"cloudinary_id": "aoahlglzk26d6ztpoor0",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ukypjutznxobz2u19dsj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ukypjutznxobz2u19dsj.jpg",
   				"cloudinary_id": "ukypjutznxobz2u19dsj",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nml7qayqzbvcmgzrykcm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nml7qayqzbvcmgzrykcm.jpg",
   				"cloudinary_id": "nml7qayqzbvcmgzrykcm",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ldq35w4e7ln38vfv9n5m.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ldq35w4e7ln38vfv9n5m.jpg",
   				"cloudinary_id": "ldq35w4e7ln38vfv9n5m",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dmztppump1bm9titlfjd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dmztppump1bm9titlfjd.jpg",
   				"cloudinary_id": "dmztppump1bm9titlfjd",
   				"width": 1920,
   				"height": 1080
@@ -2038,7 +2038,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yhu6y3cv05pktksnclyp.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/yhu6y3cv05pktksnclyp.jpg",
   			"cloudinary_id": "yhu6y3cv05pktksnclyp",
   			"width": 1000,
   			"height": 1000
@@ -2198,31 +2198,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jcp8odbymhh6exidv1ev.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jcp8odbymhh6exidv1ev.jpg",
   				"cloudinary_id": "jcp8odbymhh6exidv1ev",
   				"width": 960,
   				"height": 544
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/iyydvheenwo5ftsb6dse.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/iyydvheenwo5ftsb6dse.jpg",
   				"cloudinary_id": "iyydvheenwo5ftsb6dse",
   				"width": 960,
   				"height": 544
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mwt9kanz0ahs755liln6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mwt9kanz0ahs755liln6.jpg",
   				"cloudinary_id": "mwt9kanz0ahs755liln6",
   				"width": 960,
   				"height": 544
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kmz2lzgrj4aijosc6ptf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kmz2lzgrj4aijosc6ptf.jpg",
   				"cloudinary_id": "kmz2lzgrj4aijosc6ptf",
   				"width": 1280,
   				"height": 720
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mrkcq2ahpvbunklcyqv2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mrkcq2ahpvbunklcyqv2.jpg",
   				"cloudinary_id": "mrkcq2ahpvbunklcyqv2",
   				"width": 640,
   				"height": 360
@@ -2235,7 +2235,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/liofidxnrdvb0lypfu8r.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/liofidxnrdvb0lypfu8r.jpg",
   			"cloudinary_id": "liofidxnrdvb0lypfu8r",
   			"width": 900,
   			"height": 1090
@@ -2314,67 +2314,67 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/c1gbdfcefgquzdwlrmlu.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/c1gbdfcefgquzdwlrmlu.jpg",
   				"cloudinary_id": "c1gbdfcefgquzdwlrmlu",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/z3xtqlp0yrj9ozv9rvla.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/z3xtqlp0yrj9ozv9rvla.jpg",
   				"cloudinary_id": "z3xtqlp0yrj9ozv9rvla",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ogqmrdgemmbypglcoeui.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ogqmrdgemmbypglcoeui.jpg",
   				"cloudinary_id": "ogqmrdgemmbypglcoeui",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ei25lppxlsjqy9jokedv.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ei25lppxlsjqy9jokedv.jpg",
   				"cloudinary_id": "ei25lppxlsjqy9jokedv",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/jopd2pzdx3pro6ljg57b.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/jopd2pzdx3pro6ljg57b.jpg",
   				"cloudinary_id": "jopd2pzdx3pro6ljg57b",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hflo4e22qpstbcz5jhut.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hflo4e22qpstbcz5jhut.jpg",
   				"cloudinary_id": "hflo4e22qpstbcz5jhut",
   				"width": 745,
   				"height": 419
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hclzzywlisrqt4qz4jrq.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hclzzywlisrqt4qz4jrq.jpg",
   				"cloudinary_id": "hclzzywlisrqt4qz4jrq",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fbnhyexoeg8gphmxdqvf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fbnhyexoeg8gphmxdqvf.jpg",
   				"cloudinary_id": "fbnhyexoeg8gphmxdqvf",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gmdb4mm1pcelu3g0lfh6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gmdb4mm1pcelu3g0lfh6.jpg",
   				"cloudinary_id": "gmdb4mm1pcelu3g0lfh6",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/i5m2duwmbx4dn3ijsbv7.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/i5m2duwmbx4dn3ijsbv7.jpg",
   				"cloudinary_id": "i5m2duwmbx4dn3ijsbv7",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fluxleojgqdgnapllfxu.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fluxleojgqdgnapllfxu.jpg",
   				"cloudinary_id": "fluxleojgqdgnapllfxu",
   				"width": 1920,
   				"height": 1080
@@ -2395,7 +2395,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/obafcz1fyqa89rfmka79.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/obafcz1fyqa89rfmka79.jpg",
   			"cloudinary_id": "obafcz1fyqa89rfmka79",
   			"width": 720,
   			"height": 1080
@@ -2418,31 +2418,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kycdsp2h7nmn75cotmdv.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kycdsp2h7nmn75cotmdv.jpg",
   				"cloudinary_id": "kycdsp2h7nmn75cotmdv",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/atwglbkueu0w1w88mvs5.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/atwglbkueu0w1w88mvs5.jpg",
   				"cloudinary_id": "atwglbkueu0w1w88mvs5",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wwq1vtlf4ekmwrds2lbt.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wwq1vtlf4ekmwrds2lbt.jpg",
   				"cloudinary_id": "wwq1vtlf4ekmwrds2lbt",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vm7myxyixl3m85zokqun.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vm7myxyixl3m85zokqun.jpg",
   				"cloudinary_id": "vm7myxyixl3m85zokqun",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tbarnvfyzoezuhyipjnm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tbarnvfyzoezuhyipjnm.jpg",
   				"cloudinary_id": "tbarnvfyzoezuhyipjnm",
   				"width": 1200,
   				"height": 675
@@ -2459,7 +2459,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/n2q2t5t7kkwdvhqdkr39.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/n2q2t5t7kkwdvhqdkr39.jpg",
   			"cloudinary_id": "n2q2t5t7kkwdvhqdkr39",
   			"width": 720,
   			"height": 1080
@@ -2482,7 +2482,7 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/d1zsgr0xuradavowsqfd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/d1zsgr0xuradavowsqfd.jpg",
   				"cloudinary_id": "d1zsgr0xuradavowsqfd",
   				"width": 972,
   				"height": 684
@@ -2495,7 +2495,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/nef6kfuvzn4v89ekxdiv.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/nef6kfuvzn4v89ekxdiv.jpg",
   			"cloudinary_id": "nef6kfuvzn4v89ekxdiv",
   			"width": 975,
   			"height": 1239
@@ -2563,73 +2563,73 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/m6etfidmw9lklzhx6iln.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/m6etfidmw9lklzhx6iln.jpg",
   				"cloudinary_id": "m6etfidmw9lklzhx6iln",
   				"width": 1366,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ggyfznc8rraoafhykywj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ggyfznc8rraoafhykywj.jpg",
   				"cloudinary_id": "ggyfznc8rraoafhykywj",
   				"width": 1366,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xezu5mn3kk1gcbonq7by.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xezu5mn3kk1gcbonq7by.jpg",
   				"cloudinary_id": "xezu5mn3kk1gcbonq7by",
   				"width": 1366,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fkvug3yrfdnlz7pgmtt0.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fkvug3yrfdnlz7pgmtt0.jpg",
   				"cloudinary_id": "fkvug3yrfdnlz7pgmtt0",
   				"width": 1366,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pew5zhmtpzu0keonolo7.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pew5zhmtpzu0keonolo7.jpg",
   				"cloudinary_id": "pew5zhmtpzu0keonolo7",
   				"width": 1366,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pxsk3k2thmyjjlu9vqxz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pxsk3k2thmyjjlu9vqxz.jpg",
   				"cloudinary_id": "pxsk3k2thmyjjlu9vqxz",
   				"width": 356,
   				"height": 427
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pv8znfh6tdgwzuedbvrz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pv8znfh6tdgwzuedbvrz.jpg",
   				"cloudinary_id": "pv8znfh6tdgwzuedbvrz",
   				"width": 356,
   				"height": 427
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xh0r7pmfzv1zfqj5zrvk.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xh0r7pmfzv1zfqj5zrvk.jpg",
   				"cloudinary_id": "xh0r7pmfzv1zfqj5zrvk",
   				"width": 356,
   				"height": 427
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/uen8kmqchxgymtxt1hke.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/uen8kmqchxgymtxt1hke.jpg",
   				"cloudinary_id": "uen8kmqchxgymtxt1hke",
   				"width": 356,
   				"height": 427
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rksxurfuro0qxmhoecrz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rksxurfuro0qxmhoecrz.jpg",
   				"cloudinary_id": "rksxurfuro0qxmhoecrz",
   				"width": 1280,
   				"height": 912
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ql8orl1vuylvgpvo0ttd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ql8orl1vuylvgpvo0ttd.jpg",
   				"cloudinary_id": "ql8orl1vuylvgpvo0ttd",
   				"width": 640,
   				"height": 456
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tapvzx6ixrurukg3xfqe.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tapvzx6ixrurukg3xfqe.jpg",
   				"cloudinary_id": "tapvzx6ixrurukg3xfqe",
   				"width": 500,
   				"height": 281
@@ -2642,7 +2642,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r5mkcyjok6kqxnpdvkwz.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/r5mkcyjok6kqxnpdvkwz.jpg",
   			"cloudinary_id": "r5mkcyjok6kqxnpdvkwz",
   			"width": 953,
   			"height": 1192
@@ -2654,7 +2654,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"summary": "A first-person horror game by indie developer Glowstick Games. The player must run through a maze of corridors, collecting shards and avoiding giant knife-wielding toy monkeys, in a decidedly Pac-Man-like fashion.",
   		"popularity": 1.333333333333333,
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ckxiot11zpc2htpgazbz.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ckxiot11zpc2htpgazbz.jpg",
   			"cloudinary_id": "ckxiot11zpc2htpgazbz",
   			"width": 1200,
   			"height": 1200
@@ -2696,73 +2696,73 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/a3ckiodahmo0eazdpph7.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/a3ckiodahmo0eazdpph7.jpg",
   				"cloudinary_id": "a3ckiodahmo0eazdpph7",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rgkfrlvspn8wexb6w1ze.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rgkfrlvspn8wexb6w1ze.jpg",
   				"cloudinary_id": "rgkfrlvspn8wexb6w1ze",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/loymywb2lx8kmwungbpd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/loymywb2lx8kmwungbpd.jpg",
   				"cloudinary_id": "loymywb2lx8kmwungbpd",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/aftcengql0jpss7cifnf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/aftcengql0jpss7cifnf.jpg",
   				"cloudinary_id": "aftcengql0jpss7cifnf",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hrihe9wnq35bymgfc8y6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hrihe9wnq35bymgfc8y6.jpg",
   				"cloudinary_id": "hrihe9wnq35bymgfc8y6",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ycgw8p2s8szooeeu2xh0.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ycgw8p2s8szooeeu2xh0.jpg",
   				"cloudinary_id": "ycgw8p2s8szooeeu2xh0",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dmah3ynjyd8nu5ilp37f.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dmah3ynjyd8nu5ilp37f.jpg",
   				"cloudinary_id": "dmah3ynjyd8nu5ilp37f",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/as37a2bjm9m16lvglltm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/as37a2bjm9m16lvglltm.jpg",
   				"cloudinary_id": "as37a2bjm9m16lvglltm",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rtlgtzqhf8uwaarvpoiv.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rtlgtzqhf8uwaarvpoiv.jpg",
   				"cloudinary_id": "rtlgtzqhf8uwaarvpoiv",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r0p3nbctopamdizmo7sf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/r0p3nbctopamdizmo7sf.jpg",
   				"cloudinary_id": "r0p3nbctopamdizmo7sf",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dtofectalrggetah1lbe.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dtofectalrggetah1lbe.jpg",
   				"cloudinary_id": "dtofectalrggetah1lbe",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/madivzpsljc81qlegqkj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/madivzpsljc81qlegqkj.jpg",
   				"cloudinary_id": "madivzpsljc81qlegqkj",
   				"width": 1920,
   				"height": 1080
@@ -2783,7 +2783,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xh4n7erlmy6zonin9q7o.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xh4n7erlmy6zonin9q7o.jpg",
   			"cloudinary_id": "xh4n7erlmy6zonin9q7o",
   			"width": 793,
   			"height": 793
@@ -2801,7 +2801,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"popularity": 1.333333333333333,
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/th4qjivh5xvlvw6n3wgw.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/th4qjivh5xvlvw6n3wgw.jpg",
   				"cloudinary_id": "th4qjivh5xvlvw6n3wgw",
   				"width": 600,
   				"height": 338
@@ -2835,31 +2835,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pqvzrloihcz0s1najjkw.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pqvzrloihcz0s1najjkw.jpg",
   				"cloudinary_id": "pqvzrloihcz0s1najjkw",
   				"width": 1280,
   				"height": 800
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/u8j25ooiaqjauzw9ymri.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/u8j25ooiaqjauzw9ymri.jpg",
   				"cloudinary_id": "u8j25ooiaqjauzw9ymri",
   				"width": 1280,
   				"height": 800
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ouunkymlibqtfr9xyj6k.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ouunkymlibqtfr9xyj6k.jpg",
   				"cloudinary_id": "ouunkymlibqtfr9xyj6k",
   				"width": 1280,
   				"height": 800
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bdruwjfzwafpteuuldqp.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bdruwjfzwafpteuuldqp.jpg",
   				"cloudinary_id": "bdruwjfzwafpteuuldqp",
   				"width": 1280,
   				"height": 800
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hyicximcr4nkp1ila0cu.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hyicximcr4nkp1ila0cu.jpg",
   				"cloudinary_id": "hyicximcr4nkp1ila0cu",
   				"width": 1280,
   				"height": 800
@@ -2872,7 +2872,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ln2f9ixnxubpj6dxpvou.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ln2f9ixnxubpj6dxpvou.jpg",
   			"cloudinary_id": "ln2f9ixnxubpj6dxpvou",
   			"width": 960,
   			"height": 244
@@ -2896,19 +2896,19 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hxyc5iolynztrjlkenuq.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hxyc5iolynztrjlkenuq.jpg",
   				"cloudinary_id": "hxyc5iolynztrjlkenuq",
   				"width": 1600,
   				"height": 900
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/zyo6uldtjpjeihwrx3pm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/zyo6uldtjpjeihwrx3pm.jpg",
   				"cloudinary_id": "zyo6uldtjpjeihwrx3pm",
   				"width": 1600,
   				"height": 900
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/edmqiwkyfqdd9aqhwel0.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/edmqiwkyfqdd9aqhwel0.jpg",
   				"cloudinary_id": "edmqiwkyfqdd9aqhwel0",
   				"width": 1527,
   				"height": 859
@@ -2921,7 +2921,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/r1ykkrfvawhmivhhydix.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/r1ykkrfvawhmivhhydix.jpg",
   			"cloudinary_id": "r1ykkrfvawhmivhhydix",
   			"width": 726,
   			"height": 1024
@@ -2952,7 +2952,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bdlysvtwbfe0kbs1iznr.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bdlysvtwbfe0kbs1iznr.jpg",
   			"cloudinary_id": "bdlysvtwbfe0kbs1iznr",
   			"width": 1500,
   			"height": 1214
@@ -2965,31 +2965,31 @@ mongoose.connect(dbURI, (err, db) => {
   		"popularity": 1.333333333333333,
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xt0fzpae1cjeyfyoury3.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xt0fzpae1cjeyfyoury3.jpg",
   				"cloudinary_id": "xt0fzpae1cjeyfyoury3",
   				"width": 960,
   				"height": 540
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qeqyqarbp9bif5pg8p6m.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qeqyqarbp9bif5pg8p6m.jpg",
   				"cloudinary_id": "qeqyqarbp9bif5pg8p6m",
   				"width": 960,
   				"height": 540
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ri3hcz4ibp9jbvhr4foa.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ri3hcz4ibp9jbvhr4foa.jpg",
   				"cloudinary_id": "ri3hcz4ibp9jbvhr4foa",
   				"width": 761,
   				"height": 540
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/mpnw6ejizxrqqff4tbga.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/mpnw6ejizxrqqff4tbga.jpg",
   				"cloudinary_id": "mpnw6ejizxrqqff4tbga",
   				"width": 960,
   				"height": 540
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/yyd0pfvgjdxfet78jhfd.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/yyd0pfvgjdxfet78jhfd.jpg",
   				"cloudinary_id": "yyd0pfvgjdxfet78jhfd",
   				"width": 960,
   				"height": 540
@@ -3010,7 +3010,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/anr7m7442n0qxnfacdxl.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/anr7m7442n0qxnfacdxl.jpg",
   			"cloudinary_id": "anr7m7442n0qxnfacdxl",
   			"width": 1280,
   			"height": 720
@@ -3071,67 +3071,67 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ggrux3nc4ju3ectvsexo.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ggrux3nc4ju3ectvsexo.jpg",
   				"cloudinary_id": "ggrux3nc4ju3ectvsexo",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/il4fgzcxdcus9qx3dqop.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/il4fgzcxdcus9qx3dqop.jpg",
   				"cloudinary_id": "il4fgzcxdcus9qx3dqop",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wywrcaclbp5ilwohufl6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wywrcaclbp5ilwohufl6.jpg",
   				"cloudinary_id": "wywrcaclbp5ilwohufl6",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ujdk2heomjyp13wgufix.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ujdk2heomjyp13wgufix.jpg",
   				"cloudinary_id": "ujdk2heomjyp13wgufix",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rmlxrctnqsvwxscjs9rh.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rmlxrctnqsvwxscjs9rh.jpg",
   				"cloudinary_id": "rmlxrctnqsvwxscjs9rh",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b8kbp3cutsjejwuyakj1.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/b8kbp3cutsjejwuyakj1.jpg",
   				"cloudinary_id": "b8kbp3cutsjejwuyakj1",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dnm69m0beniqzz1cezvm.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dnm69m0beniqzz1cezvm.jpg",
   				"cloudinary_id": "dnm69m0beniqzz1cezvm",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rzpdwlfu64amf2kmd9wh.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rzpdwlfu64amf2kmd9wh.jpg",
   				"cloudinary_id": "rzpdwlfu64amf2kmd9wh",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/imbl1p4fklejj9eizhb8.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/imbl1p4fklejj9eizhb8.jpg",
   				"cloudinary_id": "imbl1p4fklejj9eizhb8",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/al8ugahu8a8eud1roqis.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/al8ugahu8a8eud1roqis.jpg",
   				"cloudinary_id": "al8ugahu8a8eud1roqis",
   				"width": 540,
   				"height": 405
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q9bu3ljz0pymxjhft1u6.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q9bu3ljz0pymxjhft1u6.jpg",
   				"cloudinary_id": "q9bu3ljz0pymxjhft1u6",
   				"width": 540,
   				"height": 405
@@ -3144,7 +3144,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/osceqzv62kdyl8ubineo.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/osceqzv62kdyl8ubineo.jpg",
   			"cloudinary_id": "osceqzv62kdyl8ubineo",
   			"width": 1642,
   			"height": 1200
@@ -3168,14 +3168,14 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ub8rbq7owzfnwynvtdgj.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ub8rbq7owzfnwynvtdgj.jpg",
   				"cloudinary_id": "ub8rbq7owzfnwynvtdgj",
   				"width": 480,
   				"height": 300
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/kovt7hmhzqu0msodcz5c.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/kovt7hmhzqu0msodcz5c.jpg",
   			"cloudinary_id": "kovt7hmhzqu0msodcz5c",
   			"width": 250,
   			"height": 250
@@ -3187,7 +3187,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"summary": "EZ2ON is an online music game based on the arcade game called \"EZ2DJ.\"",
   		"popularity": 2.0,
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rwcywztumjgc0lndzcko.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rwcywztumjgc0lndzcko.jpg",
   			"cloudinary_id": "rwcywztumjgc0lndzcko",
   			"width": 486,
   			"height": 393
@@ -3211,31 +3211,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qigmcfx493huufbky9rf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qigmcfx493huufbky9rf.jpg",
   				"cloudinary_id": "qigmcfx493huufbky9rf",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pwnqdwihwlbjp3h3dkzi.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pwnqdwihwlbjp3h3dkzi.jpg",
   				"cloudinary_id": "pwnqdwihwlbjp3h3dkzi",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xdpvrd7obfizqclg4c5z.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xdpvrd7obfizqclg4c5z.jpg",
   				"cloudinary_id": "xdpvrd7obfizqclg4c5z",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gt6qficuneeunckguhtz.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gt6qficuneeunckguhtz.jpg",
   				"cloudinary_id": "gt6qficuneeunckguhtz",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xseveq9ou4vvchdrepfg.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xseveq9ou4vvchdrepfg.jpg",
   				"cloudinary_id": "xseveq9ou4vvchdrepfg",
   				"width": 1920,
   				"height": 1080
@@ -3265,7 +3265,7 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/l855xu3bhwj7c44iaob2.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/l855xu3bhwj7c44iaob2.jpg",
   				"cloudinary_id": "l855xu3bhwj7c44iaob2",
   				"width": 750,
   				"height": 563
@@ -3282,7 +3282,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/glndkc0cieoqwrlcnzwl.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/glndkc0cieoqwrlcnzwl.jpg",
   			"cloudinary_id": "glndkc0cieoqwrlcnzwl",
   			"width": 1024,
   			"height": 1024
@@ -3305,38 +3305,38 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/gtjvesie9xkroor1ru7n.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/gtjvesie9xkroor1ru7n.jpg",
   				"cloudinary_id": "gtjvesie9xkroor1ru7n",
   				"width": 1280,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qvs6abwbmovsfihifqqa.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qvs6abwbmovsfihifqqa.jpg",
   				"cloudinary_id": "qvs6abwbmovsfihifqqa",
   				"width": 1280,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wtoztkugikucg2tilfbv.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wtoztkugikucg2tilfbv.jpg",
   				"cloudinary_id": "wtoztkugikucg2tilfbv",
   				"width": 1280,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/fi7znb95n3oyicdjyhwp.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/fi7znb95n3oyicdjyhwp.jpg",
   				"cloudinary_id": "fi7znb95n3oyicdjyhwp",
   				"width": 1280,
   				"height": 768
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qnpe34ucgsffg1danr1o.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qnpe34ucgsffg1danr1o.jpg",
   				"cloudinary_id": "qnpe34ucgsffg1danr1o",
   				"width": 1280,
   				"height": 768
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/qkskiueoymsfcdvu3z8w.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/qkskiueoymsfcdvu3z8w.jpg",
   			"cloudinary_id": "qkskiueoymsfcdvu3z8w",
   			"width": 175,
   			"height": 150
@@ -3348,7 +3348,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"summary": "Crazy Flasher 3 is the third installment of the Crazy Flasher series, which was originally started by chinese flash game developer bbplayer.net. It is centered around deathmatch-style battles in an urban setting, telling the story of \"Andy Law\" who becomes the kind of deathmatch.",
   		"popularity": 1.333333333333333,
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/b4ivw8fjwtbg6mkyf4qm.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/b4ivw8fjwtbg6mkyf4qm.jpg",
   			"cloudinary_id": "b4ivw8fjwtbg6mkyf4qm",
   			"width": 600,
   			"height": 351
@@ -3423,31 +3423,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ibwzcka2t25jlxdjnzp7.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ibwzcka2t25jlxdjnzp7.jpg",
   				"cloudinary_id": "ibwzcka2t25jlxdjnzp7",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/skz1an4josxc6ivmtsui.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/skz1an4josxc6ivmtsui.jpg",
   				"cloudinary_id": "skz1an4josxc6ivmtsui",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dplteunrygzwfxawitso.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dplteunrygzwfxawitso.jpg",
   				"cloudinary_id": "dplteunrygzwfxawitso",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vucegby3kyttbb5cwscf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vucegby3kyttbb5cwscf.jpg",
   				"cloudinary_id": "vucegby3kyttbb5cwscf",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ljwoc3edkaazrrwtm75y.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ljwoc3edkaazrrwtm75y.jpg",
   				"cloudinary_id": "ljwoc3edkaazrrwtm75y",
   				"width": 1920,
   				"height": 1080
@@ -3460,7 +3460,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ehlh0icv7qdbu1jh7wuc.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ehlh0icv7qdbu1jh7wuc.jpg",
   			"cloudinary_id": "ehlh0icv7qdbu1jh7wuc",
   			"width": 513,
   			"height": 640
@@ -3538,31 +3538,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/pgbjjmt6twplunzuggxb.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/pgbjjmt6twplunzuggxb.jpg",
   				"cloudinary_id": "pgbjjmt6twplunzuggxb",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ohz4otkdvadtmf4hmyns.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ohz4otkdvadtmf4hmyns.jpg",
   				"cloudinary_id": "ohz4otkdvadtmf4hmyns",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oobmgvfv8txtjoa2z699.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/oobmgvfv8txtjoa2z699.jpg",
   				"cloudinary_id": "oobmgvfv8txtjoa2z699",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/tlsysl8oar0ealng0zv4.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/tlsysl8oar0ealng0zv4.jpg",
   				"cloudinary_id": "tlsysl8oar0ealng0zv4",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/a2q2yw1chy0otkilsv4d.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/a2q2yw1chy0otkilsv4d.jpg",
   				"cloudinary_id": "a2q2yw1chy0otkilsv4d",
   				"width": 1920,
   				"height": 1080
@@ -3575,7 +3575,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/xtpcgblsm7mizlbgmkjd.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/xtpcgblsm7mizlbgmkjd.jpg",
   			"cloudinary_id": "xtpcgblsm7mizlbgmkjd",
   			"width": 1024,
   			"height": 644
@@ -3588,7 +3588,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"popularity": 1.333333333333333,
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/a6lsrvt0tq4ltcafnfg5.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/a6lsrvt0tq4ltcafnfg5.jpg",
   				"cloudinary_id": "a6lsrvt0tq4ltcafnfg5",
   				"width": 1110,
   				"height": 655
@@ -3601,7 +3601,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/h0efvegxoucndv3cpeu4.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/h0efvegxoucndv3cpeu4.jpg",
   			"cloudinary_id": "h0efvegxoucndv3cpeu4",
   			"width": 731,
   			"height": 749
@@ -3619,7 +3619,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"summary": "Eschewing the top-down perspective of its predecessor, Creeper World 2 remains a strategy title where the main enemy is a deadly fluid flowing around the map.",
   		"popularity": 1.333333333333333,
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/bwiixamvhbn71fjiorun.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/bwiixamvhbn71fjiorun.jpg",
   			"cloudinary_id": "bwiixamvhbn71fjiorun",
   			"width": 816,
   			"height": 638
@@ -3661,25 +3661,25 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/vsaqrr013bvz2ze7aa8k.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/vsaqrr013bvz2ze7aa8k.jpg",
   				"cloudinary_id": "vsaqrr013bvz2ze7aa8k",
   				"width": 270,
   				"height": 480
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/rzub2ovzugrq7emwrpfw.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/rzub2ovzugrq7emwrpfw.jpg",
   				"cloudinary_id": "rzub2ovzugrq7emwrpfw",
   				"width": 270,
   				"height": 480
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/dnp0nhv1nu0lqbcci4xf.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/dnp0nhv1nu0lqbcci4xf.jpg",
   				"cloudinary_id": "dnp0nhv1nu0lqbcci4xf",
   				"width": 270,
   				"height": 480
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/krjaxznxb1tc5hm7okzw.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/krjaxznxb1tc5hm7okzw.jpg",
   				"cloudinary_id": "krjaxznxb1tc5hm7okzw",
   				"width": 270,
   				"height": 480
@@ -3696,7 +3696,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/oepr6rqhkenx37qn0nz8.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/oepr6rqhkenx37qn0nz8.jpg",
   			"cloudinary_id": "oepr6rqhkenx37qn0nz8",
   			"width": 512,
   			"height": 512
@@ -3733,31 +3733,31 @@ mongoose.connect(dbURI, (err, db) => {
   		],
   		"screenshots": [
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/ge5cq4dld6h0iemhbwob.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/ge5cq4dld6h0iemhbwob.jpg",
   				"cloudinary_id": "ge5cq4dld6h0iemhbwob",
   				"width": 944,
   				"height": 531
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/is9ghnakyruk2kijcsyp.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/is9ghnakyruk2kijcsyp.jpg",
   				"cloudinary_id": "is9ghnakyruk2kijcsyp",
   				"width": 944,
   				"height": 531
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/q3b0otbvntkgbu3nuhgi.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/q3b0otbvntkgbu3nuhgi.jpg",
   				"cloudinary_id": "q3b0otbvntkgbu3nuhgi",
   				"width": 1920,
   				"height": 1080
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/umcvsiluhnt8wre78hgx.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/umcvsiluhnt8wre78hgx.jpg",
   				"cloudinary_id": "umcvsiluhnt8wre78hgx",
   				"width": 1920,
   				"height": 1137
   			},
   			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/hdcdwpu2ofwo8fnly81d.jpg",
+  				"url": "//images.igdb.com/igdb/image/upload/t_cover_big/hdcdwpu2ofwo8fnly81d.jpg",
   				"cloudinary_id": "hdcdwpu2ofwo8fnly81d",
   				"width": 1920,
   				"height": 1080
@@ -3770,7 +3770,7 @@ mongoose.connect(dbURI, (err, db) => {
   			}
   		],
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/s4m5cucbhebrkzwiiprs.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/s4m5cucbhebrkzwiiprs.jpg",
   			"cloudinary_id": "s4m5cucbhebrkzwiiprs",
   			"width": 500,
   			"height": 704
@@ -3782,7 +3782,7 @@ mongoose.connect(dbURI, (err, db) => {
   		"summary": "Grand Chase M: Action RPG",
   		"popularity": 1.666666666666667,
   		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_screenshot_med/wobuqik6kpdbkvsyctlj.jpg",
+  			"url": "//images.igdb.com/igdb/image/upload/t_cover_big/wobuqik6kpdbkvsyctlj.jpg",
   			"cloudinary_id": "wobuqik6kpdbkvsyctlj",
   			"width": 5906,
   			"height": 7875
