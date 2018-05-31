@@ -21,7 +21,7 @@ class UsersIndex extends React.Component {
               <div className="card-content">
                 <div className="media">
                   <div className="media-content">
-                    <p className="title is-4">{user.username}</p>
+                    <p className="title is-3">{user.username}</p>
                   </div>
                 </div>
               </div>

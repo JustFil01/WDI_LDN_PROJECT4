@@ -20,6 +20,14 @@ const UserForm = ({ handleChange, handleSubmit, user, errors }) => {
 
       </div>
       <div className="field">
+        <label htmlFor="profile">Profile</label>
+        <input className="input" name="profile" placeholder="Profile"
+          value={user.profile || ''}
+          onChange={handleChange}/>
+        {errors.email && <small>{errors.email}</small>}
+
+      </div>
+      <div className="field">
         <label htmlFor="password">Password</label>
         <input type="password" className="input" name="password" placeholder="Password"
           onChange={handleChange}/>

@@ -14,19 +14,30 @@ class UsersShow extends React.Component{
    const {user} = this.state;
    if(!user) return null;
    return (
-     <div className="columns">
-       <div className="column">
-         <h1 className="title is-1">{user.username}</h1>
+     <div className="card user">
+       <div className="card-image">
+         <figure className="image is-4by3">
+           <img className="imguser" src={`${user.profile}`} alt="Picture of user"/>
+         </figure>
        </div>
-       <div className="column">
-         <p className="title is-5">{user.bio}</p>
+       <p className="title is-4">{user.username}</p>
+       <div className="card-content">
+         <div className="media">
+           <div className="media-left">
+           </div>
+           <div className="media-content">
+
+           </div>
+         </div>
+         <div className="content">
+           {user.bio}
+         </div>
+         { Auth.isAuthenticated() && (Auth.getPayload().sub === user._id) && <p>
+           <Link to={`/users/${user._id}/edit`}
+             className="button"
+           >Edit</Link>
+         </p>}
        </div>
-       
-       { Auth.isAuthenticated() && (Auth.getPayload().sub === user._id) && <p>
-         <Link to={`/users/${user._id}/edit`}
-           className="button"
-         >Edit</Link>
-       </p>}
      </div>
    );
  }

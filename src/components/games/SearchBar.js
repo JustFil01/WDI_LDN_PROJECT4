@@ -2,9 +2,9 @@ import React from 'react';
 //------------------------------------------------------------------------------
 const SearchBar = ({ handleGameSearch }) => {
   return(
-    <div className="columns">
+    <div className="thing">
       <div className="field column is-5">
-        <input className="input" placeholder="New Search" name="search" onChange={(e) => handleGameSearch(e.target.value)} />
+        <input className="input" placeholder="New Games" name="search" onChange={(e) => handleGameSearch(e.target.value)} />
       </div>
     </div>
   );

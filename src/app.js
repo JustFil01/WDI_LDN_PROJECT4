@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
+import SecureRoute from './components/common/SecureRoute';
 //----------------------------------------------------------------------------
 import GamesIndex from './components/games/Index';
 import GamesShow from './components/games/Show';
@@ -29,7 +30,7 @@ class App extends React.Component {
           <section className="section">
             <div className="container">
               <Switch>
-                <Route path="/users/:id/edit" component={UsersEdit} />
+                <SecureRoute path="/users/:id/edit" component={UsersEdit} />
                 <Route path="/users/:id/" component={UsersShow} />
                 <Route path="/users" component={UsersIndex} />
                 <Route path="/games/:id/reviews/:reviewId" component={ShowReview} />

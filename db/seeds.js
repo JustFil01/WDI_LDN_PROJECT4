@@ -1310,39 +1310,6 @@ mongoose.connect(dbURI, (err, db) => {
   		}
   	},
   	{
-  		"igdbId": 90220,
-  		"name": "Crowns and Pawns",
-  		"summary": "A point-and-click adventure game by a Lithuanian game developer Tag of Joy. \n \nCrowns and Pawns is an adventure inspired by a rich history of Lithuania and its significance to Europe in the late middle ages. The narrative of the game blends legends and myths of the past with a vibrant and dynamic setting of the modern life. This, combined with a refreshing look at the classic point-and-click adventure genre, provides a unique and unforgettable experience for all of the adventure game fans from around the world.",
-  		"popularity": 1.0,
-  		"release_dates": [
-  			{
-  				"category": 7,
-  				"platform": 6,
-  				"human": "TBD"
-  			}
-  		],
-  		"screenshots": [
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/cbf3jucdtcz1zfpuqclh.jpg",
-  				"cloudinary_id": "cbf3jucdtcz1zfpuqclh",
-  				"width": 880,
-  				"height": 495
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/ujvnedeplbp9tr8y0jow.jpg",
-  				"cloudinary_id": "ujvnedeplbp9tr8y0jow",
-  				"width": 880,
-  				"height": 495
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/a2gfe2ssb12bfz7sqd2e.jpg",
-  				"cloudinary_id": "a2gfe2ssb12bfz7sqd2e",
-  				"width": 880,
-  				"height": 495
-  			}
-  		]
-  	},
-  	{
   		"igdbId": 87685,
   		"name": "Warriors of Waterdeep",
   		"summary": "\"Assemble your team of heroes to fight deadly enemies across the Forgotten Realms\"",
@@ -1379,18 +1346,6 @@ mongoose.connect(dbURI, (err, db) => {
   			"width": 320,
   			"height": 320
   		}
-  	},
-  	{
-  		"igdbId": 13757,
-  		"name": "Snapper",
-  		"popularity": 1.0,
-  		"release_dates": [
-  			{
-  				"category": 7,
-  				"platform": 69,
-  				"human": "TBD"
-  			}
-  		]
   	},
   	{
   		"igdbId": 25329,
@@ -1589,55 +1544,6 @@ mongoose.connect(dbURI, (err, db) => {
   			"width": 1920,
   			"height": 1080
   		}
-  	},
-  	{
-  		"igdbId": 36334,
-  		"name": "The Last Crown: Blackenrock",
-  		"summary": "Join ghost-hunters Nigel Danvers and Lucy Reubans on a spine chilling haunted adventure, packed with real paranormal activity, to unravel tales of murder and mystery. Be warned, seeking answers from the dead can have bitter consequences. \n \nThe Last Crown: Blackenrock is the highly anticipated next instalment in the spooky horror adventure series of ‘Crown’ games. In Blackenrock, you join ghost-hunters Nigel Danvers and Lucy Reubans on a spine chilling adventure, packed with authentic paranormal activity, to unravel tales of murder and mystery. Be warned, seeking answers from the dead can have bitter consequences.",
-  		"popularity": 1.333333333333333,
-  		"release_dates": [
-  			{
-  				"category": 2,
-  				"platform": 6,
-  				"date": 1546214400000,
-  				"region": 8,
-  				"human": "2018",
-  				"y": 2018,
-  				"m": 12
-  			}
-  		],
-  		"screenshots": [
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/nsvvblf7eccrnal6fhrm.jpg",
-  				"cloudinary_id": "nsvvblf7eccrnal6fhrm",
-  				"width": 1280,
-  				"height": 960
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/cibkm3rvudx4n2ekvjp8.jpg",
-  				"cloudinary_id": "cibkm3rvudx4n2ekvjp8",
-  				"width": 1280,
-  				"height": 960
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/c1dq1sas1iz02lwq1vws.jpg",
-  				"cloudinary_id": "c1dq1sas1iz02lwq1vws",
-  				"width": 1280,
-  				"height": 960
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/gtmvivprt5zsm3i2wywt.jpg",
-  				"cloudinary_id": "gtmvivprt5zsm3i2wywt",
-  				"width": 1280,
-  				"height": 960
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/uafczldbpbcmldbkcs4e.jpg",
-  				"cloudinary_id": "uafczldbpbcmldbkcs4e",
-  				"width": 1280,
-  				"height": 960
-  			}
-  		]
   	},
   	{
   		"igdbId": 96391,
@@ -2790,95 +2696,6 @@ mongoose.connect(dbURI, (err, db) => {
   		}
   	},
   	{
-  		"igdbId": 23326,
-  		"name": "AerialDrop",
-  		"summary": "A HTML5 Turn Based Mech Shooter. Competitive and seasonal gameplay!",
-  		"popularity": 1.333333333333333
-  	},
-  	{
-  		"igdbId": 22142,
-  		"name": "Saints Row IV: Enter The Dominatrix",
-  		"popularity": 1.333333333333333,
-  		"screenshots": [
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/th4qjivh5xvlvw6n3wgw.jpg",
-  				"cloudinary_id": "th4qjivh5xvlvw6n3wgw",
-  				"width": 600,
-  				"height": 338
-  			}
-  		]
-  	},
-  	{
-  		"igdbId": 16478,
-  		"name": "Shardlight",
-  		"summary": "A post-apocalyptic adventure game from the publisher that brought you Primordia, Gemini Rue and Technobabylon! A young woman stricken with a deadly plague searches for a cure in a hostile world.",
-  		"rating": 81.89392811935461,
-  		"popularity": 1.333333333333333,
-  		"release_dates": [
-  			{
-  				"category": 0,
-  				"platform": 6,
-  				"date": 1457395200000,
-  				"region": 2,
-  				"human": "2016-Mar-08",
-  				"y": 2016,
-  				"m": 3
-  			},
-  			{
-  				"category": 0,
-  				"platform": 6,
-  				"date": 1457395200000,
-  				"human": "2016-Mar-08",
-  				"y": 2016,
-  				"m": 3
-  			}
-  		],
-  		"screenshots": [
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/pqvzrloihcz0s1najjkw.jpg",
-  				"cloudinary_id": "pqvzrloihcz0s1najjkw",
-  				"width": 1280,
-  				"height": 800
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/u8j25ooiaqjauzw9ymri.jpg",
-  				"cloudinary_id": "u8j25ooiaqjauzw9ymri",
-  				"width": 1280,
-  				"height": 800
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/ouunkymlibqtfr9xyj6k.jpg",
-  				"cloudinary_id": "ouunkymlibqtfr9xyj6k",
-  				"width": 1280,
-  				"height": 800
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/bdruwjfzwafpteuuldqp.jpg",
-  				"cloudinary_id": "bdruwjfzwafpteuuldqp",
-  				"width": 1280,
-  				"height": 800
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/hyicximcr4nkp1ila0cu.jpg",
-  				"cloudinary_id": "hyicximcr4nkp1ila0cu",
-  				"width": 1280,
-  				"height": 800
-  			}
-  		],
-  		"videos": [
-  			{
-  				"name": "Trailer",
-  				"video_id": "G_ciFhL-KnQ"
-  			}
-  		],
-  		"cover": {
-  			"url": "//images.igdb.com/igdb/image/upload/t_720p/ln2f9ixnxubpj6dxpvou.jpg",
-  			"cloudinary_id": "ln2f9ixnxubpj6dxpvou",
-  			"width": 960,
-  			"height": 244
-  		}
-  	},
-  	{
   		"igdbId": 20180,
   		"name": "The Piano",
   		"summary": "The Piano is a third-person singleplayer adventure game set in Paris in the late 1940’s. \nAfter the murders of his formerly famous brothers, John Barnerway, a failed pianist, \ntries to solve the mystery behind their deaths while he himself struggles with his mental illness and the accusations by the people and press.",
@@ -3194,55 +3011,6 @@ mongoose.connect(dbURI, (err, db) => {
   		}
   	},
   	{
-  		"igdbId": 38810,
-  		"name": "Return to Planet X",
-  		"summary": "Return to Planet X is a close combat FPS in which you will have to smash tons of alien bugs.",
-  		"popularity": 1.333333333333333,
-  		"release_dates": [
-  			{
-  				"category": 0,
-  				"platform": 6,
-  				"date": 1508198400000,
-  				"region": 8,
-  				"human": "2017-Oct-17",
-  				"y": 2017,
-  				"m": 10
-  			}
-  		],
-  		"screenshots": [
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/qigmcfx493huufbky9rf.jpg",
-  				"cloudinary_id": "qigmcfx493huufbky9rf",
-  				"width": 1920,
-  				"height": 1080
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/pwnqdwihwlbjp3h3dkzi.jpg",
-  				"cloudinary_id": "pwnqdwihwlbjp3h3dkzi",
-  				"width": 1920,
-  				"height": 1080
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/xdpvrd7obfizqclg4c5z.jpg",
-  				"cloudinary_id": "xdpvrd7obfizqclg4c5z",
-  				"width": 1920,
-  				"height": 1080
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/gt6qficuneeunckguhtz.jpg",
-  				"cloudinary_id": "gt6qficuneeunckguhtz",
-  				"width": 1920,
-  				"height": 1080
-  			},
-  			{
-  				"url": "//images.igdb.com/igdb/image/upload/t_720p/xseveq9ou4vvchdrepfg.jpg",
-  				"cloudinary_id": "xseveq9ou4vvchdrepfg",
-  				"width": 1920,
-  				"height": 1080
-  			}
-  		]
-  	},
-  	{
   		"igdbId": 9568,
   		"name": "Pako",
   		"summary": "Pako is a car chase simulator that focuses on you evading cops. The aim of the game is to survive as long as possible without crashing and ending the game.",
@@ -3353,11 +3121,6 @@ mongoose.connect(dbURI, (err, db) => {
   			"width": 600,
   			"height": 351
   		}
-  	},
-  	{
-  		"igdbId": 10864,
-  		"name": "Asghan 2",
-  		"popularity": 1.333333333333333
   	},
   	{
   		"igdbId": 27785,
@@ -3608,12 +3371,6 @@ mongoose.connect(dbURI, (err, db) => {
   		}
   	},
   	{
-  		"igdbId": 56051,
-  		"name": "Hexagor.io",
-  		"summary": "A game inspired by Agar.io",
-  		"popularity": 1.666666666666667
-  	},
-  	{
   		"igdbId": 66086,
   		"name": "Creeper World 2",
   		"summary": "Eschewing the top-down perspective of its predecessor, Creeper World 2 remains a strategy title where the main enemy is a deadly fluid flowing around the map.",
@@ -3701,18 +3458,6 @@ mongoose.connect(dbURI, (err, db) => {
   			"width": 512,
   			"height": 512
   		}
-  	},
-  	{
-  		"igdbId": 13760,
-  		"name": "Sphinx Adventure",
-  		"popularity": 1.333333333333333,
-  		"release_dates": [
-  			{
-  				"category": 7,
-  				"platform": 69,
-  				"human": "TBD"
-  			}
-  		]
   	},
   	{
   		"igdbId": 2902,

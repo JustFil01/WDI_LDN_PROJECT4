@@ -26,7 +26,7 @@ class GamesIndex extends React.Component {
     })
       .then(res => {
         const games = res.data.map(game => {
-          if(game.cover) game.cover.url = game.cover.url.replace('thumb', 'cover_big');
+          if(game.cover) game.cover.url = game.cover.url.replace('thumb', '720p');
 
           if(game.screenshots) game.screenshots && game.screenshots.map(screenshot => {
             screenshot.url = screenshot.url.replace('thumb', '720p');
@@ -59,29 +59,36 @@ class GamesIndex extends React.Component {
   render() {
     return (
       <div>
-        <SortFilterBar
-          handleChange={this.handleChange}
-          data={this.state}
-        />
-        <SearchBar
-          handleGameSearch={this.debounced}
-        />
-        {this.sortedFilteredGames().map(game =>
-          <div className="card" key={game._id} onClick={() => this.selectGame(game)}>
-            {game.cover && <div
-              className="card-image"
-              style={{ backgroundImage: `url(${game.cover.url})` }}
-            ></div>}
-            <div className="card-content">
-              <div className="media">
-                <div className="media-content">
-                  <p className="title is-4">{game.name}</p>
-                  <p className="subtitle is-6">{game.summary}</p>
+        <div className="columns">
+          <div className="column is-half">
+            <SortFilterBar
+              handleChange={this.handleChange}
+              data={this.state}
+            />
+          </div>
+          <div className="column is-half">
+            <SearchBar
+              handleGameSearch={this.debounced}
+            />
+          </div>
+        </div>
+        <div className="columns is-multiline">
+          {this.sortedFilteredGames().map(game =>
+            <div className="column index is-one-fifth-desktop is-half-tablet" key={game._id} onClick={() => this.selectGame(game)}>
+              {game.cover && <img
+                className="imgindex" src={`${game.cover.url}`}
+              />}
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-4">{game.name}</p>
+                    {/* <p className="subtitle is-6">{game.summary}</p> */}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     );
   }

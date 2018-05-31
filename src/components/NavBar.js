@@ -25,7 +25,7 @@ class Navbar extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link className="navbar-item" to="/">
-            <img src="https://i.imgur.com/ZbZZTye.png?1" width="112" />
+            <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture13610300216785.jpg" width="210" heigh="190"/>
           </Link>
           <a role="button" className={`navbar-game ${this.state.navIsOpen? 'is-active' : ''}`} onClick={this.handleToggle}>
             <span aria-hidden="true"></span>

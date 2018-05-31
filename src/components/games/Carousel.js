@@ -10,7 +10,7 @@ class BoxCarousel extends React.Component {
     setTimeout(() => {
       this.carousel.setDimensions();
       this.setState({ invisible: false });
-    }, 1500);
+    }, 2500);
   }
   //----------------------------------------------------------------------------
   render() {

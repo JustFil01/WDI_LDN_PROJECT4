@@ -73,6 +73,16 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.bio && <small>{this.state.errors.bio}</small>}
         </div>
+        <div className="field">
+          <input
+            type="profile"
+            className="input"
+            name="profile"
+            placeholder="Profile picture"
+            onChange={this.handleChange}
+          />
+          {this.state.errors.profile && <small>{this.state.errors.profile}</small>}
+        </div>
         <button className="button is-primary">Submit</button>
       </form>
     );

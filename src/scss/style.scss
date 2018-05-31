@@ -1,7 +1,9 @@
 @import "~bulma/sass/utilities/initial-variables";
 //------------------------------------------------------------------------------
-$navbar-item-img-max-height: 40;
-$navbar-height: 200;
+$navbar-item-img-max-height: 250;
+$navbar-height: 250;
+$navbar-background-color: black;
+$navbar-dropdown-background-color: #ff6600;
 
 @import "~bulma";
 //------------------------------------------------------------------------------
@@ -9,13 +11,21 @@ $navbar-height: 200;
   background-position: center;
   background-size:contain;
   background-repeat: no-repeat;
-  height: 150px;
-  width:150px;
+  height: 250px;
+  width:250px;
 }
 .card-content{
   width:auto;
+  color:white;
 }
-
+.column.is-one-fifth-desktop {
+    flex: none;
+    width: 23%;
+}
+a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:hover, .navbar-link.is-active {
+    background-color: #ff6600;
+    color: black;
+}
 .card-image1 {
   background-position: center;
   background-size:contain;
@@ -25,9 +35,116 @@ $navbar-height: 200;
 }
 
 .card-image2 {
-  background-position: center;
-  background-size:contain;
+  background-position:center;
+  background-size:cover;
   background-repeat: no-repeat;
-  height: 350px;
-  width: 350px;
+  height: 538px;
+  width: 427px ;
+  border-radius: 10px;
+}
+
+html {
+  background-color: black;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+  height: 140%;
+  width: 100%;
+}
+.navbar-menu {
+  background-color: black;
+}
+.navbar-item {
+  background-color: black;
+  position: 200px;
+}
+.orangewrapper {
+  border-radius: 5px;
+  border: 5px solid #ff6600;
+  padding:30px
+}
+hr {
+  border:1px solid #ff6600;
+
+  width: 100%;
+}
+.card.index {
+  background:black;
+}
+.column.index {
+    border:2px solid #ff6600;
+    margin:5px;
+    border-radius: 8px;
+}
+.title.is-1 {
+  color:#ff6600;
+}
+.title.is-4{
+  color:#ff6600;
+}
+.title.is-3{
+  color:black;
+}
+.footer{
+  height: 100px;
+  width: auto;
+  background-color: #161616;
+  box-shadow: 100vh 110vh 0 110vh #161616;
+}
+.footer:before, .footer:after {
+    padding: 1em;
+    content: '';
+}
+.navbar-item{
+  color:white;
+}
+.homeimg {
+  width:140%;
+  height:1080px;
+  padding-top: 90px;
+}
+.hometitle {
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-align: center;
+}
+.hometitlesub {
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-align: center;
+}
+.card {
+  background-color: #ff6600;
+  color:black;
+  border-radius: 10px;
+  width: 300px;
+
+}
+.field.column.is-5 {
+  display: inline-block;
+  width: 300px;
+}
+.card.user {
+  background-color: #ff6600;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+.imguser {
+  margin: 20px;
+  border-radius: 6px;
+}
+.imgindex {
+  border-radius: 5px;
+}
+p {
+  color: white;
+}
+h4 {
+  color: #ff6600;
+  font-size: 22px;
+  padding-bottom: 15px;
 }
