@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Auth from '../../lib/Auth';
+import BoxCarousel from './Carousel';
 //------------------------------------------------------------------------------
 class GamesShow extends React.Component{
  state = {
@@ -50,20 +51,12 @@ class GamesShow extends React.Component{
              </li>
            )}
          </ul>
-
-         <div className="screenshot">
-           {game.screenshots && game.screenshots.map(screenshot =>
-             <div className="card" key={screenshot._id}>
-               {screenshot.url && <div
-                 className="card-image1"
-                 style={{ backgroundImage: `url(${screenshot.url})` }}
-               ></div>}
-             </div>
-           )}
-         </div>
          <Link to={`/games/${game._id}/reviews`}
            className="button"
          >✚</Link>
+         <BoxCarousel
+           game={game}
+         />
        </div>
      </div>
    );

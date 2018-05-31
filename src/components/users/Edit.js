@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
 import UserForm from './UserForm';
-import Flash from '../../lib/Flash.js';
+import Flash from '../../lib/Flash';
 
 class UsersEdit extends React.Component {
   state = {
@@ -18,19 +18,15 @@ class UsersEdit extends React.Component {
   handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    this.setState({[name]: value});
-    this.setState(prevState => ({
-      user: {...prevState.user,[name]: value}
-    }));
-    this.setState(prevState => ({
-      errors: {...prevState.errors,[name]: ''}
-    }));
+    const user = { ...this.state.user, [name]: value };
+    const errors = { ...this.state.errors, [name]: '' };
+    this.setState({ user, errors });
   }
 
   handleSubmit = (e) => {
     e.preventDefault();
     const { id } = this.props.match.params;
-    axios.put(`/api/users/${id}`, this.state, {
+    axios.put(`/api/users/${id}`, this.state.user, {
       headers: {Authorization: `Bearer ${Auth.getToken()}`}
     })
       .then(() => {
@@ -40,7 +36,7 @@ class UsersEdit extends React.Component {
       .catch((err)=> {
         console.log(err.response.data.errors);
         this.setState({errors: err.response.data.errors});
-        this.props.history.replace(`/users/${id}/edit`);
+        this.props.history.replace(`/users/${id}/edit`); // is replace the reason?
       });
   }
 
@@ -48,7 +44,7 @@ class UsersEdit extends React.Component {
     axios.delete(`/api/users/${this.props.match.params.id}`, {
       headers: {Authorization: `Bearer ${Auth.getToken()}`}
     })
-      .then(Flash.setMessage('Thank you for using our website'))
+      .then(Flash.setMessage('Thank you for using this website'))
       .then(this.handleLogout);
   }
 
@@ -65,10 +61,10 @@ class UsersEdit extends React.Component {
     return (
       <section>
         <UserForm
+          user={user}
           handleChange={this.handleChange}
           handleSubmit={this.handleSubmit}
           errors={this.state.errors}
-          user={user}
         />
         <div className='has-text-centered'>
           <button className="button" onClick= {this.handleDelete}>Remove account</button>

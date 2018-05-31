@@ -29,6 +29,7 @@ function usersDelete(req, res, next){
 }
 //-----------UPDATE--------------------------------------------------------- ---
 function usersUpdate(req, res, next){
+  console.log('UPDATE', req.body);
   User
     .findById(req.params.id)
     .then(user => Object.assign(user, req.body))

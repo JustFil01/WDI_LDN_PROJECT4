@@ -38,18 +38,3 @@ class NewReview extends React.Component {
 }
 //------------------------------------------------------------------------------
 export default NewReview;
-
-//  this isnt needed? would only be needed for the OTHER Review page i guess?
-// componentDidMount(){
-//   axios.get(`/api/games/${this.props.match.params.id}`)
-//     .then( res=> this.setState((res.data) ));
-// }
-//------------------------------------------------------------------------------
-// attempt to set up the game create / submit
-// handleSubmit = e => {
-//   e.preventDefault();
-//   axios.post('/api/games/new/reviews', this.state, {
-//     headers: { Authorization: `Bearer ${Auth.getToken()}`}
-//   })
-//     .then(res => this.props.history.push(res.data.id));
-// }

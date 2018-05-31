@@ -20,7 +20,7 @@ router.route('/users')
 router.route('/users/:id')
   .get(users.show)
   .delete(secureRoute, users.delete)
-  .put(users.update);
+  .put(secureRoute, users.update);
 //------------------------------------------------------------------------------
 router.route('/register')
   .post(auth.register);

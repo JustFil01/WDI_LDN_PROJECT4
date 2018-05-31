@@ -27,7 +27,7 @@ class GamesIndex extends React.Component {
           if(game.cover) game.cover.url = game.cover.url.replace('thumb', 'cover_big');
 
           if(game.screenshots) game.screenshots && game.screenshots.map(screenshot => {
-            screenshot.url = screenshot.url.replace('thumb', 'cover_big');
+            screenshot.url = screenshot.url.replace('thumb', '720p');
             return screenshot;
           });
 

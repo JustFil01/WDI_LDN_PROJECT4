@@ -4,7 +4,7 @@ const SortFilterBar = ({ handleChange, data}) => {
   return(
     <div className="columns">
       <div className="field column is-5">
-        <input className="input" placeholder="Search" name="search" onChange={handleChange} value={data.search}/>
+        <input className="input" placeholder="Refined Search" name="search" onChange={handleChange} value={data.search}/>
       </div>
       <div className="control">
         <div className="select">
