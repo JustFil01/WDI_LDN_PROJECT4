@@ -13,6 +13,7 @@ import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
 import UsersIndex from './components/users/Index';
 import UsersShow from './components/users/Show';
+import UsersEdit from './components/users/Edit';
 import ShowReview from './components/games/ShowReview';
 //------------------------------------------------------------------------------
 import './scss/style.scss';
@@ -27,7 +28,8 @@ class App extends React.Component {
           <section className="section">
             <div className="container">
               <Switch>
-                <Route path="/users/:id" component={UsersShow} />
+                <Route path="/users/:id/edit" component={UsersEdit} />
+                <Route path="/users/:id/" component={UsersShow} />
                 <Route path="/users" component={UsersIndex} />
                 <Route path="/games/:id/reviews/:reviewId" component={ShowReview} />
                 <Route path="/games/:id/reviews/" component={NewReview} />

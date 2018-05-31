@@ -32,7 +32,6 @@ router.route('/games/:id/reviews/:reviewId')
   .delete(secureRoute, games.deleteReview);
 
 router.route('/games/:id/reviews')
-  // .get(games.indexReview)
   .post(secureRoute, games.createReview);
 
 router.route('/getgame')
