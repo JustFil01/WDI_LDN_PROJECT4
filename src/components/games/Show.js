@@ -17,7 +17,7 @@ class GamesShow extends React.Component{
      .delete(`/api/games/${id}/reviews/${review._id}`, {
        headers: { Authorization: `Bearer ${Auth.getToken()}`}
      })
-     .then(res => this.setState({ burger: res.data}));
+     .then(res => this.props.history.push(`/games/${res.data._id}`));
  };
  //-----------------------------------------------------------------------------
  render() {

@@ -86,6 +86,20 @@ function reviewShowRoute(req, res, next) {
     })
     .catch(next);
 }
+function reviewDeleteRoute(req,res, next){
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      const review = game.reviews.id(req.params.reviewId);
+      if(!review.postedBy._id.equals(req.currentUser._id)) {
+        throw new Error('Unauthorized');
+      }
+      review.remove();
+      return game.save();
+    })
+    .then(game => res.json(game))
+    .catch(next);
+}
 //------------------------------------------------------------------------------
 module.exports = {
   index: indexRoute,
@@ -95,6 +109,7 @@ module.exports = {
   delete: deleteRoute,
   createReview: reviewCreateRoute,
   indexReview: reviewIndexRoute,
-  showReview: reviewShowRoute
+  showReview: reviewShowRoute,
+  deleteReview: reviewDeleteRoute
   // createGameReview: gamesNewReviewCreate
 };

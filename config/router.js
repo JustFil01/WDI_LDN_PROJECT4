@@ -29,8 +29,7 @@ router.route('/login')
 //------------------------------------------------------------------------------
 router.route('/games/:id/reviews/:reviewId')
   .get(games.showReview)
-  .delete(secureRoute, games.commentDelete);
-
+  .delete(secureRoute, games.deleteReview);
 
 router.route('/games/:id/reviews')
   // .get(games.indexReview)
