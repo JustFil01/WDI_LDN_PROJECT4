@@ -1,13 +1,12 @@
 const Game = require('../models/game');
-//-----------INDEX--------------------------------------------------------- ---
+//-----------INDEX--------------------------------------------------------------
 function indexRoute(req, res, next){
   Game
     .find()
     .then(games => res.json(games))
     .catch(next);
 }
-//-----------SHOW--------------------------------------------------------- ---
-
+//-----------SHOW---------------------------------------------------------------
 function showRoute(req,res,next){
   Game
     .findById(req.params.id)
@@ -15,7 +14,7 @@ function showRoute(req,res,next){
     .then(games => res.json(games))
     .catch(next);
 }
-//-----------CREATE--------------------------------------------------------- ---
+//-----------CREATE-------------------------------------------------------------
 function createRoute(req,res,next){
   Game.findOne({ igdbId: req.body.igdbId })
     .then(game => {
@@ -25,8 +24,7 @@ function createRoute(req,res,next){
     .then(game => res.status(201).json(game))
     .catch(next);
 }
-//-----------DELETE--------------------------------------------------------- ---
-
+//-----------DELETE-------------------------------------------------------------
 function deleteRoute(req,res,next){
   Game
     .findById(req.params.id)
@@ -37,7 +35,7 @@ function deleteRoute(req,res,next){
     .then(() => res.sendStatus(204))
     .catch(next);
 }
-//-----------UPDATE--------------------------------------------------------- ---
+//-----------UPDATE-------------------------------------------------------------
 function updateRoute(req,res,next){
   Game
     .findById(req.params.id)
@@ -46,6 +44,42 @@ function updateRoute(req,res,next){
       return Object.assign(game, req.body);
     })
     .then(game => game.save())
+    .then(game => res.json(game))
+    .catch(next);
+}
+//-----------REViEW INDEX-------------------------------------------------------
+function reviewIndexRoute(req, res, next) {
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      if(!game) return res.sendStatus(404);
+      res.json(game.reviews);
+    })
+    .catch(next);
+}
+//-----------REViEW SHOW--------------------------------------------------------
+function reviewShowRoute(req, res, next) {
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      if(!game) return res.sendStatus(404);
+      const review = game.reviews.id(req.params.reviewId);
+      res.json(review);
+    })
+    .catch(next);
+}
+//-----------REViEW DELETE------------------------------------------------------
+function reviewDeleteRoute(req,res, next){
+  Game
+    .findById(req.params.id)
+    .then(game => {
+      const review = game.reviews.id(req.params.reviewId);
+      if(!review.postedBy._id.equals(req.currentUser._id)) {
+        throw new Error('Unauthorized');
+      }
+      review.remove();
+      return game.save();
+    })
     .then(game => res.json(game))
     .catch(next);
 }
@@ -65,41 +99,6 @@ function reviewCreateRoute(req, res, next){
       next(err);
     });
 }
-//-----------REViEW INDEX------------------------------------------------------
-function reviewIndexRoute(req, res, next) {
-  Game
-    .findById(req.params.id)
-    .then(game => {
-      if(!game) return res.sendStatus(404);
-      res.json(game.reviews);
-    })
-    .catch(next);
-}
-//-----------REViEW SHOW------------------------------------------------------
-function reviewShowRoute(req, res, next) {
-  Game
-    .findById(req.params.id)
-    .then(game => {
-      if(!game) return res.sendStatus(404);
-      const review = game.reviews.id(req.params.reviewId);
-      res.json(review);
-    })
-    .catch(next);
-}
-function reviewDeleteRoute(req,res, next){
-  Game
-    .findById(req.params.id)
-    .then(game => {
-      const review = game.reviews.id(req.params.reviewId);
-      if(!review.postedBy._id.equals(req.currentUser._id)) {
-        throw new Error('Unauthorized');
-      }
-      review.remove();
-      return game.save();
-    })
-    .then(game => res.json(game))
-    .catch(next);
-}
 //------------------------------------------------------------------------------
 module.exports = {
   index: indexRoute,
@@ -111,5 +110,4 @@ module.exports = {
   indexReview: reviewIndexRoute,
   showReview: reviewShowRoute,
   deleteReview: reviewDeleteRoute
-  // createGameReview: gamesNewReviewCreate
 };

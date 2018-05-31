@@ -1,5 +1,5 @@
 import React from 'react';
-
+//------------------------------------------------------------------------------
 const SearchBar = ({ handleGameSearch }) => {
   return(
     <div className="columns">
@@ -9,5 +9,5 @@ const SearchBar = ({ handleGameSearch }) => {
     </div>
   );
 };
-
+//------------------------------------------------------------------------------
 export default SearchBar;

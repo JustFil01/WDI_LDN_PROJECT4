@@ -5,7 +5,6 @@ import Flash from '../../lib/Flash';
 //------------------------------------------------------------------------------
 class AuthLogin extends React.Component {
   state = {};
-
   handleChange = ({ target: {name, value} }) => {
     this.setState({ [name]: value });
   }

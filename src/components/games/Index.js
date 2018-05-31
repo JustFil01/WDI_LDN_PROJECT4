@@ -10,6 +10,7 @@ class GamesIndex extends React.Component {
     search: '',
     sort: 'name|asc'
   }
+  //----------------------------------------------------------------------------
   componentDidMount() {
     axios.get('/api/games')
       .then(res => this.setState({ games: res.data }));
@@ -18,6 +19,7 @@ class GamesIndex extends React.Component {
   handleChange = ({ target: { name, value } }) => {
     this.setState({ [name]: value });
   }
+  //----------------------------------------------------------------------------
   handleGameSearch = (search) => {
     axios.get('/api/getgame', {
       params: { search }
@@ -35,11 +37,9 @@ class GamesIndex extends React.Component {
         });
         this.setState({ games });
       });
-    // need to change the res to have the modified url , replacing it .
   }
-
   debounced = _.debounce(this.handleGameSearch, 500);
-
+  //----------------------------------------------------------------------------
   sortedFilteredGames = () => {
     const [field, dir] = this.state.sort.split('|');
     const re = new RegExp(this.state.search, 'i');
@@ -48,6 +48,7 @@ class GamesIndex extends React.Component {
     });
     return _.orderBy(filtered, field, dir);
   }
+  //----------------------------------------------------------------------------
   selectGame = (game) => {
     game.igdbId = game.igdbId || game.id;
     delete game.id;

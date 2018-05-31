@@ -6,6 +6,7 @@ class Navbar extends React.Component {
   state = {
     navIsOpen: false
   }
+  //----------------------------------------------------------------------------
   handleToggle = () => {
     this.setState({ navIsOpen: !this.state.navIsOpen });
   }

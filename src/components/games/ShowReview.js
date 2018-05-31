@@ -6,6 +6,7 @@ class ShowReview extends React.Component{
  state = {
    review: {}
  }
+ //----------------------------------------------------------------------------
  componentDidMount() {
    const { id, reviewId } = this.props.match.params;
    axios.get(`/api/games/${id}/reviews/${reviewId}`)
@@ -37,10 +38,3 @@ class ShowReview extends React.Component{
 }
 //------------------------------------------------------------------------------
 export default ShowReview;
-
-// review edit but only on form , probably wanted to get to anothe form.
-// handleChange =({target: { name,value }}) => {
-//   const review = {...this.state.review, [name]: value};
-//   this.setState({ review },() => {
-//   });
-// }

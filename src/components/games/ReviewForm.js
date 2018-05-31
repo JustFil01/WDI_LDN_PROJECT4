@@ -1,8 +1,6 @@
 import React from 'react';
 //------------------------------------------------------------------------------
 const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
-  // const formInvalid = Object.keys(errors).some(key => errors[key]);
-  console.log(errors);
   return (
     <form onSubmit={handleSubmit}>
       <div className="field">

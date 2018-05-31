@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
 import { Link } from 'react-router-dom';
-
 //------------------------------------------------------------------------------
 class UsersShow extends React.Component{
  state = {}
@@ -22,7 +21,7 @@ class UsersShow extends React.Component{
        <div className="column">
          <p className="title is-5">{user.bio}</p>
        </div>
-
+       
        { Auth.isAuthenticated() && (Auth.getPayload().sub === user._id) && <p>
          <Link to={`/users/${user._id}/edit`}
            className="button"

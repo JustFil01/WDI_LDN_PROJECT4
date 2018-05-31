@@ -1,5 +1,5 @@
 import React from 'react';
-
+//------------------------------------------------------------------------------
 const UserForm = ({ handleChange, handleSubmit, user, errors }) => {
   return (
     <form onSubmit={handleSubmit}>
@@ -39,5 +39,5 @@ const UserForm = ({ handleChange, handleSubmit, user, errors }) => {
     </form>
   );
 };
-
+//------------------------------------------------------------------------------
 export default UserForm;

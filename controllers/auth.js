@@ -32,7 +32,4 @@ function login(req, res, next) {
     .catch(next);
 }
 //------------------------------------------------------------------------------
-module.exports = {
-  register,
-  login
-};
+module.exports = {register,login};

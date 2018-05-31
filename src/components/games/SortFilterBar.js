@@ -1,5 +1,5 @@
 import React from 'react';
-
+//------------------------------------------------------------------------------
 const SortFilterBar = ({ handleChange, data}) => {
   return(
     <div className="columns">
@@ -18,5 +18,5 @@ const SortFilterBar = ({ handleChange, data}) => {
     </div>
   );
 };
-
+//------------------------------------------------------------------------------
 export default SortFilterBar;

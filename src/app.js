@@ -5,15 +5,16 @@ import {BrowserRouter as Router,Switch, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 //------------------------------------------------------------------------------
-import GamesIndex from './components/games/Index';
-import GamesShow from './components/games/Show';
-import NewReview from './components/games/NewReview';
 import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
 import FlashMessages from './components/common/FlashMessages';
+//----------------------------------------------------------------------------
+import GamesIndex from './components/games/Index';
+import GamesShow from './components/games/Show';
 import UsersIndex from './components/users/Index';
 import UsersShow from './components/users/Show';
 import UsersEdit from './components/users/Edit';
+import NewReview from './components/games/NewReview';
 import ShowReview from './components/games/ShowReview';
 //------------------------------------------------------------------------------
 import './scss/style.scss';

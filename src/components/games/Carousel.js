@@ -1,19 +1,18 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
-
+//------------------------------------------------------------------------------
 class BoxCarousel extends React.Component {
-
   state = {
     invisible: true
   }
-
+  //----------------------------------------------------------------------------
   componentDidMount() {
     setTimeout(() => {
       this.carousel.setDimensions();
       this.setState({ invisible: false });
     }, 1500);
   }
-
+  //----------------------------------------------------------------------------
   render() {
     return (
       <Carousel
@@ -32,9 +31,9 @@ class BoxCarousel extends React.Component {
             </div>
           </div>
         )}
-
       </Carousel>
     );
   }
 }
+//------------------------------------------------------------------------------
 export default BoxCarousel;

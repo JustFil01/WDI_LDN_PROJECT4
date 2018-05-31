@@ -8,10 +8,12 @@ class GamesShow extends React.Component{
  state = {
    review: {}
  }
+ //----------------------------------------------------------------------------
  componentDidMount() {
    axios.get(`/api/games/${this.props.match.params.id}`)
      .then(res => this.setState({ game: res.data }));
  }
+ //----------------------------------------------------------------------------
  handleReviewDelete = review => {
    const { id }  = this.props.match.params;
    axios
@@ -33,7 +35,6 @@ class GamesShow extends React.Component{
        <div className="rightsummary">
          <h1 className="title is-1">{game.name}</h1>
          <p>{game.summary}</p>
-
          <ul>
            {game.reviews.map(review =>
              <li key={review._id}>
@@ -51,9 +52,9 @@ class GamesShow extends React.Component{
              </li>
            )}
          </ul>
-         <Link to={`/games/${game._id}/reviews`}
+         {Auth.isAuthenticated() &&  <Link to={`/games/${game._id}/reviews`}
            className="button"
-         >✚</Link>
+         >✚</Link>}
          <BoxCarousel
            game={game}
          />
@@ -64,38 +65,3 @@ class GamesShow extends React.Component{
 }
 //------------------------------------------------------------------------------
 export default GamesShow;
-// review edit but only on form , probably wanted to get to anothe form.
-// handleChange =({target: { name,value }}) => {
-//   const review = {...this.state.review, [name]: value};
-//   this.setState({ review },() => {
-//   });
-// }
-
-
-// class GameShow extends React.Component() {
-//
-//   componentWillMount(props) {
-//     Game
-//       .findById(req.params.id)
-//       .then(game => {
-//         if (!game) Game.create(props.data);
-//       })
-//   }
-//
-//   componentDidMount() {
-//     axios.get('/api/games/:id')
-//       .then(res => this.setState({ games: res.data }));
-//   }
-//
-//   render() {
-//     return (
-//       <div>
-//         <a>
-//           <h1>{props.data.title}</h1>
-//         </a>
-//       </div>
-//
-//     )
-//   }
-//
-// }
