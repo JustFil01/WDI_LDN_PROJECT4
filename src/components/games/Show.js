@@ -43,8 +43,7 @@ class GamesShow extends React.Component{
              {game.reviews.map(review =>
                <li key={review._id}>
                  <Link to={`/games/${game._id}/reviews/${review._id}`}>
-                   <p className="title is-4">{review.title}</p>
-                   <p className="subtitle is-4">{review.postedBy.username}</p>
+                   <p className="title is-4">{review.title}|| submitted by<span className="title is-4">{review.postedBy.username}</span></p>
                    {Auth.isCurrentUser(review.postedBy) && <button
                      className="button is-danger"
                      onClick={() => this.handleReviewDelete(review)}

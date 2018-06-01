@@ -21,6 +21,12 @@ const ReviewForm = ({ handleChange, handleSubmit, review, errors }) => {
           onChange={handleChange} value={review.content || ''} />
         {errors.content && <small>{errors.content}</small>}
       </div>
+      <div className="field">
+        <label htmlFor="picture">Picture</label>
+        <input id="picture" name="picture" className="input" placeholder="Please post a picture of your experience"
+          onChange={handleChange} value={review.picture || ''} />
+        {errors.picture && <small>{errors.picture}</small>}
+      </div>
       {/*add rating and other fields  */}
       <button className="button is-primary">Submit</button>
     </form>
