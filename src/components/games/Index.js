@@ -58,7 +58,7 @@ class GamesIndex extends React.Component {
   //----------------------------------------------------------------------------
   render() {
     return (
-      <div>
+      <div className="orangewrapper back">
         <div className="columns">
           <div className="column is-half">
             <SortFilterBar

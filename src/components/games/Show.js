@@ -43,11 +43,11 @@ class GamesShow extends React.Component{
              {game.reviews.map(review =>
                <li key={review._id}>
                  <Link to={`/games/${game._id}/reviews/${review._id}`}>
-                   <p className="title is-4">{review.title}|| submitted by<span className="title is-4">{review.postedBy.username}</span></p>
-                   {Auth.isCurrentUser(review.postedBy) && <button
-                     className="button is-danger"
-                     onClick={() => this.handleReviewDelete(review)}
-                   >Delete</button>}
+                   <p className="title is-4">{review.title}|| submitted by<span className="title is-4">{review.postedBy.username}</span>
+                     {Auth.isCurrentUser(review.postedBy) && <button
+                       className="button is-danger"
+                       onClick={() => this.handleReviewDelete(review)}
+                     >Delete</button>}</p>
                    <hr />
                  </Link>
                </li>
@@ -56,7 +56,7 @@ class GamesShow extends React.Component{
            {Auth.isAuthenticated() &&  <Link to={`/games/${game._id}/reviews`}
              className="button is-warning"
            >Add your own !</Link>}
-           {!Auth.isAuthenticated() && <Link to="/register" className="button is-success">
+           {!Auth.isAuthenticated() && <Link to="/register" className="button">
              Want to add a review ? Register !</Link>}
          </div>
          <hr />

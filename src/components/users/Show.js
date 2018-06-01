@@ -20,7 +20,7 @@ class UsersShow extends React.Component{
            <img className="imguser" src={`${user.profile}`} alt="Picture of user"/>
          </figure>
        </div>
-       <p className="title is-4">{user.username}</p>
+       <p className="title is-6">{user.username}</p>
        <div className="card-content">
          <div className="media">
            <div className="media-left">

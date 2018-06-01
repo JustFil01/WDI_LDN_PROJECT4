@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Auth from '../../lib/Auth';
+import Flash from '../../lib/Flash';
 //------------------------------------------------------------------------------
 class AuthRegister extends React.Component {
   state = {
@@ -14,7 +15,10 @@ class AuthRegister extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
     axios.post('/api/register', this.state)
-      .then( res => Auth.setToken(res.data.token))
+      .then( res => {
+        Auth.setToken(res.data.token);
+        Flash.setMessage('info', 'Welcome to Just Game, you can now add a review !');
+      })
       .then(() => this.props.history.push('/games'))
       .catch(err => {
         this.setState({ errors: err.response.data.errors });
@@ -25,6 +29,7 @@ class AuthRegister extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
+        <label htmlFor="title">Username</label>
         <div className="field">
           <input
             className="input"
@@ -34,6 +39,7 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.username && <small>{this.state.errors.username}</small>}
         </div>
+        <label htmlFor="title">Email</label>
         <div className="field">
           <input
             className="input"
@@ -43,6 +49,7 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.email && <small>{this.state.errors.email}</small>}
         </div>
+        <label htmlFor="title">Password</label>
         <div className="field">
           <input
             type="password"
@@ -53,6 +60,7 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.password && <small>{this.state.errors.password}</small>}
         </div>
+        <label htmlFor="title">Confirm Password</label>
         <div className="field">
           <input
             type="password"
@@ -64,6 +72,7 @@ class AuthRegister extends React.Component {
           {this.state.errors.passwordConfirmation && <small>{this.state.errors.passwordConfirmation}</small>}
         </div>
         <div className="field">
+          <label htmlFor="title">Bio</label>
           <input
             type="bio"
             className="textarea"
@@ -73,6 +82,7 @@ class AuthRegister extends React.Component {
           />
           {this.state.errors.bio && <small>{this.state.errors.bio}</small>}
         </div>
+        <label htmlFor="title">Profile Picture</label>
         <div className="field">
           <input
             type="profile"

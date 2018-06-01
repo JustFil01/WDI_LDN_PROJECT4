@@ -28,11 +28,16 @@ class ShowReview extends React.Component{
          <div className="column">
            <h1 className="title is-1">{review.title}</h1>
            <h1 className="subtitle is-1">{review.subtitle}</h1>
-           <p>{review.content}</p>
          </div>
-         <Link to={`/games/${urlgame}`}
-           className="button"
-         >Back to the game</Link>
+         <div className="column reviewshow">
+           <Link to={`/games/${urlgame}`}
+             className="button"
+           >Back to the game</Link>
+         </div>
+         <hr/>
+         <p>{review.content}</p>
+
+
        </div>
      </div>
    );

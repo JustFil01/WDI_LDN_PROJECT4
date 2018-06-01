@@ -65,8 +65,9 @@ class UsersEdit extends React.Component {
           errors={this.state.errors}
         />
         <div className='has-text-centered'>
-          <button className="button" onClick= {this.handleDelete}>Remove account</button>
+          <button className="button is-danger" onClick= {this.handleDelete}>Remove account</button>
         </div>
+
       </section>
     );
   }

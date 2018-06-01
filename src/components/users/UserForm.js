@@ -43,7 +43,7 @@ const UserForm = ({ handleChange, handleSubmit, user, errors }) => {
         {errors.passwordConfirmation && <small>{errors.passwordConfirmation}</small>}
 
       </div>
-      <button className ="button">submit</button>
+      <button className ="button">Submit</button>
     </form>
   );
 };

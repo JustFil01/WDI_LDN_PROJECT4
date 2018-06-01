@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import Auth from '../lib/Auth';
+import Flash from '../lib/Flash';
 //------------------------------------------------------------------------------
 class Navbar extends React.Component {
   state = {
@@ -18,6 +19,7 @@ class Navbar extends React.Component {
   handleLogout = () => {
     Auth.logout();
     this.props.history.push('/');
+    Flash.setMessage('info', 'Logged out - Thanks for coming !');
   }
   //----------------------------------------------------------------------------
   render() {
