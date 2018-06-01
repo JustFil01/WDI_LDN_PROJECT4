@@ -59,7 +59,7 @@ html {
 }
 .navbar-item {
   background-color: black;
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Cinzel', serif;
   position: 200px;
 }
@@ -230,19 +230,28 @@ input.textarea{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: white!important;
   opacity: 1;
+  text-align: center;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: white!important;
   opacity: 1;
+  text-align: center;
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: white!important;
   opacity: 1;
+  text-align: center;
 }
 :-moz-placeholder { /* Firefox 18- */
   color: white!important;
   opacity: 1;
+  text-align: center;
 }
 .navbar-end{
-  padding-right: 520px;
+  padding-right: 480px;
+}
+.select select{
+  background-color: orange;
+  color:black;
+  border-color:black;
 }

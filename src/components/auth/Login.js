@@ -27,7 +27,8 @@ class AuthLogin extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div className="field">
+        <label htmlFor="email">Login</label>
+        <div className="field ">
           <input
             className="input"
             name="email"

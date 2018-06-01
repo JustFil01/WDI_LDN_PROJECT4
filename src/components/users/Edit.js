@@ -30,7 +30,7 @@ class UsersEdit extends React.Component {
       headers: {Authorization: `Bearer ${Auth.getToken()}`}
     })
       .then(() => {
-        Flash.setMessage('Account updated');
+        Flash.setMessage('info','Account updated');
         this.props.history.push(`/users/${id}`);
       })
       .catch((err)=> {

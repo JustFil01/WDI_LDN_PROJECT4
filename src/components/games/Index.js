@@ -60,17 +60,17 @@ class GamesIndex extends React.Component {
     return (
       <div className="orangewrapper back">
         <div className="columns">
-          <div className="column is-half">
-            <SortFilterBar
-              handleChange={this.handleChange}
-              data={this.state}
-            />
-          </div>
-          <div className="column is-half">
-            <SearchBar
-              handleGameSearch={this.debounced}
-            />
-          </div>
+        </div>
+        <div className="column">
+          <SortFilterBar
+            handleChange={this.handleChange}
+            data={this.state}
+          />
+        </div>
+        <div className="column is-half">
+          <SearchBar
+            handleGameSearch={this.debounced}
+          />
         </div>
         <div className="columns is-multiline">
           {this.sortedFilteredGames().map(game =>
