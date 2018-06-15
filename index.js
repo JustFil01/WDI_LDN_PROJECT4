@@ -9,12 +9,12 @@ const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 mongoose.connect(dbURI);
 
-app.get('/*', (req, res) => res.sendFile(`${__dirname}/public/index.html`));
+app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json());
 app.use('/api', router);
-app.use(express.static(`${__dirname}/public`));
-app.use(errorHandler);
+app.get('/*', (req, res) => res.sendFile(`${__dirname}/public/index.html`));
 
+app.use(errorHandler);
 
 
 app.listen(port, () => console.log(`Up and rolling on ${port}`));
