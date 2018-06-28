@@ -20,5 +20,7 @@ app.use(errorHandler);
 app.listen(port, () => console.log(`Up and rolling on ${port}`));
 module.exports = app;
 
-//start by layinout the routes and setting up basic page navigation from home
-// to Login to game index game show user show contact/add
+// setting the work to be done , firstly check on secure routing and add the testing
+// focus on adding the feature of more data from API aswelll as cross user utility .
+
+// clean code out and review other.
